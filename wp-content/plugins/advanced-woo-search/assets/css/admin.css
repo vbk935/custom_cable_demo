@@ -1,0 +1,181 @@
+.sortable-container {
+    width: 200px;
+    padding: 0;
+    float: left;
+    margin-right: 10px;
+}
+
+.sortable-title {
+    padding: 8px 0;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.sti-sortable {
+    border: 1px solid #C7C4C4;
+    background: #fff7f7;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    margin-right: 10px;
+    min-height: 180px;
+}
+
+.sti-sortable.enabled {
+    background: #ddf0dc;
+}
+
+.sti-sortable li.sti-btn,
+.sti-sortable li.highlight,
+.sti-sortable li#excerpt {
+    display: inline-block;
+    /*float: left;*/
+    width: 100%;
+    height: auto;
+    margin: 0 3px 3px 0;
+    cursor: pointer;
+    background: #F1F1F1;
+    border: 1px solid #C7C4C4;
+    text-align: center;
+    padding: 8px 0;
+    text-transform: capitalize;
+}
+
+.sti-sortable li.highlight {
+    background: #fff;
+    width: 100%;
+    height: 36px;
+    padding: 0;
+    border: 1px dotted #ccc;
+}
+
+.nav-tab.premium-tab {
+    background: #FFF7C7;
+}
+
+.nav-tab.premium-tab:hover {
+    background: #fff;
+}
+
+/* Reindex button */
+#aws-reindex {
+    display: inline-block;
+}
+
+#aws-reindex .loader {
+    display: none;
+    width: 20px;
+    height: 20px;
+    background: url('../img/loader-1.GIF') no-repeat 50% 50%;
+    margin-left: 15px;
+    margin-top: 4px;
+}
+
+#aws-reindex .reindex-progress {
+    display: none;
+    margin-left: 15px;
+    position: relative;
+    top: -5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#aws-reindex.loading .loader,
+#aws-reindex.loading .reindex-progress {
+    display: inline-block;
+}
+
+#aws_form .aws-heading {
+    margin-right: -40px;
+}
+
+/* Image select option */
+#aws_form .img-select {
+    position: relative;
+    font-size: 0;
+    list-style: none;
+    max-width: 400px;
+}
+
+#aws_form .img-select .option {
+    display: block;
+    position: relative;
+    vertical-align: top;
+    height: 36px;
+    width: 400px;
+    margin: 0 0 16px;
+}
+
+#aws_form .img-select .option input {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    cursor: pointer;
+    opacity: 0;
+}
+#aws_form .img-select .option input:before,
+#aws_form .img-select .option input:checked:before{
+    display: none;
+}
+
+#aws_form .img-select .option .ico {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-size: contain !important;
+    border:2px solid transparent;
+    border-radius: 5px;
+}
+
+#aws_form .img-select .option input:checked + .ico {
+    border-color: rgba(0,0,0,0.6);
+}
+
+
+/* Premium tab */
+#aws_form .b-compare .column {
+    width: 50%;
+    float: left;
+}
+
+#aws_form .b-compare .column p {
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px;
+}
+
+#aws_form .description.activation {
+    font-size: 14px;
+    line-height: 1.5;
+    font-style: normal;
+}
+
+#aws_form .description.activation .list {
+    padding-top: 2px;
+}
+
+
+h1.aws-instance-name {
+    position: relative;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.aws-instance-shortcode {
+    display: inline-block;
+    background: #fff;
+    padding: 4px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    top: -4px;
+}

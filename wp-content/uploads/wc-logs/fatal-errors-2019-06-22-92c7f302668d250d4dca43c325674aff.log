@@ -1,0 +1,4 @@
+2019-06-22T01:28:07+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-tyrex/templates/sidebar.php on line 9
+
+2019-06-22T22:04:42+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-tyrex/templates/sidebar.php on line 9
+

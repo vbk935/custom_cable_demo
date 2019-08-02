@@ -1,0 +1,156 @@
+/*
+
+Theme Name: Custom Cable (BlankSlate Child)
+
+Theme URI: http://tidythemes.com/blankslate/
+
+Description: Child theme for the BlankSlate theme. Allows you to fully style and customize the features of your theme without them being overwritten upon upgrading the main BlankSlate theme. Learn more: http://codex.wordpress.org/Child_Themes
+
+Author: TidyThemes
+
+Author URI: http://tidythemes.com/
+
+Template: blankslate
+
+*/
+
+
+
+
+@import url("../blankslate/style.css");
+
+ol, ul {
+	list-style: inherit;
+	margin-left: 40px;
+}
+/*  */
+.sm-canvas{
+position: relative;
+}
+#loader-image img {
+  float: left;
+  height: 50px;
+  left: 0;
+  margin: 0 auto;
+  max-height: 60px;
+  position: absolute;
+  right: 0;
+  top: 40%;
+  width: 50px;
+}
+#loader-image{
+margin-top: 0px !important;
+}
+#content form.history-frm.form-inline .btn-default {
+    background: #34456c none repeat scroll 0 0;
+    color: #ffffff;
+    padding: 5px 12px;
+    position: absolute;
+    right: 0;
+    vertical-align: top;
+	margin-top: 0px;
+	border-radius:0px;
+	box-shadow:none;
+}
+
+body #footer {
+ z-index: initial;
+}
+
+#steps-customs li.active .sub-content {
+    /*overflow: auto;
+   max-height: 400px;*/
+    min-width: 230px;
+}
+.sub-content > li {
+    list-style-type: none;
+}
+
+/*   new css 19-07-2017 */
+.woocommerce .woocommerce-billing-fields input,.woocommerce .woocommerce-shipping-fields input, .woocommerce .woocommerce-billing-fields select,.woocommerce .woocommerce-shipping-fields textArea,
+.woocommerce .woocommerce-billing-fields .select2-choice, .woocommerce .woocommerce-shipping-fields .select2-choice
+{
+    border: 1px solid #c2c2c2 !important;
+    min-height: 38px;
+    padding: 8px 10px;
+    border-radius: 0px  !important;
+    font-size: 15px;
+    background: #f8f8f8;
+}
+.woocommerce .woocommerce-shipping-fields .select2-choice , .woocommerce .woocommerce-billing-fields .select2-choice
+{
+ padding: 0px 10px;   
+}
+.woocommerce .woocommerce-billing-fields h3, .woocommerce .woocommerce-shipping-fields h3, .woocommerce #order_review_heading{
+    width: 100%;
+    float: left;
+    position: relative;
+       font-weight: bold;
+}
+.woocommerce .woocommerce-billing-fields h3 .input-checkbox, .woocommerce .woocommerce-shipping-fields h3 .input-checkbox , .woocommerce .woocommerce-billing-fields h3 label, .woocommerce .woocommerce-shipping-fields h3 label{
+   display: inline-block;
+   float: none;
+   vertical-align: top;
+   margin: 0;
+}
+.woocommerce .woocommerce-billing-fields h3 .input-checkbox, .woocommerce .woocommerce-shipping-fields h3 .input-checkbox{
+    vertical-align: bottom;
+}
+.woocommerce .woocommerce-billing-fields p label , .woocommerce .woocommerce-shipping-fields p label {
+    font-weight: 500;
+}
+.woocommerce-checkout-payment .wc_payment_methods.payment_methods.methods{
+    list-style: none !important;
+}
+.container.main-container > .main-column {
+    height: auto !important; 
+}
+
+/*  media query */
+@media only screen and (max-width: 767px) {
+
+#loader-image img {
+    max-height: 120px;
+}
+}
+
+/* ADD NEW CSS HERE AND REMOVE THIS ENTIRE NOTE/LINE AND REPLACE WITH YOUR CSS - LEARN CSS: tidythemes.com/want-to-learn-css */
+#menu-main a:hover{
+  cursor: pointer;
+}
+/*.quote-icon{
+  background-image: url('');
+}*/
+
+/**
+ * START: Overriding default white color of label defined in bootstrap
+ */
+table td.label{
+  display: block !important;
+}
+table td.label label{
+  color: black !important;
+  font-size: 1.2em !important;
+}
+/**
+ * END: Overriding default white color of label defined in bootstrap
+ */
+
+/**
+ * START: Custom Button for frontpage slider
+ */
+.slide-img-container{
+    width: 100% !important;
+}
+.custom-link{
+  position: absolute;
+  right: 4%;
+  bottom: 6%;
+  z-index: 999;
+}
+.slide-img-container{
+  max-height: 350px;
+}
+/**
+ * END: Custom Button for frontpage slider
+ */

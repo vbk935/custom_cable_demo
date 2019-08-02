@@ -1,0 +1,198 @@
+/* GENERAL FORM STYLE
+	 ================== */
+
+.upfront_login-block .upfront_login-form {
+	padding: 10px;
+}
+
+.upfront_login-form form input {
+	height:40px;
+	background-color: #fff;
+	padding:0 10px;
+}
+.upfront_login-form form input:hover, .upfront_login-form form input:focus {
+	border-color: #aec4d8;
+	outline:none;
+}
+.upfront_login-form form input[type="submit"] {
+	background-color: #1b7bd7;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	font:16px/2.2 Arial;
+	color: #fff;
+}
+.upfront_login-form form input[type="submit"]:hover {
+	background-color: #1770c5;
+}
+.upfront_login-form form input[type="checkbox"]{
+	height:20px;
+	position: relative;
+	top: 3px;
+}
+/*.upfront_login-form form label, .upfront_login-form p { color:#6486a6; }*/
+.upfront_login-form p { margin-bottom: 0; text-align: center; }
+.upfront_login-form p span { display: block; }
+.upfront_login-form p a { color:#1b7bd7; }
+
+
+/* HOVER FORM
+	 ========== */
+
+.upfront_login.upfront_login-hover,
+.upfront_login.upfront_login-click { position: relative; }
+.upfront_login.upfront_login-hover .upfront_login-form-wrapper,
+.upfront_login.upfront_login-click .upfront_login-form-wrapper
+ {
+	 display: none;
+}
+.upfront_login.upfront_login-hover .upfront_login-form-wrapper,
+.upfront_login.upfront_login-click .upfront_login-form-wrapper {
+	position: absolute;
+	z-index: 1;
+	width:210px;
+	top: 0;
+	left: 0;
+}
+
+.upfront_login.upfront_login-hover:hover .upfront_login-form-wrapper,
+.upfront_login.upfront_login-click.active .upfront_login-form-wrapper {
+	display: block;
+}
+
+/* login panel styling */
+.upfront_login.upfront_login-hover .upfront_login-form,
+.upfront_login.upfront_login-click .upfront_login-form {
+	position: relative;
+	display: block;
+	background-color: rgb(232, 232, 232);
+	border-radius: 3px;
+	cursor: default;
+	border:none;
+	top:35px;
+	left:0;
+	padding:15px;
+	padding-bottom: 5px;
+}
+
+/* triangular tooltip */
+/*.upfront_login.upfront_login-hover:hover .upfront_login-form:before,
+.upfront_login.upfront_login-click.active .upfront_login-form:before {
+	content:'';
+	display:inline-block;
+	width:10px;
+	height:10px;
+	background-color:#fff;
+	transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	border-top:2px solid #527caa;
+	border-left:2px solid #527caa;
+	position:absolute;
+	top:-7px;
+	left:25%;
+}*/
+.upfront_login.upfront_login-hover .upfront_login-form label,
+.upfront_login.upfront_login-click .upfront_login-form label
+ { text-align: left; display: block;}
+
+.upfront_login.upfront_login-hover:hover .upfront_login-trigger,
+.upfront_login.upfront_login-click.active .upfront_login-trigger,
+.upfront-output-upfront-login_element a.logout_link {
+	display: inline-block;
+}
+
+/* login trigger default styles */
+.upfront_login-trigger {
+	font: 15px/1 Arial;
+	color: #000;
+	padding:10px;
+	background: #e8e8e8;
+}
+
+/* css animation */
+.upfront_login.upfront_login-hover .upfront_login-form,
+.upfront_login.upfront_login-click .upfront_login-form {-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:0.5s;-moz-animation-duration:0.5s;-ms-animation-duration:0.5s;-o-animation-duration:0.5s;animation-duration:0.5s;}
+@-webkit-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(-10px);
+	}	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+}
+
+@-moz-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-moz-transform: translateY(-10px);
+	}
+
+	100% {
+		opacity: 1;
+		-moz-transform: translateY(0);
+	}
+}
+
+@-o-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-o-transform: translateY(-10px);
+	}
+
+	100% {
+		opacity: 1;
+		-o-transform: translateY(0);
+	}
+}
+
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.fadeInDown, .upfront_login.upfront_login-hover:hover .upfront_login-form {
+	-webkit-animation-name: fadeInDown;
+	-moz-animation-name: fadeInDown;
+	-o-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+}
+
+div.upfront-output-upfront-login_element form#loginform input:not([type=checkbox]) {
+  width: 100%;
+  padding:0 10px;
+  box-sizing: border-box;
+}
+
+div.upfront-output-upfront-login_element form#loginform input.upfront-input-labels {
+	padding: 0;
+}
+
+div.upfront-output-upfront-login_element form#loginform p {
+  text-align:left;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+div.upfront-output-upfront-login_element form#loginform label {
+	margin-bottom:0.3em;
+	display: inline-block;
+	font-weight: 100;
+}
+div.upfront-output-upfront-login_element form#loginform label:not(.uf-click-to-edit-text) {
+	cursor: pointer;
+}
+input#rememberme {
+  width:18px;
+  height:18px;
+}
+
+
+/* 614788-1519253004-ai */

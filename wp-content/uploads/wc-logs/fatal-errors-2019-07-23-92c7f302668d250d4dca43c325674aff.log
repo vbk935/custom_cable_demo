@@ -1,0 +1,14 @@
+2019-07-23T13:57:26+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(59): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/functions.php(18): ActionScheduler_ActionFactory->single('woocommerce_run...', Array, 1563890246, 'woocommerce-db-...')
+#3 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/queue/class- in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php on line 33
+
+2019-07-23T14:22:15+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(59): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/functions.php(18): ActionScheduler_ActionFactory->single('woocommerce_upd...', Array, 1563891735, '')
+#3 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/queue/class-wc-action-queue.ph in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php on line 33
+

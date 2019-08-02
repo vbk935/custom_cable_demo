@@ -1,0 +1,95 @@
+[12-Apr-2018 15:16:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php:6
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php(66): WC_Settings_Tab::init()
+#1 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php on line 6
+[12-Apr-2018 22:43:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php:6
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php(66): WC_Settings_Tab::init()
+#1 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php on line 6
+[13-Apr-2018 04:40:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php:6
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php(66): WC_Settings_Tab::init()
+#1 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php on line 6
+[13-Apr-2018 10:38:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php:6
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php(66): WC_Settings_Tab::init()
+#1 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php on line 6
+[04-May-2018 07:34:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php:6
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php(66): WC_Settings_Tab::init()
+#1 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php on line 6
+[04-May-2018 15:08:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php:6
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php(66): WC_Settings_Tab::init()
+#1 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php on line 6
+[05-May-2018 05:11:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php:6
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php(66): WC_Settings_Tab::init()
+#1 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php on line 6
+[07-May-2018 16:27:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php:6
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php(66): WC_Settings_Tab::init()
+#1 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php on line 6
+[09-May-2018 18:57:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php:6
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php(66): WC_Settings_Tab::init()
+#1 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php on line 6
+[15-Jun-2018 14:35:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php:6
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php(66): WC_Settings_Tab::init()
+#1 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php on line 6
+[15-Jun-2018 20:52:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php:6
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php(66): WC_Settings_Tab::init()
+#1 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php on line 6
+[16-Jun-2018 02:38:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php:6
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php(66): WC_Settings_Tab::init()
+#1 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php on line 6
+[16-Jun-2018 08:48:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php:6
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php(66): WC_Settings_Tab::init()
+#1 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php on line 6
+[16-Jun-2018 14:36:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php:6
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php(66): WC_Settings_Tab::init()
+#1 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php on line 6
+[25-Jun-2018 15:53:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php:6
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php(66): WC_Settings_Tab::init()
+#1 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php on line 6
+[25-Jun-2018 15:53:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php:6
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php(66): WC_Settings_Tab::init()
+#1 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php on line 6
+[25-Jun-2018 16:13:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php:6
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php(66): WC_Settings_Tab::init()
+#1 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php on line 6
+[25-Jun-2018 17:19:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php:6
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php(66): WC_Settings_Tab::init()
+#1 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php on line 6
+[26-Jun-2018 05:53:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php:6
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php(66): WC_Settings_Tab::init()
+#1 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/for_new_tab_creation.php on line 6

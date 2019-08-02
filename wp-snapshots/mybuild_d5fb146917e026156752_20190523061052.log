@@ -1,0 +1,85 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: May 23, 2019 6:11 am
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.10
+WORDPRESS:	5.1.1
+PHP INFO:	7.0.33 | SAPI: cgi-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (256M default) 
+MEMORY STACK: 78MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported 
+SQL CREATED: mybuild_d5fb146917e026156752_20190523061052_database.sql 
+SQL FILE SIZE: 56.29MB (59027626) 
+SQL FILE TIME: 2019-05-23 06:11:34 
+SQL RUNTIME: 1.09 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /home/megladon/shop.megladonmfg.com 
+ARCHIVE FILE: mybuild_d5fb146917e026156752_20190523061052_archive.zip 
+FILTERS: *ON* 
+DIRS:
+	not set 
+FILES:
+	/home/megladon/shop.megladonmfg.com/wp-content/plugins.zip
+	/home/megladon/shop.megladonmfg.com/wp-content/uploads.zip 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	697.62MB 
+STATS:	Dirs 2,823 | Files 28,284 
+SQL ADDED: mybuild_d5fb146917e026156752_20190523061052_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 31107
+    [filename] => /home/megladon/shop.megladonmfg.com/wp-snapshots/tmp/mybuild_d5fb146917e026156752_20190523061052_archive.zip
+    [comment] => 
+)
+ 
+FILE ADDED TO ZIP: 31106 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 507.55MB 
+ARCHIVE RUNTIME: 41.99 sec. 
+MEMORY STACK: 87.66MB 
+building installer 
+add_extra_files1 
+add_extra_files2 
+add_extra_files3 
+add_extra_files4 
+Doing archive file check 
+add_extra_files5 
+add_extra_files6 
+add_extra_files8 
+Successfully opened zip /home/megladon/shop.megladonmfg.com/wp-snapshots/tmp/mybuild_d5fb146917e026156752_20190523061052_archive.zip 
+Adding enhanced installer files to archive using ZipArchive 
+Installer files added to archive 
+Added to archive 
+After ziparchive close when adding installer 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL FILE: 56.29MB 
+INSTALLER FILE: 207.31KB 
+ARCHIVE FILE: 508.68MB  
+EXPECTED FILE/DIRECTORY COUNT: 31,107 
+ACTUAL FILE/DIRECTORY COUNT: 31,106 
+ARCHIVE CONSISTENCY TEST: Pass 
+
+********************************************************************************
+RECORD ID:[5]
+TOTAL PROCESS RUNTIME: 45.07 sec.
+PEAK PHP MEMORY USED: 93.66MB
+DONE PROCESSING => mybuild May 23, 2019 6:12 am
+ 

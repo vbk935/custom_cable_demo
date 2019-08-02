@@ -1,0 +1,90 @@
+.upfront-like-box iframe {
+	width: 100%;
+}
+
+.upfront-settings-item .show-friends {
+	margin-top: 15px;
+}
+
+.upfront-like-box, .upfront-output-Like-box-object {
+	min-height: 200px;
+}
+
+.upfront-likebox-overlay {
+	border: 1px #dddddd solid;
+}
+
+.upfront-like-box_placeholder {
+  padding: 15px;
+}
+
+.upfront-like-box_url_wrapper {
+  background: #cfd3d7;
+  width: auto;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+input.upfront-like-box_url {
+  font-size: 1em;
+  padding: 10px 0;
+  outline: none;
+  width: 100%;
+  display: block;
+  background-color:transparent;
+  font-size: 14px;
+}
+
+input.upfront-like-box_url::-webkit-input-placeholder {
+   color: #999;
+}
+
+input.upfront-like-box_url:-moz-placeholder { /* Firefox 18- */
+   color: #999;
+}
+
+input.upfront-like-box_url::-moz-placeholder {  /* Firefox 19+ */
+   color: #999;
+}
+
+input.upfront-like-box_url:-ms-input-placeholder {
+   color: #99;
+}
+
+.facebook-url {
+	width: 225px;
+	margin-top: 10px;
+}
+
+.upfront-like-box_button {
+  width: 100%;
+  padding: 10px 0;
+  box-sizing: border-box;
+  background-color: #21cf8e;
+  color: #fff;
+  text-align: center;
+  height: 40px;
+}
+
+div.upfront-like-box_placeholder_guide {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.upfront-like-box_overlay {
+  position: absolute;
+  display: block;
+  height:92%;
+  width: 95%;
+  background-color:transparent;
+  top: 4%;
+  z-index: 1;
+}
+
+.upfront-output-Like-box-object iframe {
+	max-width: 100%;
+}
+
+
+/* 614788-1519253004-ai */

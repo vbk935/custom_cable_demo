@@ -1,0 +1,142 @@
+input.ucontact-input {
+  min-height:2em;
+  width: 100%;
+  border: 1px #d7d7d7 solid;
+}
+
+textarea.ucontact-input {
+  min-height: 5em;
+  width: 100%;
+  border: 1px #d7d7d7 solid;
+}
+
+.ucontact-label-above {
+  margin-bottom: 1em;
+}
+
+div.contact_label_position > span {
+	margin-right: 6px !important;
+}
+
+/* Border-box layout for everything inside the contact form */
+.upfront-contact-form * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.upfront-contact-form label {
+	line-height: 1.1em;
+}
+
+.upfront-field-container, .ucontact-message-container {
+	margin-bottom: 0.5em;
+}
+.upfront-field-container > label {
+	cursor: pointer;
+}
+.ucontact-label-above label {
+	display:block;
+}
+
+.ucontact-label-over {
+	position: relative;
+}
+.ucontact-label-over label {
+	position: absolute;
+	left: 4px !important;
+	top: 1px !important;
+	color: #ccc !important;
+}
+.upfront-output-object .ucontact-label-over label {
+	display: none;
+}
+
+
+.upfront-contact-form button[type="submit"] {
+	width: auto;
+	display: inline-block;
+	padding: 10px 16px;
+	background-color: #ccc;
+	float: right;
+	margin-top: 20px;
+}
+
+
+
+
+.upfront-contact-form ::-webkit-input-placeholder {
+   color: inherit;
+}
+
+.upfront-contact-form :-moz-placeholder { /* Firefox 18- */
+   color: inherit;
+}
+
+.upfront-contact-form ::-moz-placeholder {  /* Firefox 19+ */
+   color: inherit;
+}
+
+.upfront-contact-form :-ms-input-placeholder {
+   color: inherit;
+}
+
+
+/*clearfix for inline fields*/
+.ucontact-label-inline:before,
+.ucontact-label-inline:after {
+    content: " ";
+    display: table;
+}
+.ucontact-label-inline:after {
+    clear: both;
+}
+.ucontact-label-inline {
+	zoom:1;
+}
+.ucontact-label-inline label {
+	display:block;
+	float:left;
+	width:25% !important;
+}
+.ucontact-label-inline input,
+.ucontact-label-inline textarea {
+	display:block;
+	float:right;
+	width:75% !important;
+}
+.ucontact-label-inline.upfront-submit-container {
+	float:none;
+}
+
+.ucontact-message-container.ucontact-success-response {
+	background-color:rgba(0,0,0,.4);
+	padding:20px;
+	position:absolute;
+	width:100%;
+	height:100%;
+	margin-left: -15px;
+	margin-top: -15px;
+	z-index: 1;
+}
+.ucontact-message-container.ucontact-success-response div {
+	display:table;
+	width:100%;
+	height:100%;
+}
+.ucontact-message-container.ucontact-success-response div p {
+	display:table-cell;
+	vertical-align:middle;
+	color:#fff;
+	font-size:20px;
+	font-family:sans-serif;
+	text-align:center;
+}
+
+.ucontact-success-response:after {
+  content: 'X';
+  position: absolute;
+  right:10px;
+  top:10px;
+  font-size:1.5em;
+  color:#fff;
+  cursor: pointer;
+}
+
+
+/* 614788-1519253004-ai */

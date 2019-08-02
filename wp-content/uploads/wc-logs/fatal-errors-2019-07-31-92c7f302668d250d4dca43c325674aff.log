@@ -1,0 +1,11 @@
+2019-07-31T07:56:22+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\wamp\www\custom_cable_demo_bacup_full\wp-content\plugins\custom_cable_configuration\includes\woocommerce_extra_fields.php:847
+Stack trace:
+#0 C:\wamp\www\custom_cable_demo_bacup_full\wp-includes\class-wp-hook.php(286): bbloomer_add_product_to_cart('')
+#1 C:\wamp\www\custom_cable_demo_bacup_full\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp\www\custom_cable_demo_bacup_full\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\wamp\www\custom_cable_demo_bacup_full\wp-includes\template-loader.php(13): do_action('template_redire...')
+#4 C:\wamp\www\custom_cable_demo_bacup_full\wp-blog-header.php(19): require_once('C:\\wamp\\www\\cus...')
+#5 C:\wamp\www\custom_cable_demo_bacup_full\index.php(17): require('C:\\wamp\\www\\cus...')
+#6 {main}
+  thrown in C:\wamp\www\custom_cable_demo_bacup_full\wp-content\plugins\custom_cable_configuration\includes\woocommerce_extra_fields.php on line 847
+

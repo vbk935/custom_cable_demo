@@ -1,0 +1,74 @@
+/* Tabs */
+.tabs-tab {
+	float: left;
+	cursor: pointer;
+	position: relative;
+	padding: 2px 3px;
+}
+
+.tabs-tab-active {
+	font-weight: bold;
+}
+
+.tabs-tab:focus {
+	outline: #2ea3f2 auto 5px;
+}
+
+.tabs-tab-active p {
+	font-weight: inherit;
+}
+
+.tabs-tab .inner-box {
+	padding: 0 15px;
+	line-height: 30px;
+}
+
+/* Reset theme typography values for P too */
+.tabs-tab .inner-box p {
+	margin: 0;
+	line-height: 30px;
+}
+
+.tabs-tab[contenteditable=true] {
+	background: #ddd;
+}
+
+.tabs-tab .inner-box.ueditor-placeholder {
+	right: auto !important;
+	position: relative !important;
+	margin-top: -31px;
+	z-index:2 !important;
+}
+
+/* Remove tab button */
+.tabs-tab i {
+	display: block;
+	width: 16px;
+	height: 16px;
+	background-position: -483px -171px;
+	background-image: url('../../../img/uf-core-el-sprite.svg');
+	position: absolute;
+	right: 0;
+	top: 0;
+	visibility: hidden;
+}
+
+.tabs-tab:hover i {
+	visibility: visible;
+}
+
+/* Content */
+.utabs-content {
+	clear: both;
+}
+
+.utab-content {
+	display: none;
+}
+
+.utab-content-active {
+	display: block;
+}
+
+
+/* 614788-1519253004-ai */

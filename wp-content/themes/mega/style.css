@@ -1,0 +1,27 @@
+/*
+
+Theme Name: Megladon (BlankSlate Child)
+
+Theme URI: http://tidythemes.com/blankslate/
+
+Description: Child theme for the BlankSlate theme. Allows you to fully style and customize the features of your theme without them being overwritten upon upgrading the main BlankSlate theme. Learn more: http://codex.wordpress.org/Child_Themes
+
+Author: TidyThemes
+
+Author URI: http://tidythemes.com/
+
+Template: blankslate
+
+*/
+
+
+
+
+@import url("../blankslate/style.css");
+
+ol, ul {
+	list-style: initial;
+	margin-left: 40px;
+}
+
+/* ADD NEW CSS HERE AND REMOVE THIS ENTIRE NOTE/LINE AND REPLACE WITH YOUR CSS - LEARN CSS: tidythemes.com/want-to-learn-css */

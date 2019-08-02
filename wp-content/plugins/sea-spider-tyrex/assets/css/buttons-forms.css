@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.good .btn {background: #f7941e; color: #fff;}
+
+
+/*****************************************************************
+
+				BUTTONS
+
+*****************************************************************/
+
+a.read-more, form .send, #buddypress input[type=submit],   #content form input[type=submit]{
+   background: #ffffff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#cccccc));
+   background: -webkit-linear-gradient(top, #ffffff, #cccccc);
+   background: -moz-linear-gradient(top, #ffffff, #cccccc);
+   background: -ms-linear-gradient(top, #ffffff, #cccccc);
+   background: -o-linear-gradient(top, #ffffff, #cccccc);
+   padding: 6px 8px;
+  -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #000;
+   font-size: 12px;
+   text-decoration: none;
+   vertical-align: middle;
+   margin-bottom: 15px;
+}
+a.read-more:hover, form .send:hover, #buddypress input[type=submit]:hover, #content form input[type=submit]:hover {
+	color: #fff;
+	background: #4D4D4D;
+	background: -webkit-gradient(linear, left top, left bottom, from(#4D4D4D), to(#333));
+	background: -webkit-linear-gradient(top, #4D4D4D, #333);
+	background: -moz-linear-gradient(top, #4D4D4D, #333);
+	background: -ms-linear-gradient(top, #4D4D4D, #333);
+	background: -o-linear-gradient(top, #4D4D4D, #333);
+}
+a.read-more .fa {
+	font-size: 55%;
+}
+
+
+
+form .send, #content form input[type=submit] {
+   padding: 6px 14px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0px 0px 10px;
+   -moz-box-shadow: rgba(0,0,0,1) 0px 0px 10px;
+   box-shadow: rgba(0,0,0,1) 0px 0px 10px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+form a:hover,  #content form input[type=submit]:hover{color: #000; text-decoration:underline;}
+/*****************************************************************
+
+				share this
+
+*****************************************************************/
+
+.share-this{
+	margin: 5px;
+	text-align: center;
+	padding: 5px;
+}
+.share-this .heading {
+	padding: 5px;
+}
+.share-this a {
+	display: inline-block;
+	padding: 3px 5px;
+	color: #fff;
+	border-radius: 5px;
+	margin: 5px 5px 5px 0px;
+	width: 100px;
+	font-size: 12px;
+}
+.share-this .fa {margin-right: 5px;}
+
+.share-this a:hover {color: #fff;}
+
+.share-this a.twitter {background: #55acee;}
+.share-this a.facebook {background: #3b5998;}
+.share-this a.plus {background: #d34836;}
+.share-this a.pin {background: #CB2028;}
+.share-this a.yelp {background: #CB2028;}
+.share-this a.permalink {background: #f7941e;}
+
+
+
+.sidebar .big-button a {
+	margin: 50px auto;
+	display: table;
+	color: #fff;
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px 15px;
+	border: solid 2px #fff;
+	-webkit-box-shadow: 0px 0px 35px -10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 35px -10px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 35px -10px rgba(0,0,0,0.75);
+	text-decoration:none;
+}
+
+
+form .btn {
+	margin-top: 20px;
+}
+form .btn.btn-search {margin-top: 0px;}
+

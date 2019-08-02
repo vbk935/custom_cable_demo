@@ -1,0 +1,52 @@
+/* Tabs */
+.upfront-popup-meta {
+	height: 50px;
+	width: 100%;
+}
+
+.upfront-popup-meta .upfront-tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: left;
+}
+.upfront-popup-meta .upfront-tabs.upfront-media_manager-tabs {
+	display: none;
+}
+.upfront-popup-posts .upfront-popup-meta .upfront-tabs li {
+	font-size: 12px;
+}
+.upfront-popup-meta .upfront-tabs li {
+	display: inline-block;
+	text-align: center;
+	color: #9b9b9b;
+	cursor: pointer;
+	font-size: 10px;
+	text-transform: uppercase;
+	padding: 19px 0;
+	margin: 0 0 0 32px;
+	line-height: 10px;
+}
+.upfront-popup-meta .upfront-tabs li[data-type="cpts"] {
+	text-transform: none;
+}
+.upfront-popup-meta .upfront-tabs li:hover {
+}
+
+.upfront-popup-posts .upfront-popup-meta .upfront-tabs li.active {
+	font-weight: bold;
+}
+
+.upfront-popup-meta .upfront-tabs li.active {
+	color: #212121;
+	border-bottom: 2px solid #212121;
+}
+
+.upfront-popup-meta .upfront-tabs li.active:hover {
+
+}
+
+.upfront-popup-meta ul.upfront-tabs li:first-child {
+
+}

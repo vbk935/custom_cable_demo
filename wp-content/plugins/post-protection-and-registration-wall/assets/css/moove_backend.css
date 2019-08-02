@@ -1,0 +1,59 @@
+.moove-donation-box-wrapper {
+    padding-right: 40%;
+}
+
+@media (max-width: 768px) {
+    .moove-donation-box-wrapper {
+        padding-right: 20px !important;
+    }
+}
+
+.moove-donation-box {
+    position: relative;
+    width: calc(100% - 20px);
+    margin: 16px 0;
+    padding: 0 15px 10px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    background: #fff;
+    font-size: 13px;
+}
+
+.moove-donation-box .notice-dismiss:before {
+    float: left;
+    margin: 0 4px -2px 0;
+}
+
+.moove-redirect-box {
+    width: 100%;
+}
+
+
+
+.moove-protection-form .regular-text{
+    width: 100%;
+}
+.moove-protection-plugin-wrap .moove-logo{
+    display: block;
+    width: 67px;
+    height: 16px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background: url('../images/logo_moove.png') no-repeat;
+    background-size: cover;
+
+}
+.moove-protection-plugin-documentation {
+    max-width: 45%;
+}
+
+.moove-protection-plugin-wrap .moove-form-container {
+    position: relative;
+}
+.moove-form-container.plugin_documentation {
+    top: 20px;
+}
+.moove-form-container.plugin_documentation h1 {
+    padding-top: 0;
+}

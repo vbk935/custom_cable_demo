@@ -1,0 +1,19 @@
+/*.curtime.misc-pub-curtime{
+	padding: 0px;
+	display: none !important;
+	height: 0px !important;
+}
+#itsec{
+	padding: 0px;
+	display: none !important;
+	height: 0px !important;
+}*/
+/*Hide Tools Menu*/
+#menu-tools {display:none;}
+
+/*hide warning from wpcore*/
+#setting-error-tgmpa, #robotsmessage, #setting-error-tgmpa {display: none !important;}
+#edit-slug-buttons, #view-post-btn, #shortlink {display: none !important;}
+
+#mark_posts_options p {display: none !important;}
+#mark_posts_options .inside {margin-top: 13px;}

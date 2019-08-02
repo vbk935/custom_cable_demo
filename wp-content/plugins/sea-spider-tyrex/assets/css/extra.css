@@ -1,0 +1,241 @@
+/*****************************************************************
+
+
+				popups
+
+*****************************************************************/
+ div.pp_default .pp_description {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 16px;
+  margin: 5px 35px 5px 20px;
+  float: right;
+  width: 70%;
+  text-align: center;
+}
+.pp_social {
+display:none;
+}
+.pp_social .facebook {
+  float: left;
+  margin-left: 5px;
+  width: 48px;
+  overflow: hidden;
+}
+
+/*****************************************************************
+
+
+				Team
+
+*****************************************************************/
+
+
+.team-box img {max-height: 190px; margin-bottom: 5px;}
+.team-box {margin-bottom: 40px;}
+
+.team-box .col-md-2 {float: left; text-align:center;}
+.team-box .team-title {font-size: 12px;}
+.team-box .team-dept {font-size: 12px; font-weight:bold;}
+.team-box a {font-size: 14px; font-weight:bold;}
+
+
+
+/*****************************************************************
+
+
+				TINYMCE
+
+*****************************************************************/
+.entry-content .pull-left {
+	margin: 0px 15px 15px 0px;
+}
+.entry-content .pull-right {
+	margin: 0px 0px 15px 15px;
+}
+
+/*****************************************************************
+
+
+				Gallery
+
+*****************************************************************/
+
+.gallery {background: #fff;padding: 5px 15px;color: #000;}
+.gallery-item img {width: 100%; height: auto; ; border: solid 1px #fff;}
+#TB_prev, #TB_next, #TB_window a:link {color: #fff;}
+.gallery-icon {margin-bottom: 10px; margin-top: 10px}
+.gallery-row {padding-bottom: 7px;}
+.gallery-caption {font-size: 13px;padding: 5px;}
+/*****************************************************************
+
+
+				News List
+
+*****************************************************************/
+
+.news-list {}
+
+.news-list .wp-pagenavi {margin: 20px auto;}
+.news-list .entry {padding-bottom: 20px; border-bottom: solid 1px #ccc; margin-bottom: 20px;}
+.news-list .entry h2 {margin-top: 0px;}
+.news-list .entry-date {margin-top: 0px; text-align:left;}
+
+/*****************************************************************
+
+
+				Legal Pages
+
+*****************************************************************/
+.privacy-policy .entry-content li,
+.terms-service .entry-content li, 
+.privacy-policy-2 .entry-content li,
+.terms-service-2 .entry-content li 
+{
+	margin-bottom: 20px;
+}
+
+
+/*****************************************************************
+
+
+				Our Family
+
+*****************************************************************/
+.table-responsive {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.table-responsive img{
+	max-width: 220px;
+	max-height: 100px;
+	height: auto;
+	margin: 0px auto;
+	display:block;
+}
+
+/************************** old ****************************************/
+
+
+.table-responsive .arl-logo {
+	max-height: 65px;
+	max-width: 110px;
+}
+.table-responsive .irex-logo {
+	max-height: 65px;
+	max-width: 110px;
+}
+.table-responsive .megladon-logo {
+	max-height: 65px;
+	max-width: 200px;
+	margin: 10px auto;
+}
+.table-responsive .saber-data-logo {
+	max-height: 65px;
+	max-width: 145px;
+}
+.table-responsive .saberex-logo {
+	max-height: 69px;
+	max-width: 180px;
+}
+.table-responsive .tyrex-logo {
+	max-height: 69px;
+	max-width: 160px;
+}
+/************************** end old ****************************************/
+
+
+.table-responsive .arl-logo {
+	max-height: 65px;
+	max-width: 110px;
+}
+.table-responsive .irx-logo {
+	max-height: 65px;
+	max-width: 110px;
+}
+.table-responsive .meg-logo {
+	max-height: 65px;
+	max-width: 200px;
+	margin: 10px auto;
+}
+.table-responsive .sbd-logo {
+	max-height: 65px;
+	max-width: 145px;
+}
+.table-responsive .sbr-logo {
+	max-height: 69px;
+	max-width: 180px;
+}
+.table-responsive .tyr-logo {
+	max-height: 69px;
+	max-width: 160px;
+}
+.table.directory>thead>tr>th, 
+.table.directory>tbody>tr>th, 
+.table.directory>tfoot>tr>th, 
+.table.directory>thead>tr>td, 
+.table.directory>tbody>tr>td, 
+.table.directory>tfoot>tr>td 
+{
+	vertical-align: middle;
+}
+
+
+/************************** old ****************************************/
+body.arl .arl-section {display:none;}
+body.dli .dli-section {display:none;}
+body.irex .irex-section {display:none;}
+body.meg .meg-section {display:none;}
+body.data .data-section {display:none;}
+body.rex .rex-section {display:none;}
+body.tyr .tyr-section {display:none;}
+/************************** end old ****************************************/
+
+/*****************************************************************
+
+
+				Search
+
+*****************************************************************/
+.post.not-found .navbar-form {
+	float: left !important;
+	margin: 10px 0px;
+	padding: 0px;
+	}
+	
+	
+/*****************************************************************
+
+
+				Archive
+
+*****************************************************************/
+.list-posts {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: solid 1px #ccc;
+}
+.list-posts h2{
+	margin-top: 0px;
+}
+
+.archive .col-md-3 .thumbnail {
+	max-height: 207px;
+}
+@media only screen and (max-width : 1000px) {
+ .archive .col-md-3 .thumbnail {
+  max-height: 207px;
+  width: auto;
+  margin: auto;
+}
+}
+
+
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+  .main-column{width: 75% !important; margin:0px; float: left !important;}
+  #sidebar {width: 25% !important; margin:0px; float: left !important;}
+}
+

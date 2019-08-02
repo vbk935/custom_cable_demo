@@ -1,0 +1,473 @@
+.berocket_aapf_advanced_settings{display: none;}
+.berocket_aapf_widget_admin_height_input{width: 53px; text-align: right}
+.berocket_aapf_advanced_settings_categories_list{max-height: 200px;overflow:auto;}
+.berocket_aapf_advanced_settings_subcategory{float: right;position: relative;top: 3px;}
+.berocket_aapf_output_limitations{display: none;}
+
+.colorpicker_field, .colorpicker_field_sc{width: 30px; height: 30px; margin: 0 auto; border: 1px solid black; position: relative!important;}
+
+.colorpicker_field .fa-times {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-shadow: 0px 0px 1px white, 0px 0px 1px white, 0px 0px 1px white, 0px 0px 1px white, 0px 0px 1px white;
+}
+td.colorpicker_field.colorpicker_removed:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: -20%;
+    bottom: -20%;
+    left: 45%;
+    right: 45%;
+    background-color: red;
+    z-index: 999;
+    transform: rotateZ(-45deg);
+}
+.admin-column-color{width: 6%; text-align: center!important;}
+.admin-column-font-family{width: 15%;}
+.admin-column-font-family select{max-width: 100%;}
+.admin-column-font-weight{width: 12%;}
+.admin-column-font-weight select{max-width: 100%;}
+.admin-column-font-size{width: 10%; text-align: center!important;}
+.admin-column-font-size input{max-width: 100%; text-align: center!important;}
+.admin-column-dimensions{width: 10%;}
+.admin-column-dimensions select{max-width: 100%;}
+.admin-column-theme{width: 14%;}
+.admin-column-theme select{max-width: 100%;}
+.tab-item{display: none;}
+.tab-item.current{display: block;}
+.berocket_widget_show_color_values{
+    cursor: pointer;
+    display: inline-block;
+    padding: 3px;
+}
+.berocket_widget_show_color_values span{
+    float: right;
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    background: transparent url('../images/gray-left-arrow.png') no-repeat center center;
+}
+.berocket_widget_show_color_values span.show_button
+{
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg); 
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+.berocket_widget_show_color_values span.hide_button
+{
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg); 
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.berocket_aapf_select_icon{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999999;
+}
+.berocket_aapf_select_icon div{
+	position: absolute;
+	top: 5%;
+	bottom: 5%;
+	left: 5%;
+	right: 5%;
+    background-color: white;
+    color: #555;
+    font-size: 2em;
+    padding: 10px;
+    overflow: auto;
+}
+.berocket_aapf_select_icon div i{
+    width: 1.5em;
+    padding: 4px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+.berocket_aapf_select_icon div i:hover{
+    color: #338;
+    background-color: #CCC;
+}
+.berocket_aapf_select_icon div p{
+    font-size: 1.5em;
+    margin: 0;
+    color: #222;
+}
+.berocket_aapf_select_icon div p i.fa{
+    color: #338;
+    position: fixed;
+    top: 6%;
+    right: 6%;
+    cursor:pointer;
+    background-color: white;
+}
+.berocket_aapf_select_icon div p i.fa:hover{
+    color: #66B;
+}
+.berocket_aapf_select_icon div .berocket_aapf_icon_select{
+    display: none;
+}
+.berocket_aapf_select_icon div label{
+    margin: 5px;
+    display: inline-block;
+}
+.berocket_aapf_selected_icon_show{
+    font-size: 2em;
+    margin:0 10px;
+}
+.berocket_aapf_selected_icon_show img{
+    max-width: 1em;
+    max-height: 1em;
+}
+.admin-column-theme .all_theme_default{
+    float: right;
+}
+
+.admin-column-color .theme_default{
+    margin-top: 5px;
+}
+
+.settings-sub-option{
+    padding-top: 8px;
+}
+.berocket_aapf_admin_filter_widget_content small {
+    float: none;
+    width: auto;
+}
+.br_admin_center{
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1em;
+    display: block;
+    height: 1.2em;
+}
+.br_admin_half_size_left .br_admin_center,
+.br_admin_half_size_right .br_admin_center,
+.br_admin_three_size_left .br_admin_center{
+    height: 2em;
+}
+.br_admin_full_size{
+    width: 100%;
+}
+.br_admin_half_size_left, .br_admin_half_size_right{
+    width: 50%;
+    float: left;
+}
+.br_admin_three_size_left{
+    width: 33.33%;
+    float: left;
+}
+.br_clearfix{
+    clear: both;
+}
+.br_accordion.br_icons{
+    text-align: center;
+}
+.br_accordion.br_icons input{
+    width: 100%
+}
+.br_admin_150_height,
+.ui-selectmenu-menu .ui-menu{
+    max-height: 150px;
+    overflow: auto;
+}
+.tab-item.widget-liquid-right{
+    width: initial;
+    float: none;
+}
+.fontawesome{
+    font-family: FontAwesome;
+}
+.brjsf_select{
+    width: 100%!important;
+}
+.berocket_remove_ranges,
+.berocket_add_ranges {
+    display: inline-block;
+    font-size: 2em;
+    line-height: 1em;
+    text-align: center;
+    vertical-align: middle;
+    width: 1.5em;
+}
+.berocket_ranges > input {
+    display: inline-block;
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* FONT AWESOME SELECTOR */
+
+.br_aapf_settings_fa .berocket_select_fontawesome {
+    margin: 0.5em 0;
+}
+
+.br_aapf_settings_fa .berocket_select_fontawesome .button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.br_aapf_settings_fa .berocket_select_fontawesome .berocket_selected_fa {
+    font-size: 32px;
+    line-height: 62px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+.br_aapf_settings_fa .berocket_select_fontawesome .berocket_selected_image.berocket_selected_fa {
+    font-size: 42px;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+.br_aapf_settings_fa .berocket_select_fontawesome .berocket_selected_image.berocket_selected_fa img {
+    max-width: 100%;
+}
+
+.br_aapf_settings_fa .berocket_select_fontawesome.berocket_select_image .button {
+    margin: 0 3px 0 0;
+}
+
+.br_aapf_settings_fa .berocket_select_fontawesome .berocket_fa_dark {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 50000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.br_aapf_settings_fa .berocket_select_fontawesome .berocket_fa_popup {
+    position: fixed;
+    top: 10%;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+    z-index: 50100;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+}
+
+.br_aapf_settings_fa .berocket_select_fontawesome .berocket_fa_search {
+    height: 30px;
+    box-sizing: border-box;
+    margin: 5px 15%;
+    width: 70%;
+}
+
+.br_aapf_settings_fa .berocket_select_fontawesome .berocket_fa_close {
+    font-size: 32px;
+    color: #555;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 500;
+}
+
+.br_aapf_settings_fa .berocket_select_fontawesome .berocket_fa_close:hover {
+    color: #338;
+}
+
+.br_aapf_settings_fa .berocket_select_fontawesome .berocket_fa_list {
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    padding: 0.5em;
+}
+
+.br_aapf_settings_fa .berocket_select_fontawesome .berocket_fa_list .berocket_fa_icon {
+    font-size: 32px;
+    display: inline-block;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 0 0.5em;
+}
+
+.br_aapf_settings_fa .berocket_select_fontawesome .berocket_fa_list .berocket_fa_icon .fa {
+    font-size: 32px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    color: #555;
+}
+
+.br_aapf_settings_fa .berocket_select_fontawesome .berocket_fa_list .berocket_fa_icon .berocket_fa_preview {
+    position: absolute;
+    height: 50px;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    border-radius: 5px;
+}
+
+.br_aapf_settings_fa .berocket_select_fontawesome .berocket_fa_list .berocket_fa_icon .berocket_fa_hover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.br_aapf_settings_fa .berocket_select_fontawesome .berocket_fa_list .berocket_fa_icon .berocket_fa_hover:hover ~ .berocket_fa_preview {
+    background-color: #CCC;
+    z-index: 50;
+}
+
+.br_aapf_settings_fa .berocket_select_fontawesome .berocket_fa_list .berocket_fa_icon .berocket_fa_preview span {
+    display: none;
+    font-size: 18px;
+    white-space: nowrap;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 50px;
+    vertical-align: top;
+    color: #555;
+}
+
+.br_aapf_settings_fa .berocket_select_fontawesome .berocket_fa_list .berocket_fa_icon .berocket_fa_hover:hover ~ .berocket_fa_preview span {
+    display: inline-block;
+}
+.berocket_aapf_setting_form .link-tab{
+    float: left;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    margin-left: .5em;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 24px;
+    background: #0085ba;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.berocket_aapf_setting_form .link-tab:hover{
+    background: #008ec2;
+    color: #fff;
+}
+.berocket_aapf_setting_form .link-tab:hover,
+.berocket_aapf_setting_form .link-tab:focus {
+    outline: none;
+}
+@media screen and (max-width: 600px) {
+    .berocket_aapf_setting_form .link-tab {
+        margin: 10px 10px 0 0;
+        border-bottom: 1px solid #ccc;
+    }
+}
+.berocket_disable_deprecated {
+    position: relative;
+}
+.berocket_disable_deprecated_hide {
+    opacity: 0.5;
+    background-color: white;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.berocket_new_widget_selectbox {
+    max-width: 75%;
+}
+.berocket_simple_filter_creation {
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 100%;
+    background-color: rgba(255,255,255,0.9);
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.berocket_simple_filter_creation .button-primary {
+    float: right;
+}
+.berocket_simple_creation_buttons {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.berocket_aapf_admin_filter_widget_content label.br_admin_center,
+.berocket_aapf_admin_widget_selected_area label.br_admin_center,
+.berocket_aapf_admin_search_box label.br_admin_center {
+    vertical-align: bottom;
+    padding-top: 0.6em;
+    line-height: 1.2em;
+    height: 1.2em;
+}
+.br_admin_half_size_left {
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.br_admin_half_size_right {
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.br_admin_three_size_left {
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.br_admin_three_size_left + .br_admin_three_size_left + .br_admin_three_size_left {
+    padding-right: 0;
+}
+.include_exclude_select {
+    padding: 10px 0 0;
+}
+.berocket_aapf_widget_content {
+    max-width: 540px;
+    margin: 0 auto;
+}
+.br-line-space {
+    height: 0.5em;
+    max-width: 540px;
+    background: transparent;
+}
+.br-line-space.double {
+    height: 1em;
+}
+.br-row {
+    margin: 0 -10px;
+}
+.br-column-6 {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 782px) {
+    .berocket_aapf_widget_content {
+        line-height: 2em;
+    }
+}
+.colpick.colpick_hex.colpick_hex_ns {
+    z-index: 1000;
+}

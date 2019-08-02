@@ -1,0 +1,31 @@
+/*.curtime.misc-pub-curtime{
+	padding: 0px;
+	display: none !important;
+	height: 0px !important;
+}
+#itsec{
+	padding: 0px;
+	display: none !important;
+	height: 0px !important;
+}*/
+/*Hide Tools Menu*/
+#menu-tools {display:none;}
+
+/*hide warning from wpcore*/
+#setting-error-tgmpa, #robotsmessage, #setting-error-tgmpa {display: none !important;}
+#edit-slug-buttons, #view-post-btn, #shortlink {display: none !important;}
+
+#mark_posts_options p {display: none !important;}
+#mark_posts_options .inside {margin-top: 13px;}
+
+
+/* client user woocommerce  */
+body.client #menu-posts {display:none;}
+body.client #menu-posts-article {display:none;}
+body.client #menu-posts-panel {display:none;}
+body.client #toplevel_page_jetpack {display:none;}
+body.client #menu-posts-download {display:none;}
+body.client #menu-posts-newsletter {display:none;}
+body.client #menu-posts {display:none;}
+body.client #menu-posts-company {display:none;}
+body.client #toplevel_page_site-settings {display:none;}

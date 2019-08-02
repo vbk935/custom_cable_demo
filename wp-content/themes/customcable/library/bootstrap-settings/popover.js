@@ -1,0 +1,1 @@
+jQuery('[data-toggle="popover"]').popover({ trigger: "hover" });

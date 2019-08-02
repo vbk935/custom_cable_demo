@@ -1,0 +1,204 @@
+.uslider-transition-setting>span{
+	margin-right: 10px;
+}
+
+.uslider-transition-setting>span:nth-child(2n){
+	margin-right: 0;
+}
+
+.uslider-controlswhen-setting>span:last-child{
+	margin-right: 0;
+}
+
+.uslider-rotate-settings .upfront-field-wrap {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.upfront-ui .uslider_content_slide {
+	border:2px solid transparent;
+	cursor: pointer;
+	opacity: 0.8;
+	position: relative;
+
+
+}
+
+.upfront-ui .uslider_content_slide .uslider_content_img {
+	/* setting height for background image */
+	width: 100%;
+	height: 45px;
+	background-size: cover;
+	background-position: center;
+}
+
+.upfront-ui .uslider_content_slide .remove-slide {
+	display: block;
+	width: 16px;
+	height: 16px;
+	background-position: -483px -171px;
+	background-image: url('../../../img/uf-core-el-sprite.svg');
+	position: absolute;
+	right: -5px;
+	top: -5px;
+	visibility: hidden;
+}
+
+.uslider_content_slide:hover {
+	border-color: #ccc;
+	opacity: 1;
+	background: #DAE7F2;
+}
+
+.upfront-ui .uslider_content_slide:hover .remove-slide {
+	visibility: visible;
+}
+
+.uslider_content_imgslide {
+	width:31%;
+	margin-left:2%;
+	float:left;
+	height: 49px;
+	margin-bottom: 10px;
+}
+
+.uslider_content_imgslide img{
+	width: 100%;
+	height: 45px;
+
+	/* hiding and make it a background on parent div to avoid distort */
+	display: none;
+}
+
+.slide-selected {
+	border-color: #4cd285;
+	opacity: 1;
+}
+.uslider_content_slide.slide-selected:hover {
+	border-color: #4cd285 ;
+}
+
+.uslider-slides-setting:before,
+.uslider-slides-setting:after {
+    content: " ";
+    display: table;
+}
+
+.uslider-slides-setting:after {
+    clear: both;
+}
+
+.uslider-slides-setting .upfront-region-bg-slider-add-image {
+	width:31%;
+	margin-left:2%;
+	margin-top: 2px;
+	float:left;
+	height: 45px;
+	overflow: hidden;
+	padding-top: 5px;
+}
+
+.uslider-slides-setting .upfront-region-bg-slider-add-image:hover {
+	background: #DAE7F2;
+}
+
+.uslider-right .uslides {
+	float:left;
+}
+
+.upfront-entity_meta a.upfront-icon-button-nav {
+	margin-bottom: 4px;
+	box-shadow: inset 0 0 0 1px #145064;
+	background: #145064 -moz-linear-gradient(-45deg, rgba(51, 91, 128,1) 0%, rgba(51, 91, 128,1) 50%, rgba(0,0,0,0) 51%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: #145064 -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(51, 91, 128,1)), color-stop(50%,rgba(51, 91, 128,1)), color-stop(51%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: #145064 -webkit-linear-gradient(-45deg, rgba(51, 91, 128,1) 0%,rgba(51, 91, 128,1) 50%,rgba(0,0,0,0) 51%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: #145064 -o-linear-gradient(-45deg, rgba(51, 91, 128,1) 0%,rgba(51, 91, 128,1) 50%,rgba(0,0,0,0) 51%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: #145064 -ms-linear-gradient(-45deg, rgba(51, 91, 128,1) 0%,rgba(51, 91, 128,1) 50%,rgba(0,0,0,0) 51%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: #145064 linear-gradient(135deg, rgba(51, 91, 128,1) 0%,rgba(51, 91, 128,1) 50%,rgba(0,0,0,0) 51%,rgba(0,0,0,0) 100%); /* W3C */
+}
+
+.uslider-settings .upfront-settings-item{
+	padding-bottom: 0;
+}
+.uslider-settings .upfront-field-wrap-radios .upfront-field-multiple-horizontal-inline {
+	margin-right: 10px;
+}
+.uslider-settings .upfront-field-wrap-radios .upfront-field-multiple-horizontal-inline:nth-child(2n) {
+	margin-right: 0;
+}
+
+.upfront-field-icon-below:before {
+background-position: -699px -646px;
+}
+.upfront-field-icon-bottomOver:before {
+background-position: -318px -308px;
+}
+.upfront-field-icon-nocaption:before {
+background-position: -258px -308px;
+}
+.upfront-field-icon-right:before {
+background-position: -258px -336px;
+}
+.upfront-field-icon-textonly:before {
+background-position: -699px -646px;
+}
+
+.uslider-starting-title {
+	font-size: 20px
+}
+
+.uslider-starting-info {
+	font-size: 13px;
+	color: #889;
+	line-height: 13px;
+	margin-bottom: 15px;
+}
+
+.upfront-object-content .uslider-starting-centered .upfront-image-select{
+	font-size: 16px;
+	border-radius: 0;
+	width: 150px;
+	height: auto;
+	line-height: 30px;
+	display: inline-block;
+	margin-top: 10px;
+	text-decoration: none;
+	font-family: 'Open Sans', Helvetica Neueu, Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+.upfront-ui .uslider-starting-centered a.upfront-image-select {
+	color: #666;
+}
+.upfront-ui .uslider-starting-centered a.upfront-image-select:hover {
+	color: #3ea;
+}
+
+.uslides .uimage-controls .upfront-inline-panel-bottom-left {
+	bottom: 0;
+	left: 0;
+}
+.slide_style {
+	width: 215px;
+}
+.rotate, .rotate-time {
+	display: inline-block;
+	font-size: 12px;
+}
+.rotate-time .upfront-field-number[type="number"] {
+	width: 60px;
+	font-size: 12px;
+	margin-left: 10px;
+}
+.rotate-effect, .slider-contrls-style {
+	width: 225px;
+	margin-top: 10px;
+}
+.upfront-ui .upfront-icon-region-add:before {
+	background-position: -321px -131px;
+	width: 18px;
+	height: 18px;
+}
+
+
+/* 614788-1519253004-ai */

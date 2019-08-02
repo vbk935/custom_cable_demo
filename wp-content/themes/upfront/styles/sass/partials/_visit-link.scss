@@ -1,0 +1,153 @@
+i.visit_link {
+  width:18px;
+  height:18px;
+
+  display:inline-block;
+  position:absolute;
+  z-index:10000 !important;
+  top:-5px;
+  right:-5px;
+
+  display:none;
+  cursor: pointer;
+
+}
+
+i.visit_link:before {
+  content: '';
+  width: 18px;
+  height: 18px;
+  display: block;
+  border-radius:50%;
+  background-color:#2C3E50;
+  background-image: url('../img/uf-ui-sprite.svg');
+  position:absolute;
+  z-index: 10;
+  left:0;
+  top:0;
+  background-position: -910px -42px;
+}
+
+i.upfront-icon-region-visit-link-homepage:before,
+i.upfront-icon-region-visit-link-email:before,
+i.upfront-icon-region-visit-link-phone:before,
+i.upfront-icon-region-visit-link-unlink:before,
+i.upfront-icon-region-visit-link-external:before,
+i.upfront-icon-region-visit-link-anchor:before,
+i.upfront-icon-region-visit-link-lightbox:before,
+i.upfront-icon-region-visit-link-entry:before {
+  background-image: url('../img/uf-ui-sprite.svg')!important;
+}
+
+div.ueditable-inactive a:hover i.visit_link {
+  display:block;
+  text-align:left;
+}
+
+div.ueditable-inactive a i.visit_link {
+	display:none;
+}
+
+i.visit_link:after {
+  font: normal 11px/18px Verdana, sans-serif !important;
+  text-transform: none !important;
+  padding-left:20px;
+  padding-right:10px;
+  background-color:#2C3E50;
+  position:absolute;
+  z-index:9;
+  color:rgba(255,255,255,.6);
+  border-radius:9px;
+  display:none;
+  text-indent:initial;
+  // margin-left:-6px;
+  height:18px;
+}
+
+i.visit_link.visit_link_unlink {
+  display:none !important;
+}
+i.visit_link.visit_link_homepage:after {
+  content:'Go to Homepage';
+  
+}
+i.visit_link.visit_link_email:after {
+  content:'Send Email';
+}
+i.visit_link.visit_link_anchor:after {
+	content:'Scroll to Anchor';
+}
+i.upfront-icon-region-visit-link-homepage:before,
+i.visit_link.visit_link_homepage:before {
+  background-position: -910px -267px;
+}
+i.upfront-icon-region-visit-link-email:before,
+i.visit_link.visit_link_email:before {
+  background-position: -910px -234px;
+}
+i.upfront-icon-region-visit-link-anchor:before,
+i.visit_link.visit_link_anchor:before {
+	background-position:-910px -42px;
+}
+i.visit_link.visit_link_external:after {
+	content:'Open Ext. Link';
+}
+i.upfront-icon-region-visit-link-external:before,
+i.visit_link.visit_link_external:before {
+	background-position:-910px -74px;
+}
+i.visit_link.visit_link_entry:after {
+	content:'Visit Post/Page';
+}
+i.upfront-icon-region-visit-link-entry:before,
+i.visit_link.visit_link_entry:before {
+	background-position:-910px -106px;
+}
+i.visit_link.visit_link_lightbox:after {
+	content:'Open Lightbox';
+}
+i.upfront-icon-region-visit-link-lightbox:before,
+i.visit_link.visit_link_lightbox:before {
+	background-position:-910px -138px;
+}
+i.visit_link.visit_link_unlink:after {
+	content:'Not Linked';
+}
+i.upfront-icon-region-visit-link-unlink:before,
+i.visit_link.visit_link_unlink:before,
+i.upfront-icon-region-visit-link-phone:before, // make it look like unlink for now
+i.visit_link.visit_link_phone:before {
+	background-position:-910px -203px;
+}
+i.visit_link:after {
+  display:none;
+}
+i.visit_link:hover:after {
+  display:inline-block;
+  white-space: nowrap;
+}
+
+span.missing-lightbox-warning, a.missing-lightbox-warning:before{
+  content: '';
+  background-image: url('../img/uf-ui-sprite.svg');
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  height:16px;
+  width: 19px;
+  top: -6px;
+  left: 0;
+  background-position: -193px -248px;
+  opacity: 0.6;
+}
+
+a.missing-lightbox-warning {
+  position: relative;
+}
+
+a.missing-lightbox-warning:before {
+  content: '';
+  top: -10px;
+  left: -10px;
+
+}

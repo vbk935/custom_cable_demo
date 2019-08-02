@@ -1,0 +1,72 @@
+2019-07-21T01:06:16+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 40530240 bytes) in /home/megladon/shop.megladonmfg.com/demo/wp-includes/wp-db.php on line 2007
+
+2019-07-21T06:13:32+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1563689612, 3600, 'wc-admin-notes')
+#3 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/queue/c in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php on line 33
+
+2019-07-21T06:24:40+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1563690280, 3600, 'wc-admin-notes')
+#3 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/queue/c in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php on line 33
+
+2019-07-21T12:06:57+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1563710817, 3600, 'wc-admin-notes')
+#3 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/queue/c in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php on line 33
+
+2019-07-21T12:07:11+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1563710831, 3600, 'wc-admin-notes')
+#3 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/queue/c in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php on line 33
+
+2019-07-21T12:07:40+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1563710860, 3600, 'wc-admin-notes')
+#3 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/queue/c in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php on line 33
+
+2019-07-21T12:07:56+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1563710876, 3600, 'wc-admin-notes')
+#3 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/queue/c in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php on line 33
+
+2019-07-21T12:08:17+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1563710897, 3600, 'wc-admin-notes')
+#3 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/queue/c in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php on line 33
+
+2019-07-21T12:08:25+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1563710905, 3600, 'wc-admin-notes')
+#3 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/queue/c in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php on line 33
+
+2019-07-21T12:08:28+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1563710908, 3600, 'wc-admin-notes')
+#3 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/queue/c in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php on line 33
+
+2019-07-21T12:08:38+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1563710918, 3600, 'wc-admin-notes')
+#3 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/queue/c in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php on line 33
+

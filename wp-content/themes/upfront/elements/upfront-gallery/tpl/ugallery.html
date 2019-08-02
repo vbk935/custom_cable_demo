@@ -1,0 +1,79 @@
+<div
+	class="ugallery ugallery_publish <?php if(!empty($in_editor)) { ?>ugallery-in-editor<?php } ?>"
+	data-thumb-padding="<?php echo $thumbPadding ?>"
+	data-thumb-side-padding="<?php echo $sidePadding ?>"
+	data-thumb-bottom-padding="<?php echo $bottomPadding ?>"
+	data-thumb-proportions="<?php echo $thumbProportions ?>"
+	data-thumb-lock-padding="<?php echo $lockPadding ?>"
+	data-lightbox-show-close="<?php echo $lightbox_show_close ? 'true' : 'false' ?>"
+	data-lightbox-click-out-close="<?php echo $lightbox_click_out_close ? 'true' : 'false' ?>"
+	data-lightbox-show-image-count="<?php echo $lightbox_show_image_count ? 'true' : 'false' ?>"
+	data-lightbox-active-area-bg="<?php echo $lightbox_active_area_bg ?>"
+	data-lightbox-overlay-bg="<?php echo $lightbox_overlay_bg ?>"
+	data-styles="<?php echo $styles ?>"
+>
+<?php if ($labelFilters === 'true' || !empty($in_editor)){ ?>
+<div class="ugallery_labels <?php if($in_editor) { ?>ugallery_labels-enabled-<?php echo $labelFilters === 'true' ? '1' : '0' ?><?php } ?>">
+	<?php for($i=0; $i<$labels_length; $i++) { ?>
+		<a href="#" class="ugallery_label_filter <?php echo $i == 0 ? 'filter_selected' : '' ?>" rel="label_<?php echo $labels[$i]['id'] ?>"><?php echo $labels[$i]['text'] ?></a>
+	<?php } ?>
+	</div>
+<?php } ?>
+<?php if($imagesLength){ ?>
+	<div class="ugallery_items ugallery_grid" rel="<?php echo $element_id ?>">
+	<?php for($i=0; $i<$imagesLength; $i++) { ?>
+	<div class="ugallery_item <?php if($in_editor) { ?>upfront-editing<?php } ?> ugallery_item_<?php echo !empty($images[$i]['imageLinkType']) && $images[$i]['imageLinkType'] == 'image' ? 'image' : $images[$i]['imageLinkType'] ?> <?php if($captionType === 'over') { ?>ugallery_caption_on_hover_<?php echo $showCaptionOnHover['length'] ?><?php } ?>" style="position:relative; width:<?php echo $thumbWidth ?>px;" rel="<?php echo $images[$i]['id'] ?>" data-groups='[<?php echo $image_labels[$images[$i]['id']] ?>]'>
+		<?php $images[$i]['imageLinkType'] = !empty($images[$i]['imageLinkType']) ? $images[$i]['imageLinkType'] : false; ?>
+		  <?php if ($images[$i]['imageLinkType'] !== 'unlink') { ?>
+			<a class="ugallery_link ugallery_link<?php echo !empty($images[$i]['imageLinkType']) && $images[$i]['imageLinkType'] == 'image' ? ' ugallery_lightbox_link' : $images[$i]['imageLinkType'] ?>" href="<?php echo $images[$i]['imageLinkUrl'] ?>" target="<?php echo $images[$i]['imageLinkTarget'] ?>" title="">
+			<?php } ?>
+				<span class="ugallery_border">
+					<img src="<?php echo $images[$i]['src'] ?>" alt="<?php echo $images[$i]['alt'] ?>" class="ugallery-image" style="<?php echo !empty($images[$i]['loading']) && $images[$i]['loading'] ? 'display:none;' : '' ?> margin-left:<?php echo $images[$i]['margin']['left'] ?>px;  margin-top:<?php echo $images[$i]['margin']['top'] ?>px;width:<?php echo $thumbWidth ?>px; height:<?php echo $thumbHeight ?>px">
+				</span>
+
+				<?php if ($usingNewAppearance === false) { ?>
+					<?php if($captionType != 'none' || !empty($in_editor)) { ?>
+					<div class="ugallery-thumb-title <?php if($captionType === 'over') { ?>ugallery-caption-on-hover-<?php echo $showCaptionOnHover['length'] ?><?php } ?> ugallery-caption-<?php echo $captionType ?><?php echo $captionUseBackground ? ' ugallery-padded-caption' : '' ?>"><?php echo $images[$i]['title'] ?></div>
+					<?php } ?>
+				<?php } else { ?>
+					<?php if(($properties['captionType'] != 'none' || !empty($in_editor)) && !empty($properties['use_captions'])) { ?>
+					<div class="ugallery-thumb-title <?php if($properties['captionType'] === 'over') { ?>ugallery-caption-on-hover-<?php echo $properties['showCaptionOnHover'] ?><?php } ?> ugallery-caption-<?php echo $properties['captionType'] ?>"><?php echo $images[$i]['title'] ?></div>
+					<?php } ?>
+				<?php } ?>
+			<?php if($linkTo == 'image'){ ?>
+			<div class="ugallery_lb_text" rel="<?php echo $images[$i]['id'] ?>"><?php if (!$editing && $images[$i]['caption'] != 'Image description') { ?><?php echo $images[$i]['caption'] ?><?php } ?></div>
+			<?php } ?>
+
+			<?php if ($images[$i]['imageLinkType'] !== 'unlink') { ?>
+			</a>
+			<?php } ?>
+		</div><?php } ?>
+	</div>
+<?php } else { ?>
+	<?php if(! $editing) { ?>
+		<?php echo $l10n['no_images'] ?>
+	<?php } else { ?>
+		<?php if($cap) { ?>
+		<div class="ugallery-starting-wrapper upfront-ui upfront-initial-overlay-wrapper">
+				<div class="ugallery-starting-container upfront-initial-overlay-wrapper">
+					<span class="upfront-image-resizethiselement"><?php echo $l10n['add_img'] ?></span>
+					<div class=""><a class="upfront-image-select button" href="#" title="<?php echo $l10n['add_images'] ?>">+</a></div>
+				</div>
+		</div>
+		<?php } else { ?>
+			<?php echo $l10n['no_images'] ?>
+		<?php } ?>
+	<?php } ?>
+<?php } ?>
+</div>
+<?php if ($usingNewAppearance === false) { ?>
+<style>
+#<?php echo $element_id ?> .ugallery-thumb-title {
+	background: <?php echo  $captionBackground ?>;
+	<?php if($fitThumbCaptions[0] === 'true') { ?>
+	overflow: hidden;
+	height: <?php echo $thumbCaptionsHeight ?>px;
+	<?php } ?>
+}
+</style>
+<?php } ?>

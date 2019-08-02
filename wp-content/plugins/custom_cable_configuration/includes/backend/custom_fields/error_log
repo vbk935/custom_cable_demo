@@ -1,0 +1,276 @@
+[13-Apr-2018 16:21:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php on line 168
+[13-Apr-2018 16:21:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php:230
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php on line 230
+[13-Apr-2018 16:21:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php:223
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php on line 223
+[13-Apr-2018 16:21:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[13-Apr-2018 22:28:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[13-Apr-2018 22:32:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php:230
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php on line 230
+[13-Apr-2018 22:32:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php:223
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php on line 223
+[13-Apr-2018 22:32:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php on line 168
+[14-Apr-2018 04:51:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php:223
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php on line 223
+[14-Apr-2018 04:52:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php:230
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php on line 230
+[14-Apr-2018 04:55:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php on line 168
+[14-Apr-2018 04:55:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[14-Apr-2018 10:45:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php:223
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php on line 223
+[14-Apr-2018 10:45:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[15-Apr-2018 01:29:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php:230
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php on line 230
+[15-Apr-2018 01:30:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php:223
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php on line 223
+[15-Apr-2018 01:30:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php on line 168
+[15-Apr-2018 01:31:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[11-May-2018 17:43:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php:230
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php on line 230
+[11-May-2018 18:44:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php:223
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php on line 223
+[11-May-2018 18:47:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php on line 168
+[11-May-2018 19:49:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[12-May-2018 12:27:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php:230
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php on line 230
+[12-May-2018 13:43:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php:223
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php on line 223
+[12-May-2018 14:59:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php on line 168
+[12-May-2018 16:15:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[12-May-2018 20:02:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php:223
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php on line 223
+[12-May-2018 21:18:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php:230
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php on line 230
+[12-May-2018 22:34:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php on line 168
+[12-May-2018 23:49:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php:223
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php on line 223
+[13-May-2018 01:05:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[13-May-2018 02:21:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[13-May-2018 06:08:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[13-May-2018 07:24:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php:223
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php on line 223
+[13-May-2018 08:40:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php on line 168
+[13-May-2018 13:43:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[13-May-2018 16:15:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php on line 168
+[14-May-2018 01:42:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php:223
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php on line 223
+[14-May-2018 02:57:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[19-Jun-2018 03:12:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php:223
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php on line 223
+[19-Jun-2018 03:13:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php:230
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php on line 230
+[19-Jun-2018 03:14:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php on line 168
+[19-Jun-2018 03:15:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[19-Jun-2018 13:50:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php:230
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php on line 230
+[19-Jun-2018 17:21:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php:230
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php on line 230
+[19-Jun-2018 17:24:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[20-Jun-2018 11:15:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[20-Jun-2018 11:17:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php:230
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php on line 230
+[20-Jun-2018 11:20:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php on line 168
+[20-Jun-2018 15:20:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php on line 168
+[20-Jun-2018 18:23:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php on line 168
+[20-Jun-2018 22:42:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php:223
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php on line 223
+[21-Jun-2018 03:21:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php:223
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php on line 223
+[21-Jun-2018 05:09:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php:223
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php on line 223
+[21-Jun-2018 09:09:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[21-Jun-2018 22:18:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[22-Jun-2018 01:33:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[22-Jun-2018 04:21:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[22-Jun-2018 07:34:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[22-Jun-2018 10:24:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[22-Jun-2018 13:29:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[13-Aug-2018 13:23:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[13-Aug-2018 13:23:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275
+[13-Aug-2018 15:59:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php:223
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php on line 223
+[13-Aug-2018 15:59:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php:223
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php on line 223
+[27-Aug-2018 04:22:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php:230
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group_21Jul.php on line 230
+[27-Aug-2018 04:23:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php:223
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/group.php on line 223
+[27-Aug-2018 04:23:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php:168
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration.php on line 168
+[27-Aug-2018 04:24:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php:275
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/backend/custom_fields/configuration_21Jul.php on line 275

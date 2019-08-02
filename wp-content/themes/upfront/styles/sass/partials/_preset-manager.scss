@@ -1,0 +1,289 @@
+/* Preset manager panels in elements' settings */
+
+div.preset-manager-panel .hover_preset,
+div.preset-manager-panel .state_settings_button,
+div.preset-manager-panel .static_preset {
+	display: inline-block;
+}
+div.preset-manager-panel .state_settings {
+	padding-bottom: 10px;
+}
+div.preset-manager-panel div.preset_specific {
+	padding: 0px;
+	position: relative;
+}
+div.preset-manager-panel div.global_modules {
+	background: rgb(242, 242, 242);
+	margin: -2px -15px;
+	padding: 0px 15px;
+}
+div.preset-manager-panel div.state_settings_button_wrapper {
+	background: rgb(242, 242, 242);
+	margin: -3px -15px;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-left: 15px;
+	border-bottom: 1px solid rgb(232, 232, 232);
+}
+div.preset-manager-panel div.state_settings div.upfront-settings-item {
+	padding: 0px;
+}
+#settings div.preset-manager-panel .upfront-settings-item-content {
+	padding: 2px 15px;
+}
+div.preset-manager-panel div.preset_specific:before {
+	content: "";
+	position: absolute;
+	width: 0; 
+	top: -9px;
+	left: 30px;
+	height: 0; 
+	border-left: 9px solid transparent;
+	border-right: 9px solid transparent;
+	border-bottom: 9px solid rgb(242, 242, 242);
+}
+div.preset-manager-panel div.upfront-settings_panel_scroll {
+	padding: 0px !important;
+}
+div.preset-manager-panel div.upfront-settings_panel_scroll .upfront-settings-item {
+	padding: 0px 5px;
+}
+div.preset-manager-panel div.preset_specific div.upfront-settings-item {
+	padding-top: 0;
+}
+div.preset-manager-panel div.preset_specific div.upfront-settings-item div.upfront-settings-item-title:after {
+	display: none;
+}
+div.preset-manager-panel div.preset_specific div.upfront-settings-item div.upfront-settings-item-content {
+	margin-top: 10px;
+}
+div.preset-manager-panel div.preset_specific .upfront-settings-item-title {
+	display: none;
+}
+div.preset-manager-panel div.preset_specific .upfront-settings-item-title span {
+	background: none;
+	margin-left: 0px;
+	padding: 0px;
+	color: rgb(79, 79, 79);
+}
+div.preset-manager-panel div.preset_specific .upfront-settings-item-content .upfront-settings-item-title {
+	display: block;
+	color: rgb(166, 166, 166);
+	margin: 13px 0px;
+}
+div.preset-manager-panel div.or_divider div.upfront-settings-item-title > span {
+	display: inline-block;
+	background-color:#84a8ce;
+	height: 22px;
+	width: 24px;
+	border-radius: 50%;
+	position: relative;
+	top: -6px;
+	padding-top: 6px;
+	color:#fff;
+	text-transform: lowercase;
+}
+div.preset-manager-panel div.upfront-settings-common_panel {
+	padding-bottom: 15px;
+}
+#settings .preset_specific .upfront-settings-item-content .upfront-settings-item-content {
+	margin: 0;
+	padding: 0;
+}
+.font_settings_item .upfront-settings-item-content > div {
+	display: inline-block;
+	vertical-align: bottom;
+}
+div.preset-manager-panel .upfront-field-label-inline {
+	font-size: 11px;
+	line-height: 15px;
+	display: block;
+	font-weight: 400;
+	font-family: "Open Sans";
+	color: rgba(33, 33, 33, .8);
+	margin-bottom: 2px;
+	margin-top: 5px;
+}
+div.preset-manager-panel .upfront-toggle-wrapper .upfront-field-label-inline {
+	margin-top: 0px;
+}
+div.preset-manager-panel div.preset-separator {
+	border-bottom: 1px solid #e1edf8;
+	margin-top: 0px;
+}
+div.preset-manager-panel .color-module.two {
+	width: 45%;
+	float: left;
+	margin-bottom: 2px;
+}
+div.preset-manager-panel .color-module.single {
+	width: 100%;
+	margin-top: -3px;
+}
+div.preset-manager-panel .settings_module {
+	border-bottom: 1px solid rgb(231, 231, 231);
+}
+div.preset-manager-panel .selectbox_settings_item .upfront-field-label {
+	font-weight: normal;
+	margin-top: 10px;
+}
+div.preset-manager-panel .colors_settings_item .element-toggled.single,
+div.preset-manager-panel .colors_settings_item .element-toggled.two {
+	margin-top: 0px;
+}
+div.preset-manager-panel .colors_settings_item .element-toggled.two:nth-child(even) { 
+	clear: left;
+}
+div.preset-manager-panel .upfront-settings-item-title {
+	line-height: 16px;
+}
+
+/* Border Module */
+
+div.preset-manager-panel .borderWidth,
+div.preset-manager-panel .borderType,
+div.preset-manager-panel .borderColor {
+	display: block;
+	float: left;
+	position: relative;
+	margin-left: 15px;
+}
+
+div.preset-manager-panel .borderWidth {
+	width: 70px;
+	margin-left: 0px;
+	margin-top: -3px;
+}
+
+div.preset-manager-panel .borderWidth .upfront-field-label,
+div.preset-manager-panel .borderColor .upfront-field-label {
+	display: none;
+}
+
+div.preset-manager-panel .borderType {
+	width: 50px;
+}
+
+div.preset-manager-panel .borderType {
+	font-weight: bold !important;
+	font-size: 18px !important;
+}
+
+div.preset-manager-panel .borderColor {
+	margin-top: -2px;
+	width: 80px;
+	clear: right;
+}
+
+/* Typography module */
+
+.upfront-field-wrap-color.fontColor {
+	padding-top: 10px;
+}
+
+/* Caption location module */
+
+div.preset-manager-panel .field-caption_trigger,
+div.preset-manager-panel .field-caption-height,
+div.preset-manager-panel .caption-height-number {
+	padding-top: 10px;
+}
+
+/* Animate Hover */
+
+div.preset-manager-panel .duration {
+	display: block;
+	margin-top: -3px;
+}
+
+div.preset-manager-panel .duration label {
+	display: none;
+}
+
+/* Border Radius module */
+
+#element-settings-sidebar .upfront-radius-container .upfront-field-number[type=number] {
+	width: 65px;
+}
+#element-settings-sidebar .upfront-radius-container .upfront-field-wrap {
+	margin: 0px;
+}
+#element-settings-sidebar .upfront-radius-container .upfront-radius-container-top-left,
+#element-settings-sidebar .upfront-radius-container .upfront-radius-container-top-right,
+#element-settings-sidebar .upfront-radius-container .upfront-radius-container-bottom-left,
+#element-settings-sidebar .upfront-radius-container .upfront-radius-container-bottom-right{
+	position: relative;
+	z-index: 91;
+}
+#element-settings-sidebar .upfront-radius-container {
+	position: relative;
+}
+#element-settings-sidebar .upfront-radius-container .upfront-toggle-wrapper {
+	text-align: center;
+	padding: 0px 30px 10px 30px;
+}
+#element-settings-sidebar .upfront-radius-container .radius-lock input[type=checkbox] {
+	position: relative;
+	left: 36px;
+	top: 6px;
+}
+#element-settings-sidebar .upfront-radius-container .radius-lock input[type=checkbox]:checked {
+	float:none !important;
+	left: 38px;
+	top: 7px;
+}
+#element-settings-sidebar .upfront-radius-container .radius-lock input[type=checkbox]{
+	display: none;
+}
+#element-settings-sidebar .upfront-radius-container .radius-lock label {
+	display: block;
+	height: 25px;
+	width: 25px;
+	background-image: url('../img/uf-core-el-sprite_new.png');
+	background-image: url('../img/uf-core-el-sprite_new.svg'), none;
+	background-position: -658px -169px;
+	left: -4px;
+	top: 8px;
+	position: relative;
+	cursor: pointer;
+}
+#element-settings-sidebar .upfront-radius-container .radius-lock .upfront-field-multiple-selected label {
+	background-position: -658px -137px;
+	border-radius: 50%;
+}
+#element-settings-sidebar .upfront-radius-container .radius-lock {
+	position: absolute;
+	margin-top: 0px;
+	left: 90px;
+	top: 57px;
+	z-index: 100;
+}
+
+/* Hover animation module */
+
+#element-settings-sidebar .hover-duration {
+	margin-top: -3px;
+}
+
+/* Slider module */
+
+#element-settings-sidebar .upfront-icon-add-slide {
+	color: #1f2f3e;
+	font-size: 11px;
+	font-family: Verdana, sans-serif;
+	text-align: center;
+	width: 63px;
+	height: 37px;
+	float: left;
+	margin: 0 0 15px;
+	cursor: pointer;
+	padding-top: 6px;
+}
+
+#element-settings-sidebar .upfront-icon-add-slide:before {
+	background-image: url("../img/uf-core-el-sprite.svg");
+	background-position: -258px -128px;
+	background-color: #1691fb;
+	border-radius: 50%;
+	transform: scale(0.8);
+}

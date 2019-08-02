@@ -1,0 +1,47 @@
+[contenteditable="true"] {
+	outline: none;
+	cursor: text;
+}
+
+a[data-is-anchor="1"] {
+	display: block;
+	width: 100%;
+	height: 0;
+}
+
+.upfront-no-select {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+strike{
+    text-decoration: line-through;
+}
+em{
+    font-style: italic;
+}
+.ui-resizable-handle-hidden {
+	display: none !important;
+}
+/* --- Make text editing look better --- */
+[contenteditable=true]:focus {
+	outline: none;
+}
+
+.upfront-edit-layout .uf-click-to-edit-text {
+	cursor: url(../img/edit_txt.svg) 16 12, auto;
+}
+
+/* --- Turns Cursor to Text when Editing mode is ON --- */
+.upfront-edit-layout .upfront-module-editing .uf-click-to-edit-text, .redactor-box .uf-click-to-edit-text {
+	cursor: text;
+}
+
+/* --- Handling links when print --- */
+@media print {
+  a[href]:after {
+    content: none;
+  }
+}

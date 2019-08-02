@@ -1,0 +1,163 @@
+[12-Apr-2018 23:59:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php on line 2
+[13-Apr-2018 00:18:26 UTC] PHP Parse error:  syntax error, unexpected 'cart' (T_STRING), expecting ',' or ';' in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/frontend_configration.php on line 104
+[13-Apr-2018 00:37:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php on line 61
+[13-Apr-2018 07:33:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php on line 61
+[13-Apr-2018 07:33:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php on line 2
+[13-Apr-2018 07:34:06 UTC] PHP Parse error:  syntax error, unexpected 'cart' (T_STRING), expecting ',' or ';' in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/frontend_configration.php on line 104
+[13-Apr-2018 13:31:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php on line 2
+[13-Apr-2018 13:31:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php on line 61
+[13-Apr-2018 13:31:27 UTC] PHP Parse error:  syntax error, unexpected 'cart' (T_STRING), expecting ',' or ';' in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/frontend_configration.php on line 104
+[13-Apr-2018 19:40:36 UTC] PHP Parse error:  syntax error, unexpected 'cart' (T_STRING), expecting ',' or ';' in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/frontend_configration.php on line 104
+[13-Apr-2018 19:40:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php on line 2
+[13-Apr-2018 19:40:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php on line 61
+[14-Apr-2018 01:39:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php on line 61
+[06-May-2018 15:17:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php on line 2
+[07-May-2018 00:07:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php on line 2
+[07-May-2018 05:11:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php on line 2
+[07-May-2018 06:26:51 UTC] PHP Parse error:  syntax error, unexpected 'cart' (T_STRING), expecting ',' or ';' in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/frontend_configration.php on line 104
+[07-May-2018 14:01:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php on line 61
+[07-May-2018 15:17:21 UTC] PHP Parse error:  syntax error, unexpected 'cart' (T_STRING), expecting ',' or ';' in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/frontend_configration.php on line 104
+[07-May-2018 16:18:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php on line 61
+[07-May-2018 16:18:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php on line 2
+[07-May-2018 16:33:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php on line 2
+[08-May-2018 05:10:57 UTC] PHP Parse error:  syntax error, unexpected 'cart' (T_STRING), expecting ',' or ';' in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/frontend_configration.php on line 104
+[08-May-2018 06:26:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php on line 61
+[08-May-2018 16:33:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php on line 61
+[18-Jun-2018 14:28:50 UTC] PHP Parse error:  syntax error, unexpected 'cart' (T_STRING), expecting ',' or ';' in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/frontend_configration.php on line 104
+[18-Jun-2018 14:29:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php on line 2
+[18-Jun-2018 14:30:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields_feb19backup.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields_feb19backup.php on line 61
+[18-Jun-2018 14:30:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php on line 61
+[18-Jun-2018 20:51:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields_feb19backup.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields_feb19backup.php on line 61
+[18-Jun-2018 20:51:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php on line 2
+[18-Jun-2018 20:51:25 UTC] PHP Parse error:  syntax error, unexpected 'cart' (T_STRING), expecting ',' or ';' in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/frontend_configration.php on line 104
+[19-Jun-2018 02:14:14 UTC] PHP Parse error:  syntax error, unexpected 'cart' (T_STRING), expecting ',' or ';' in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/frontend_configration.php on line 104
+[19-Jun-2018 02:14:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields_feb19backup.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields_feb19backup.php on line 61
+[19-Jun-2018 02:14:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php on line 2
+[19-Jun-2018 05:43:26 UTC] PHP Parse error:  syntax error, unexpected 'cart' (T_STRING), expecting ',' or ';' in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/frontend_configration.php on line 104
+[19-Jun-2018 05:44:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php on line 2
+[19-Jun-2018 05:44:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields_feb19backup.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields_feb19backup.php on line 61
+[19-Jun-2018 09:19:05 UTC] PHP Parse error:  syntax error, unexpected 'cart' (T_STRING), expecting ',' or ';' in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/frontend_configration.php on line 104
+[19-Jun-2018 09:19:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields_feb19backup.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields_feb19backup.php on line 61
+[19-Jun-2018 09:25:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields_feb19backup.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields_feb19backup.php on line 61
+[19-Jun-2018 13:50:14 UTC] PHP Parse error:  syntax error, unexpected 'cart' (T_STRING), expecting ',' or ';' in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/frontend_configration.php on line 104
+[20-Jun-2018 22:41:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php on line 59
+[20-Jun-2018 22:42:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php on line 59
+[20-Jun-2018 22:44:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php on line 59
+[21-Jun-2018 03:21:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php on line 59
+[25-Aug-2018 17:43:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php on line 59
+[25-Aug-2018 17:43:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php on line 2
+[25-Aug-2018 17:43:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/custom_taxonomy_woo.php on line 2
+[25-Aug-2018 17:44:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/woocommerce_extra_fields.php on line 59
+[25-Aug-2018 17:44:46 UTC] PHP Parse error:  syntax error, unexpected 'cart' (T_STRING), expecting ',' or ';' in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/frontend_configration.php on line 104
+[25-Aug-2018 17:45:52 UTC] PHP Parse error:  syntax error, unexpected 'cart' (T_STRING), expecting ',' or ';' in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/frontend_configration.php on line 104

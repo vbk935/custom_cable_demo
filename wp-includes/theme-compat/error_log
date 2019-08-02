@@ -1,0 +1,1704 @@
+[07-Mar-2018 20:10:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[07-Mar-2018 21:11:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[07-Mar-2018 22:12:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[07-Mar-2018 22:31:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[08-Mar-2018 01:01:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[08-Mar-2018 05:10:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[08-Mar-2018 11:37:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[08-Mar-2018 14:48:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[08-Mar-2018 17:20:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[08-Mar-2018 19:49:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[08-Mar-2018 20:50:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[08-Mar-2018 21:50:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[09-Mar-2018 00:16:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[09-Mar-2018 04:57:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[09-Mar-2018 05:57:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[09-Mar-2018 13:13:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[09-Mar-2018 14:16:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[11-Mar-2018 11:59:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Mar-2018 06:20:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Mar-2018 11:25:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Mar-2018 13:15:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Mar-2018 14:16:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Mar-2018 15:17:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Mar-2018 16:17:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Mar-2018 17:18:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Mar-2018 18:27:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Mar-2018 20:04:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Mar-2018 21:33:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Mar-2018 21:44:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[13-Mar-2018 16:58:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[14-Mar-2018 05:23:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[14-Mar-2018 06:24:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[14-Mar-2018 07:37:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[14-Mar-2018 11:19:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[14-Mar-2018 13:39:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[14-Mar-2018 15:17:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[14-Mar-2018 16:18:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[14-Mar-2018 17:18:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[14-Mar-2018 18:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[14-Mar-2018 19:20:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[14-Mar-2018 20:20:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[14-Mar-2018 21:28:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[15-Mar-2018 01:01:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[15-Mar-2018 05:02:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[15-Mar-2018 06:02:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[15-Mar-2018 07:02:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[15-Mar-2018 08:29:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[15-Mar-2018 11:25:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[15-Mar-2018 12:27:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[15-Mar-2018 13:27:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[15-Mar-2018 14:27:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[15-Mar-2018 15:29:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[15-Mar-2018 16:29:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[15-Mar-2018 18:38:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[15-Mar-2018 19:38:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[15-Mar-2018 20:38:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[15-Mar-2018 21:48:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[16-Mar-2018 01:02:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[16-Mar-2018 04:46:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[16-Mar-2018 12:00:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[16-Mar-2018 13:02:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[16-Mar-2018 14:12:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[16-Mar-2018 15:13:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[16-Mar-2018 16:14:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[16-Mar-2018 18:35:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[16-Mar-2018 19:35:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[16-Mar-2018 20:35:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[16-Mar-2018 21:35:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[17-Mar-2018 13:04:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Mar-2018 09:01:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Mar-2018 12:37:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Mar-2018 13:37:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Mar-2018 14:38:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Mar-2018 15:38:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Mar-2018 16:38:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Mar-2018 17:39:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Mar-2018 17:39:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Mar-2018 18:39:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Mar-2018 19:40:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Mar-2018 20:41:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Mar-2018 21:42:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Mar-2018 22:54:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Mar-2018 04:50:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Mar-2018 12:47:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Mar-2018 13:47:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Mar-2018 14:48:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Mar-2018 15:48:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Mar-2018 16:49:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Mar-2018 17:49:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Mar-2018 18:49:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Mar-2018 19:50:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Mar-2018 20:50:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Mar-2018 21:51:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Mar-2018 21:58:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Mar-2018 21:58:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Mar-2018 21:58:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Mar-2018 21:58:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Mar-2018 21:58:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Mar-2018 21:58:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Mar-2018 21:58:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Mar-2018 21:58:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[21-Mar-2018 12:43:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[21-Mar-2018 13:43:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[21-Mar-2018 13:43:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[21-Mar-2018 14:43:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[21-Mar-2018 15:44:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[21-Mar-2018 16:44:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[21-Mar-2018 17:45:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[21-Mar-2018 18:45:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[21-Mar-2018 19:46:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[21-Mar-2018 21:15:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[21-Mar-2018 22:19:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Mar-2018 01:01:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Mar-2018 10:18:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Mar-2018 11:31:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Mar-2018 13:57:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Mar-2018 14:57:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Mar-2018 15:58:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Mar-2018 16:58:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Mar-2018 17:58:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Mar-2018 19:13:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Mar-2018 20:57:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Mar-2018 21:58:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Mar-2018 04:43:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Mar-2018 06:01:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Mar-2018 08:17:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Mar-2018 12:45:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Mar-2018 13:46:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Mar-2018 14:52:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Mar-2018 16:00:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Mar-2018 17:37:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Mar-2018 18:37:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Mar-2018 19:48:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Mar-2018 21:54:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[25-Mar-2018 23:04:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[26-Mar-2018 05:09:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[26-Mar-2018 06:10:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[26-Mar-2018 07:10:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[26-Mar-2018 11:16:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[26-Mar-2018 12:51:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[26-Mar-2018 13:52:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[26-Mar-2018 15:14:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[26-Mar-2018 16:15:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[26-Mar-2018 17:15:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[26-Mar-2018 18:15:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[26-Mar-2018 19:16:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[26-Mar-2018 20:21:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[26-Mar-2018 21:22:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[26-Mar-2018 23:18:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[27-Mar-2018 10:03:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[27-Mar-2018 11:15:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[27-Mar-2018 13:14:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[27-Mar-2018 14:15:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[27-Mar-2018 15:49:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[27-Mar-2018 18:07:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[27-Mar-2018 20:08:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[27-Mar-2018 21:09:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[27-Mar-2018 22:09:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[28-Mar-2018 04:38:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[28-Mar-2018 05:50:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[28-Mar-2018 07:18:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[28-Mar-2018 08:20:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[28-Mar-2018 09:43:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[28-Mar-2018 11:09:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[28-Mar-2018 13:00:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[28-Mar-2018 14:28:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[28-Mar-2018 16:20:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[28-Mar-2018 17:20:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[28-Mar-2018 19:41:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[28-Mar-2018 20:43:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[28-Mar-2018 21:44:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[28-Mar-2018 23:51:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[29-Mar-2018 01:01:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[29-Mar-2018 05:30:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[29-Mar-2018 07:37:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[29-Mar-2018 09:31:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[29-Mar-2018 10:31:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[29-Mar-2018 11:32:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[29-Mar-2018 12:33:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[29-Mar-2018 13:37:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[29-Mar-2018 14:42:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[29-Mar-2018 15:43:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[29-Mar-2018 16:44:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[29-Mar-2018 17:46:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[29-Mar-2018 18:48:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[29-Mar-2018 19:49:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[29-Mar-2018 20:50:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[29-Mar-2018 21:51:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[30-Mar-2018 04:16:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[30-Mar-2018 05:20:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[30-Mar-2018 06:20:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[30-Mar-2018 07:22:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[30-Mar-2018 08:23:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[30-Mar-2018 09:53:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[30-Mar-2018 11:00:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[30-Mar-2018 12:42:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[30-Mar-2018 13:53:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[30-Mar-2018 17:34:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[30-Mar-2018 18:39:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[30-Mar-2018 20:07:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[30-Mar-2018 22:03:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[31-Mar-2018 02:47:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[02-Apr-2018 02:06:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[02-Apr-2018 04:42:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[02-Apr-2018 05:53:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[02-Apr-2018 10:13:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[02-Apr-2018 12:43:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[02-Apr-2018 14:05:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[02-Apr-2018 15:06:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[02-Apr-2018 16:06:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[02-Apr-2018 17:35:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[02-Apr-2018 18:37:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[02-Apr-2018 20:55:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[02-Apr-2018 22:00:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[03-Apr-2018 05:08:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[03-Apr-2018 06:31:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[03-Apr-2018 13:01:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[03-Apr-2018 14:02:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[03-Apr-2018 15:15:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[03-Apr-2018 19:30:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[04-Apr-2018 01:42:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[04-Apr-2018 08:10:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[04-Apr-2018 13:48:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[04-Apr-2018 15:22:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[04-Apr-2018 16:25:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[04-Apr-2018 19:08:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[05-Apr-2018 01:01:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[05-Apr-2018 14:22:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[05-Apr-2018 15:48:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[05-Apr-2018 18:47:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[05-Apr-2018 20:54:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[06-Apr-2018 13:41:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[06-Apr-2018 14:41:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[06-Apr-2018 15:45:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[06-Apr-2018 16:46:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[06-Apr-2018 17:46:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[06-Apr-2018 18:52:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[06-Apr-2018 20:13:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[06-Apr-2018 21:26:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[08-Apr-2018 07:54:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[09-Apr-2018 09:00:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[09-Apr-2018 17:02:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[09-Apr-2018 18:19:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[09-Apr-2018 20:57:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[10-Apr-2018 00:43:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[10-Apr-2018 09:44:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[10-Apr-2018 14:04:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[10-Apr-2018 15:05:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[10-Apr-2018 16:06:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[10-Apr-2018 18:05:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[10-Apr-2018 19:19:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[10-Apr-2018 20:19:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[10-Apr-2018 22:00:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[11-Apr-2018 09:55:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[11-Apr-2018 14:30:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[11-Apr-2018 15:32:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[11-Apr-2018 16:32:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[11-Apr-2018 17:32:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[11-Apr-2018 18:33:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[11-Apr-2018 19:33:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[11-Apr-2018 21:02:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[11-Apr-2018 22:05:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[11-Apr-2018 23:09:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Apr-2018 01:01:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Apr-2018 04:06:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Apr-2018 06:39:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Apr-2018 11:38:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Apr-2018 13:48:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Apr-2018 14:48:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Apr-2018 15:49:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Apr-2018 16:50:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Apr-2018 17:50:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Apr-2018 18:51:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Apr-2018 19:51:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Apr-2018 20:51:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Apr-2018 21:52:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Apr-2018 22:54:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[12-Apr-2018 23:55:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[13-Apr-2018 00:55:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[13-Apr-2018 01:56:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[13-Apr-2018 02:56:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[13-Apr-2018 03:56:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[13-Apr-2018 04:56:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[13-Apr-2018 05:57:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[13-Apr-2018 06:57:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[13-Apr-2018 07:57:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[13-Apr-2018 08:58:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[13-Apr-2018 09:58:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[13-Apr-2018 10:58:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[13-Apr-2018 11:59:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[13-Apr-2018 12:59:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[13-Apr-2018 13:59:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[13-Apr-2018 16:16:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[13-Apr-2018 22:10:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[14-Apr-2018 06:11:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[14-Apr-2018 10:19:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[14-Apr-2018 13:42:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[14-Apr-2018 16:56:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[14-Apr-2018 20:30:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[14-Apr-2018 21:51:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[14-Apr-2018 23:28:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[15-Apr-2018 02:21:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[15-Apr-2018 04:32:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[15-Apr-2018 05:51:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[15-Apr-2018 07:13:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[16-Apr-2018 07:49:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[16-Apr-2018 11:04:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[16-Apr-2018 15:52:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[16-Apr-2018 23:11:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[17-Apr-2018 00:31:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[17-Apr-2018 02:41:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[17-Apr-2018 05:46:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[17-Apr-2018 07:13:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[17-Apr-2018 11:57:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[17-Apr-2018 12:58:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[17-Apr-2018 17:12:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[17-Apr-2018 18:26:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[17-Apr-2018 19:43:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[17-Apr-2018 20:44:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[17-Apr-2018 21:45:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[17-Apr-2018 22:46:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[17-Apr-2018 23:58:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[18-Apr-2018 01:05:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[18-Apr-2018 02:21:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[18-Apr-2018 03:37:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[18-Apr-2018 05:18:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[18-Apr-2018 06:30:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[18-Apr-2018 08:41:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[18-Apr-2018 11:09:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[18-Apr-2018 12:10:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[18-Apr-2018 13:18:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[18-Apr-2018 14:22:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[18-Apr-2018 15:24:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[18-Apr-2018 16:25:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[18-Apr-2018 18:30:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[18-Apr-2018 20:38:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[18-Apr-2018 21:39:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Apr-2018 03:44:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Apr-2018 04:58:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Apr-2018 08:18:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Apr-2018 09:18:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Apr-2018 10:26:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Apr-2018 11:42:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Apr-2018 12:52:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Apr-2018 13:58:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Apr-2018 14:58:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Apr-2018 16:08:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Apr-2018 17:22:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Apr-2018 18:23:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Apr-2018 19:25:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Apr-2018 20:26:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Apr-2018 21:27:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[19-Apr-2018 22:27:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Apr-2018 00:29:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Apr-2018 01:36:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Apr-2018 02:44:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Apr-2018 03:45:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Apr-2018 04:51:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Apr-2018 06:02:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Apr-2018 07:05:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Apr-2018 08:14:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Apr-2018 09:14:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Apr-2018 10:15:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Apr-2018 11:15:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Apr-2018 12:16:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Apr-2018 13:16:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Apr-2018 14:17:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Apr-2018 15:17:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Apr-2018 16:18:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Apr-2018 17:18:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Apr-2018 18:19:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Apr-2018 19:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Apr-2018 20:20:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Apr-2018 21:20:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[20-Apr-2018 22:22:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[21-Apr-2018 00:04:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[21-Apr-2018 12:15:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[21-Apr-2018 14:46:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[21-Apr-2018 22:26:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Apr-2018 02:01:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Apr-2018 03:02:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Apr-2018 04:24:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Apr-2018 06:46:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Apr-2018 07:49:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Apr-2018 08:50:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Apr-2018 09:50:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Apr-2018 10:51:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Apr-2018 11:52:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Apr-2018 12:56:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Apr-2018 13:56:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Apr-2018 14:57:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Apr-2018 15:57:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Apr-2018 16:59:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Apr-2018 19:09:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Apr-2018 20:21:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Apr-2018 22:12:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[22-Apr-2018 23:18:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Apr-2018 01:24:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Apr-2018 02:51:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Apr-2018 03:51:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Apr-2018 06:19:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Apr-2018 08:20:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Apr-2018 09:52:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Apr-2018 12:56:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Apr-2018 13:56:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Apr-2018 14:57:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Apr-2018 15:58:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Apr-2018 17:29:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Apr-2018 18:29:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Apr-2018 19:29:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Apr-2018 20:31:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[23-Apr-2018 21:47:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[24-Apr-2018 04:26:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[24-Apr-2018 05:44:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[24-Apr-2018 06:46:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[24-Apr-2018 07:47:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[24-Apr-2018 08:48:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[24-Apr-2018 09:49:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[24-Apr-2018 10:50:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[24-Apr-2018 11:51:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[24-Apr-2018 12:51:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[24-Apr-2018 13:52:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[24-Apr-2018 15:18:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[24-Apr-2018 16:20:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[24-Apr-2018 17:21:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13
+[24-Apr-2018 18:22:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/theme-compat/embed.php on line 13

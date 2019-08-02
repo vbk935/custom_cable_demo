@@ -1,0 +1,64 @@
+#pippin_login_form.pippin_form label { display: block; float: none; width: 100%; font-weight:bold; }
+#pippin_login_form.pippin_form input[type="text"], #pippin_login_form.pippin_form input[type="password"],
+#pippin_login_form.pippin_form input[type="email"], #pippin_login_form.pippin_form select {
+	padding: 4px 8px;
+	border: 1px solid #ccc;
+	width:100%;
+}
+h3.registered-user {
+  color: #00627f;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 0;
+  text-align: center;
+}
+.pippin_form label { display: block; float: left; width: 40%; font-weight:bold; }
+.pippin_form input[type="text"], .pippin_form input[type="password"],
+.pippin_form input[type="email"], .pippin_form select {
+	padding: 4px 8px;
+	border: 1px solid #ccc;
+	width:60%;
+}
+.pippin_form input[type="text"]:focus, .pippin_form input[type="password"]:focus,
+.pippin_form input[type="email"]:focus, .pippin_form select:focus {
+	border-color: #aaa;
+}
+.forget {
+    color: #1f6a81;
+    font-weight: 600;
+    text-align: center;
+}
+.forget a{font-size:13px;}
+.pippin_errors { padding: 8px; border: 1px solid #f50; margin: 0 0 15px; }
+
+#pippin_registration_form label strong {
+    color: #ff0000;
+}
+a.add_field_button {
+    cursor: pointer;
+    font-size: 12px;
+    margin: 10px 53%;
+}
+.stu-login .forget {
+    float: right;
+    text-align: left;
+    width: 100%;
+}
+.create-account {
+    color: #1f6a81;
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+	margin-bottom: 50px;
+}
+.imp-note {
+    color: #ff0000;
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 10px 48%;
+    width: 100%;
+}

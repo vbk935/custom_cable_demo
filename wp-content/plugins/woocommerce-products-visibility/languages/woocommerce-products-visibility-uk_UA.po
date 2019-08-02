@@ -1,0 +1,204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Products Visibility\n"
+"POT-Creation-Date: 2017-03-07 15:39+0200\n"
+"PO-Revision-Date: 2017-03-07 15:43+0200\n"
+"Last-Translator: Roman <roman@rockspired.com>\n"
+"Language-Team: Codemine <codeminelab@gmail.com>\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-products-visibility.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-wcpv-backend-reset-settings.php:20
+#: includes/class-wcpv-backend.php:117
+#: includes/class-wcpv-cancel_hide_visible.php:21
+#: includes/class-wcpv-cancel_hide_visible.php:71
+msgid "Guest"
+msgstr "Гість"
+
+#: includes/class-wcpv-backend-reset-settings.php:21
+msgid "Default"
+msgstr "По замовчуванню"
+
+#: includes/class-wcpv-backend.php:48
+msgid "Are you sure you want to delete all rules?"
+msgstr "Ви впевнені, що бажаєте видалити всі правила?"
+
+#: includes/class-wcpv-backend.php:53 includes/class-wcpv-backend.php:68
+#: includes/class-wcpv-renderers.php:155
+msgid "Products Visibility"
+msgstr "Видимість товарів"
+
+#: includes/class-wcpv-backend.php:115
+#: includes/class-wcpv-cancel_hide_visible.php:20
+#: includes/class-wcpv-cancel_hide_visible.php:70
+msgid "Default Logged User"
+msgstr "Користувач, авторизований за замовчуванням"
+
+#: includes/class-wcpv-backend.php:134
+msgid "Multiple User Roles Compatibility"
+msgstr "Сумісність з мультиролями користувача"
+
+#: includes/class-wcpv-backend.php:143
+msgid "Priority"
+msgstr "Пріоритет"
+
+#: includes/class-wcpv-backend.php:145
+msgid "Top Priority"
+msgstr "Найвищий пріоритет"
+
+#: includes/class-wcpv-backend.php:151
+msgid "Role Priority"
+msgstr "Пріоритет ролі"
+
+#: includes/class-wcpv-backend.php:153
+msgid "Products"
+msgstr "Товари"
+
+#: includes/class-wcpv-backend.php:154
+msgid "Show / Hide Product(s)"
+msgstr "Показати / Приховати товар(и)"
+
+#: includes/class-wcpv-backend.php:155
+msgid "Select Product(s)"
+msgstr "Виберіть товар(и)"
+
+#: includes/class-wcpv-backend.php:155 includes/class-wcpv-backend.php:158
+#: includes/class-wcpv-backend.php:161
+msgid "Rule priority"
+msgstr "Пріоритет правила"
+
+#: includes/class-wcpv-backend.php:156
+msgid "Tags"
+msgstr "Теги"
+
+#: includes/class-wcpv-backend.php:157
+msgid "Show / Hide Tags"
+msgstr "Показати / Приховати теги"
+
+#: includes/class-wcpv-backend.php:158
+msgid "Select Tags"
+msgstr "Виберіть теги"
+
+#: includes/class-wcpv-backend.php:159
+msgid "Categories"
+msgstr "Категорії"
+
+#: includes/class-wcpv-backend.php:160
+msgid "Show / Hide Categories"
+msgstr "Показати / Приховати категорії"
+
+#: includes/class-wcpv-backend.php:161
+msgid "Select Categories"
+msgstr "Виберіть категорії"
+
+#: includes/class-wcpv-dependencies.php:30
+#, php-format
+msgid ""
+"WooCommerce Products Visibility is enabled but not effective. It is not "
+"compatible with  <a href=\"%s\" target=\"_blank\">Woocommerce</a> versions "
+"prior %s."
+msgstr ""
+"WooCommerce Видимість товарів включений, але не працює. Плагін не сумісний з "
+"версіями <a href=\"%s\" target=\"_blank\">Woocommerce</a> до %s."
+
+#: includes/class-wcpv-dependencies.php:44
+msgid "and"
+msgstr "та"
+
+#: includes/class-wcpv-dependencies.php:52
+#, php-format
+msgid ""
+"WooCommerce Products Visibility is enabled but not effective. It requires %s "
+"in order to work."
+msgstr ""
+"WooCommerce Видимість товарів включений, але не працює. Для правильної "
+"роботи потрібно: %s "
+
+#: includes/class-wcpv-renderers.php:49
+#, php-format
+msgid "Role: %s"
+msgstr "Роль: %s"
+
+#: includes/class-wcpv-renderers.php:60
+msgid ""
+"Priority used to calculate product visibility. Smaller numbers get their "
+"rules applied first."
+msgstr ""
+"Пріоритет використовується для прорахування правил відображення товарів. "
+"Правила с меншими числами застосовуються найпершими."
+
+#: includes/class-wcpv-renderers.php:85 includes/class-wcpv-renderers.php:88
+msgid "Show"
+msgstr "Показати"
+
+#: includes/class-wcpv-renderers.php:86 includes/class-wcpv-renderers.php:89
+msgid "Hide"
+msgstr "Приховати"
+
+#: includes/class-wcpv-renderers.php:90
+msgid "Cancel hide"
+msgstr "Скасувати приховування"
+
+#: includes/class-wcpv-renderers.php:143
+msgid "Reset"
+msgstr "Скинути"
+
+#: includes/class-wcpv-renderers.php:157
+msgid "Toggle row visibility"
+msgstr "Переключити видимість рядів"
+
+#: includes/class-wcpv-renderers.php:168
+msgid "Rule Active"
+msgstr "Правило активне"
+
+#: includes/class-wcpv-renderers.php:219
+msgid "Disable"
+msgstr "Відключити"
+
+#: includes/class-wcpv-renderers.php:220
+msgid "Enable"
+msgstr "Активувати"
+
+#: includes/class-wcpv-renderers.php:229
+msgid "Enable only if you have multiple roles per user"
+msgstr ""
+"Ввімкніть тільки у тому випадку, коли у вас є кілька ролей у користувача."
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Products Visibility"
+msgstr "WooCommerce Видимість товарів"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/codemine"
+msgstr "https://themeforest.net/user/codemine"
+
+#. Description of the plugin/theme
+msgid "Hide or show products for each user role"
+msgstr "Відображення / приховування товарів залежно від ролі користувача."
+
+#. Author of the plugin/theme
+msgid "codemine"
+msgstr "codemine"
+
+#~ msgid "Rule priority: 1"
+#~ msgstr "Пріоритет правила: 1"
+
+#~ msgid "Rule priority: 2"
+#~ msgstr "Пріоритет правила: 2"
+
+#~ msgid "Rule priority: 3"
+#~ msgstr "Пріоритет правила: 3"

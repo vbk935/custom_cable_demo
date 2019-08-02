@@ -1,0 +1,33 @@
+2019-07-30T05:49:53+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\wamp\www\custom_cable_demo_bacup_full\wp-content\themes\customcable\functions\admin-sea-spider.php on line 44
+
+2019-07-30T12:17:28+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\wamp\www\customcable-demo\wp-content\themes\customcable\functions\admin-sea-spider.php on line 44
+
+2019-07-30T12:18:35+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\wamp\www\customcable-demo\wp-content\themes\customcable\functions\admin-sea-spider.php on line 44
+
+2019-07-30T12:18:44+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\wamp\www\customcable-demo\wp-content\themes\customcable\functions\admin-sea-spider.php on line 44
+
+2019-07-30T12:36:12+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\wamp\www\customcable-demo\wp-content\themes\customcable\functions\admin-sea-spider.php on line 44
+
+2019-07-30T12:46:39+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\wamp\www\customcable-demo\wp-content\themes\customcable\functions\admin-sea-spider.php on line 44
+
+2019-07-30T12:50:17+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\wamp\www\customcable-demo\wp-content\themes\customcable\functions\admin-sea-spider.php on line 44
+
+2019-07-30T12:56:01+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\wamp\www\custom_cable_demo_bacup_full\wp-content\themes\customcable\functions\admin-sea-spider.php on line 44
+
+2019-07-30T12:57:39+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\wamp\www\custom_cable_demo_bacup_full\wp-content\themes\customcable\functions\admin-sea-spider.php on line 44
+
+2019-07-30T12:58:19+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\wamp\www\custom_cable_demo_bacup_full\wp-content\themes\customcable\functions\admin-sea-spider.php on line 44
+
+2019-07-30T12:59:31+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\wamp\www\custom_cable_demo_bacup_full\wp-content\themes\customcable\functions\admin-sea-spider.php on line 44
+
+2019-07-30T13:24:52+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\wamp\www\custom_cable_demo_bacup_full\wp-content\plugins\custom_cable_configuration\includes\woocommerce_extra_fields.php:847
+Stack trace:
+#0 C:\wamp\www\custom_cable_demo_bacup_full\wp-includes\class-wp-hook.php(286): bbloomer_add_product_to_cart('')
+#1 C:\wamp\www\custom_cable_demo_bacup_full\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp\www\custom_cable_demo_bacup_full\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\wamp\www\custom_cable_demo_bacup_full\wp-includes\template-loader.php(13): do_action('template_redire...')
+#4 C:\wamp\www\custom_cable_demo_bacup_full\wp-blog-header.php(19): require_once('C:\\wamp\\www\\cus...')
+#5 C:\wamp\www\custom_cable_demo_bacup_full\index.php(17): require('C:\\wamp\\www\\cus...')
+#6 {main}
+  thrown in C:\wamp\www\custom_cable_demo_bacup_full\wp-content\plugins\custom_cable_configuration\includes\woocommerce_extra_fields.php on line 847
+

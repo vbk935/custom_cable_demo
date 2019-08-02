@@ -1,0 +1,47 @@
+.ueditor-row{
+    display: block;
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.ueditor-insert-variant{
+    display: block;
+    padding:0;
+    clear: both;
+    max-width: none;
+}
+
+.editing-overlay{
+  height: 100%;
+  width: 1000%;
+  background: transparent;
+  position: fixed;
+  z-index: 5;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.upfront-module.editing-content,
+.upfront-module.editing-content:hover{
+//  background: #fff;
+  z-index: 9999;
+  border: none;
+}
+.upfront-module.editing-content .upfront-entity_meta,
+.upfront-module.editing-content:hover .upfront-entity_meta{
+  display: none;
+}
+.ueditor-display-block{
+  display: block !important;
+}
+.redactor-dropdown .ulinkpanel-dark .upfront-field-multiple label,
+.redactor-dropdown .ulinkpanel .upfront-field-multiple label,
+.redactor-dropdown .ulinkpanel-dark .upfront-field-wrap-radios > label,
+.redactor-dropdown .ulinkpanel-dark .upfront-field-wrap-radios > .upfront-field-multiple,
+.redactor-dropdown .ulinkpanel .upfront-field-wrap-radios > label,
+.redactor-dropdown .ulinkpanel .upfront-field-wrap-radios > .upfront-field-multiple{
+    color:#cbe5ff;
+}

@@ -1,0 +1,13 @@
+
+.product-table-settings input,
+.product-table-settings select {
+	vertical-align: middle !important;
+}
+.product-table-settings td span.description {
+	margin-left: 3px;
+}
+.product-table-settings a .dashicons-external {
+	font-size: 15px;
+	text-decoration: none;
+	vertical-align: middle;
+}

@@ -1,0 +1,346 @@
+.upcp-welcome-clear {
+	clear: both;
+}
+
+.upcp-welcome-screen-header h1 {
+	padding: 48px 0 16px 0;
+	margin: 0;
+}
+.upcp-welcome-screen-header p {
+	margin-bottom: 32px;
+	font-size: 15px;
+}
+.upcp-welcome-screen h2 {
+	background: #6700B2;
+	color: #fff;
+	padding: 18px;
+	margin: 0;
+	z-index: 2;
+	position: relative;
+	float: left;
+	width: calc(100% - 36px);
+	border-top: 1px solid #854DD6;
+}
+.upcp-welcome-screen h2:hover {
+	background: #682CBF;
+}
+
+.upcp-welcome-screen-box .upcp-welcome-screen-box-content {
+	display: none;
+} 
+
+.upcp-welcome-screen-box.upcp-welcome-screen-open .upcp-welcome-screen-box-content {
+	display: block;
+}
+
+.upcp-welcome-screen-box {
+    padding: 0px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.upcp-welcome-screen-header,
+.upcp-welcome-screen-skip-container {
+	max-width: 800px;
+    margin: 0 auto;
+}
+
+.upcp-welcome-screen-header {
+	text-align: center;
+}
+
+.upcp-welcome-screen-box h2 {
+	cursor: pointer;
+}
+
+.upcp-welcome-screen-box-content {
+	position: relative;
+	float: left;
+	background: #fff;
+	width: 90%;
+    margin: 0 auto 16px;
+    box-shadow: 0 1px 12px #ddd;
+    display: block;
+    padding: 18px 5%;	
+}
+
+.upcp-welcome-screen-add-category-button,
+.upcp-welcome-screen-add-catalogue-button,
+.upcp-welcome-screen-add-shop-button,
+.upcp-welcome-screen-save-options-button,
+.upcp-welcome-screen-add-product-button {
+	position: relative; 
+	float: left;
+	cursor: pointer;
+	padding: 4px 8px;
+	border: 2px solid #0acbaa;
+	color: #fff;
+	border-radius: 2px;
+	background: #0acbaa;
+	width: auto;
+	text-align: center;
+	margin-top: 12px;
+}
+.upcp-welcome-screen-add-category-button:hover,
+.upcp-welcome-screen-add-catalogue-button:hover,
+.upcp-welcome-screen-add-shop-button:hover,
+.upcp-welcome-screen-save-options-button:hover,
+.upcp-welcome-screen-add-product-button:hover {
+	border-color: #17d6b3;
+	background: #17d6b3;
+}
+
+.upcp-welcome-screen-next-button, 
+.upcp-welcome-screen-previous-button,
+.upcp-welcome-screen-finish-button a {
+	position: relative; 
+	float: right;
+	cursor: pointer;
+	padding: 4px 8px;
+	border: 2px solid #6700B2;
+	color: #6700B2;
+	border-radius: 2px;
+	background: transparent;
+	width: auto;
+	text-align: center;
+	margin-top: 32px;
+	text-decoration: none;
+}
+.upcp-welcome-screen-next-button:hover, 
+.upcp-welcome-screen-previous-button:hover,
+.upcp-welcome-screen-finish-button a:hover {
+	color: #fff;
+	background: #6700B2;
+	text-decoration: none;
+}
+.upcp-welcome-screen-next-button-not-top-margin {
+	margin-top: 12px;
+}
+.upcp-welcome-screen-previous-button {
+	float: left;
+}
+
+.upcp-welcome-screen-skip-button {
+	position: relative; 
+	float: right;
+	cursor: pointer;
+	padding: 4px 8px;
+	border: 2px solid #ccc;
+	color: #999;
+	border-radius: 2px;
+	background: transparent;
+	width: auto;
+	text-align: center;
+	margin-top: 12px;
+}
+.upcp-welcome-screen-skip-button:hover {
+	border-color: #aaa;
+	color: #fff;
+	background: #aaa;
+}
+
+.upcp-welcome-screen-box-content label {
+	width: 160px;
+	position: relative;
+	float: left;
+	font-weight: bold;
+}
+.upcp-welcome-screen-option label {
+	width: auto;
+	float: none;
+	font-weight: normal;
+}
+.upcp-welcome-screen-box-content input {
+	margin: 0;
+}
+.upcp-welcome-screen-box-content-divs {
+	margin-bottom: 8px;
+}
+
+
+.upcp-welcome-screen-show-created-categories {
+	display: none;
+}
+
+.upcp-welcome-screen-show-created-categories-name {
+	position: relative;
+	float: left;
+	width: 40%;
+	width: calc(40% - 2px);
+	padding: 9px 5%;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	font-size: 15px;
+	font-weight: bold;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.upcp-welcome-screen-show-created-categories-description {
+	position: relative;
+	float: right;
+	width: 40%;
+	width: calc(40% - 1px);
+	border-right: 1px solid #ccc;
+	padding: 9px 5%;
+	font-size: 15px;
+	font-weight: bold;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.upcp-welcome-screen-category-name {
+	position: relative;
+	float: left;
+	width: 40%;
+	width: calc(40% - 2px);
+	padding: 7px 5%;
+	height: 18px;
+	overflow: hidden;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.upcp-welcome-screen-category-description {
+	position: relative;
+	float: right;
+	width: 40%;
+	width: calc(40% - 1px);
+	padding: 7px 5%;
+	height: 18px;
+	overflow: hidden;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.upcp-welcome-screen-show-created-products {
+	display: none;
+}
+
+.upcp-welcome-screen-show-created-products-image {
+	position: relative;
+	float: left;
+	width: 20%;
+	width: calc(20% - 2px);
+	padding: 9px 2.5%;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	font-size: 15px;
+	font-weight: bold;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.upcp-welcome-screen-show-created-products-name {
+	position: relative;
+	float: left;
+	width: 20%;
+	width: calc(20% - 1px);
+	border-right: 1px solid #ccc;
+	padding: 9px 2.5%;
+	font-size: 15px;
+	font-weight: bold;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.upcp-welcome-screen-show-created-products-description {
+	position: relative;
+	float: left;
+	width: 20%;
+	width: calc(20% - 1px);
+	border-right: 1px solid #ccc;
+	padding: 9px 2.5%;
+	font-size: 15px;
+	font-weight: bold;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.upcp-welcome-screen-show-created-products-price {
+	position: relative;
+	float: left;
+	width: 20%;
+	width: calc(20% - 1px);
+	border-right: 1px solid #ccc;
+	padding: 9px 2.5%;
+	font-size: 15px;
+	font-weight: bold;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.upcp-welcome-screen-product-image {
+	position: relative;
+	float: left;
+	width: 20%;
+	width: calc(20% - 2px);
+	padding: 7px 2.5%;
+	height: 100px;
+	overflow: hidden;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.upcp-welcome-screen-product-image img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+.upcp-welcome-screen-product-name {
+	position: relative;
+	float: left;
+	width: 20%;
+	width: calc(20% - 1px);
+	padding: 7px 2.5%;
+	height: 100px;
+	overflow: hidden;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.upcp-welcome-screen-product-description {
+	position: relative;
+	float: left;
+	width: 20%;
+	width: calc(20% - 1px);
+	padding: 7px 2.5%;
+	height: 100px;
+	overflow: hidden;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.upcp-welcome-screen-product-price {
+	position: relative;
+	float: left;
+	width: 20%;
+	width: calc(20% - 1px);
+	padding: 7px 2.5%;
+	height: 100px;
+	overflow: hidden;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.upcp-welcome-screen-add-catalogue-categories h3 {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.upcp-save-message {
+	clear: both;
+	position: relative;
+	float: left;
+	width: 100%;
+	margin: 16px 0;
+}
+.upcp-save-message-inside {
+	position: relative;
+	float: left;
+	padding: 8px 12px;
+	background: #eee;
+}
+
+.upcp-welcome-screen-image-preview-container {
+	float: left;
+	width: calc(100% - 160px);
+	margin-bottom: 10px;
+}
+.upcp-welcome-screen-image-preview img {
+	width: 180px;
+	height: auto;
+}

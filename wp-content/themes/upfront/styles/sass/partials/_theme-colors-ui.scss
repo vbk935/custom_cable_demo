@@ -1,0 +1,154 @@
+/*---------------------- Settings Theme colors -------------------------*/
+
+#theme-colors-no-color-notice {
+    font: normal 11px/1.5 "Open Sans", sans-serif;
+    color: #000000;
+    padding: 15px 5px 0px 5px;
+}
+
+#theme-colors-no-color-notice:before {
+    content: "";
+    background-image: url('../img/uf-core-el-sprite_new.svg');
+    background-position: -477px -136px;
+    display: block;
+    height: 30px;
+    width: 27px;
+}
+
+.sp-replacer.uf-unset-color-wrapper {
+    opacity: .4;
+}
+
+#sidebar-ui .panel-setting-theme-colors-shades-range a {
+    margin: 0;
+}
+
+.theme-colors-color-box {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.panel-setting-theme-colors-shades-range {
+    width: 100%;
+}
+
+#panel-setting-theme-colors-shades-label {
+    font:bold 11px verdana, sans-serif;
+}
+
+.panel-setting-theme-colors-shades-wrap p {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.panel-setting-theme-colors-meta p {
+    color: #263A4D;
+}
+
+.theme-colors-color-box-selected {
+    background-image: url('../img/uf-core-el-sprite.svg');
+}
+
+.theme-colors-color-box-selected.dark {
+    background-position: -809px -201px;
+}
+
+.theme-colors-color-box-selected.light {
+    background-position: -809px -169px;
+}
+
+.panel-setting-theme-colors .upfront-field-slider .ui-slider-handle {
+    background-color: #1fcd8f;
+    border-width: 4px;
+}
+
+/* Colors panel */
+#sidebar-ui .colors-panel-section {
+    padding-top: 0;
+    margin: 0;
+}
+
+#theme-colors-swatches {
+    padding: 0 15px;
+    width: 255px;
+}
+
+#theme-colors-swatches {
+    padding: 0;
+    width: 255px;
+}
+
+#sidebar-ui #theme-colors-swatches {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+	padding: 10px;
+}
+
+#sidebar-ui #theme-colors-swatches .theme-colors-explanation {
+    font: normal 11px/1.5 "Open Sans", sans-serif;
+    color: #000000;
+	padding: 5px 5px 15px 5px;
+}
+
+#sidebar-ui #theme-colors-swatches .theme-colors-explanation strong {
+	font-weight: 700;
+}
+
+#sidebar-ui #theme-colors-swatches span.theme-colors-color-picker,
+#sidebar-ui #theme-colors-swatches span.theme_colors_empty_picker,
+#sidebar-ui #theme-colors-swatches span.theme_colors_unset_color {
+    width: 50%;
+    height: 35px;
+    display: block;
+    float: left;
+    padding: 0px 5px;
+}
+
+#sidebar-ui #theme-colors-swatches .upfront-field-wrap {
+    margin: 0px;
+}
+
+#sidebar-ui .theme_colors_unset_color span.theme-colors-color-no-color span{
+    display: block;
+}
+
+#sidebar-ui .panel-setting-theme-colors-bottom {
+    margin: 0 15px;
+    font-size: 11px;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 3px;
+    line-height: 32px;
+}
+
+#panel-setting-theme-colors-shades-label {
+    font-weight: bold;
+    margin-bottom: 7px;
+    display: block;
+}
+
+#sidebar-ui .panel-setting-theme-colors-bottom .hovers {
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#sidebar-ui #theme-colors-swatches .theme-colors-color-picker.color-0 .upfront-field-wrap {
+    margin-left: 0;
+}
+
+#sidebar-ui #theme-colors-swatches .upfront-field-wrap {
+    margin: 0;
+}
+
+#sidebar-ui #theme-colors-swatches .sp-container.sp-light.sp-alpha-enabled {
+	z-index: 99999999;
+}
+
+.panel-setting-theme-colors-meta {
+    margin-top: 15px;
+    line-height: 13px;
+}

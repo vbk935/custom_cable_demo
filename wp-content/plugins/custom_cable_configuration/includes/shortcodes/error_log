@@ -1,0 +1,552 @@
+[13-Apr-2018 15:24:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-existing.php:1541
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-existing.php on line 1541
+[13-Apr-2018 16:16:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -12-01-2018.php:1210
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -12-01-2018.php on line 1210
+[13-Apr-2018 16:16:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration.php:1566
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration.php on line 1566
+[13-Apr-2018 16:17:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -04jan-2018.php:1733
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -04jan-2018.php on line 1733
+[13-Apr-2018 16:17:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 18_01_2018.php:1174
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 18_01_2018.php on line 1174
+[13-Apr-2018 16:17:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 05_01_2018.php:1669
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 05_01_2018.php on line 1669
+[13-Apr-2018 16:17:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configuration_bck_23.9.17.php:1671
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configuration_bck_23.9.17.php on line 1671
+[13-Apr-2018 16:17:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping.php:153
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping.php on line 153
+[13-Apr-2018 16:18:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - Copy.php:1669
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - Copy.php on line 1669
+[13-Apr-2018 16:18:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-mine.php:1564
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-mine.php on line 1564
+[13-Apr-2018 16:19:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration_bck_29.6.17.php:463
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration_bck_29.6.17.php on line 463
+[13-Apr-2018 16:19:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-existing.php:1541
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-existing.php on line 1541
+[13-Apr-2018 16:19:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-2-01-2018.php:1541
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-2-01-2018.php on line 1541
+[13-Apr-2018 16:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping_mock_up.php:211
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping_mock_up.php on line 211
+[13-Apr-2018 16:20:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-backup-01-02-2018-6pm.php:1690
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-backup-01-02-2018-6pm.php on line 1690
+[13-Apr-2018 16:20:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 19_01_2018.php:1173
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 19_01_2018.php on line 1173
+[13-Apr-2018 22:28:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 19_01_2018.php:1173
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 19_01_2018.php on line 1173
+[13-Apr-2018 22:29:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-existing.php:1541
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-existing.php on line 1541
+[13-Apr-2018 22:29:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 18_01_2018.php:1174
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 18_01_2018.php on line 1174
+[13-Apr-2018 22:29:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configuration_bck_23.9.17.php:1671
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configuration_bck_23.9.17.php on line 1671
+[13-Apr-2018 22:29:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping_mock_up.php:211
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping_mock_up.php on line 211
+[13-Apr-2018 22:29:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration.php:1566
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration.php on line 1566
+[13-Apr-2018 22:30:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -04jan-2018.php:1733
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -04jan-2018.php on line 1733
+[13-Apr-2018 22:30:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -12-01-2018.php:1210
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -12-01-2018.php on line 1210
+[13-Apr-2018 22:30:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 05_01_2018.php:1669
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 05_01_2018.php on line 1669
+[13-Apr-2018 22:31:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping.php:153
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping.php on line 153
+[13-Apr-2018 22:31:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - Copy.php:1669
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - Copy.php on line 1669
+[13-Apr-2018 22:31:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-mine.php:1564
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-mine.php on line 1564
+[13-Apr-2018 22:31:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration_bck_29.6.17.php:463
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration_bck_29.6.17.php on line 463
+[13-Apr-2018 22:31:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-2-01-2018.php:1541
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-2-01-2018.php on line 1541
+[13-Apr-2018 22:31:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-backup-01-02-2018-6pm.php:1690
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-backup-01-02-2018-6pm.php on line 1690
+[13-Apr-2018 22:34:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-existing.php:1541
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-existing.php on line 1541
+[14-Apr-2018 04:51:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - Copy.php:1669
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - Copy.php on line 1669
+[14-Apr-2018 04:52:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-mine.php:1564
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-mine.php on line 1564
+[14-Apr-2018 04:52:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -04jan-2018.php:1733
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -04jan-2018.php on line 1733
+[14-Apr-2018 04:52:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -12-01-2018.php:1210
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -12-01-2018.php on line 1210
+[14-Apr-2018 04:53:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-existing.php:1541
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-existing.php on line 1541
+[14-Apr-2018 04:53:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration.php:1566
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration.php on line 1566
+[14-Apr-2018 04:53:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 18_01_2018.php:1174
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 18_01_2018.php on line 1174
+[14-Apr-2018 04:53:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 05_01_2018.php:1669
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 05_01_2018.php on line 1669
+[14-Apr-2018 04:53:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configuration_bck_23.9.17.php:1671
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configuration_bck_23.9.17.php on line 1671
+[14-Apr-2018 04:53:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping.php:153
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping.php on line 153
+[14-Apr-2018 04:54:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration_bck_29.6.17.php:463
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration_bck_29.6.17.php on line 463
+[14-Apr-2018 04:54:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-existing.php:1541
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-existing.php on line 1541
+[14-Apr-2018 04:54:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-2-01-2018.php:1541
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-2-01-2018.php on line 1541
+[14-Apr-2018 04:54:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping_mock_up.php:211
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping_mock_up.php on line 211
+[14-Apr-2018 04:55:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-backup-01-02-2018-6pm.php:1690
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-backup-01-02-2018-6pm.php on line 1690
+[14-Apr-2018 04:55:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 19_01_2018.php:1173
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 19_01_2018.php on line 1173
+[14-Apr-2018 10:45:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration.php:1566
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration.php on line 1566
+[14-Apr-2018 10:45:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configuration_bck_23.9.17.php:1671
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configuration_bck_23.9.17.php on line 1671
+[14-Apr-2018 10:46:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -12-01-2018.php:1210
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -12-01-2018.php on line 1210
+[14-Apr-2018 10:46:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -04jan-2018.php:1733
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -04jan-2018.php on line 1733
+[14-Apr-2018 10:46:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 18_01_2018.php:1174
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 18_01_2018.php on line 1174
+[14-Apr-2018 10:47:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 05_01_2018.php:1669
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 05_01_2018.php on line 1669
+[14-Apr-2018 10:47:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping.php:153
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping.php on line 153
+[14-Apr-2018 10:47:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - Copy.php:1669
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - Copy.php on line 1669
+[14-Apr-2018 10:47:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-mine.php:1564
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-mine.php on line 1564
+[14-Apr-2018 10:47:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration_bck_29.6.17.php:463
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration_bck_29.6.17.php on line 463
+[14-Apr-2018 10:48:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-existing.php:1541
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-existing.php on line 1541
+[14-Apr-2018 10:48:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-2-01-2018.php:1541
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-2-01-2018.php on line 1541
+[14-Apr-2018 10:48:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping_mock_up.php:211
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping_mock_up.php on line 211
+[14-Apr-2018 10:49:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-backup-01-02-2018-6pm.php:1690
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-backup-01-02-2018-6pm.php on line 1690
+[14-Apr-2018 10:50:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 19_01_2018.php:1173
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 19_01_2018.php on line 1173
+[14-Apr-2018 11:11:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-existing.php:1541
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-existing.php on line 1541
+[14-Apr-2018 16:45:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configuration_bck_23.9.17.php:1671
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configuration_bck_23.9.17.php on line 1671
+[14-Apr-2018 16:45:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -12-01-2018.php:1210
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -12-01-2018.php on line 1210
+[14-Apr-2018 16:45:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 18_01_2018.php:1174
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 18_01_2018.php on line 1174
+[14-Apr-2018 16:46:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration.php:1566
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration.php on line 1566
+[14-Apr-2018 16:46:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -04jan-2018.php:1733
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -04jan-2018.php on line 1733
+[14-Apr-2018 16:46:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 05_01_2018.php:1669
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 05_01_2018.php on line 1669
+[14-Apr-2018 16:46:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping.php:153
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping.php on line 153
+[14-Apr-2018 16:46:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - Copy.php:1669
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - Copy.php on line 1669
+[14-Apr-2018 16:47:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-mine.php:1564
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-mine.php on line 1564
+[14-Apr-2018 16:47:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration_bck_29.6.17.php:463
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration_bck_29.6.17.php on line 463
+[15-Apr-2018 01:26:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-existing.php:1541
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-existing.php on line 1541
+[15-Apr-2018 01:26:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-2-01-2018.php:1541
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-2-01-2018.php on line 1541
+[15-Apr-2018 01:27:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping_mock_up.php:211
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping_mock_up.php on line 211
+[15-Apr-2018 01:28:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-backup-01-02-2018-6pm.php:1690
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-backup-01-02-2018-6pm.php on line 1690
+[15-Apr-2018 01:28:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 19_01_2018.php:1173
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 19_01_2018.php on line 1173
+[07-May-2018 19:04:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -12-01-2018.php:1210
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -12-01-2018.php on line 1210
+[08-May-2018 01:23:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration.php:1566
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration.php on line 1566
+[08-May-2018 02:39:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -12-01-2018.php:1210
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -12-01-2018.php on line 1210
+[08-May-2018 08:58:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -12-01-2018.php:1210
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -12-01-2018.php on line 1210
+[08-May-2018 10:14:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration.php:1566
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration.php on line 1566
+[08-May-2018 11:29:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -04jan-2018.php:1733
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -04jan-2018.php on line 1733
+[08-May-2018 12:45:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 18_01_2018.php:1174
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 18_01_2018.php on line 1174
+[08-May-2018 15:17:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -12-01-2018.php:1210
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -12-01-2018.php on line 1210
+[08-May-2018 21:25:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 19_01_2018.php:1173
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 19_01_2018.php on line 1173
+[09-May-2018 00:14:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration.php:1566
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration.php on line 1566
+[09-May-2018 01:30:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -04jan-2018.php:1733
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -04jan-2018.php on line 1733
+[09-May-2018 02:46:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 05_01_2018.php:1669
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 05_01_2018.php on line 1669
+[09-May-2018 05:17:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 18_01_2018.php:1174
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 18_01_2018.php on line 1174
+[09-May-2018 06:33:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configuration_bck_23.9.17.php:1671
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configuration_bck_23.9.17.php on line 1671
+[09-May-2018 07:49:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping.php:153
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping.php on line 153
+[09-May-2018 09:05:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - Copy.php:1669
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - Copy.php on line 1669
+[09-May-2018 10:20:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -04jan-2018.php:1733
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -04jan-2018.php on line 1733
+[09-May-2018 12:52:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 18_01_2018.php:1174
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 18_01_2018.php on line 1174
+[09-May-2018 14:08:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 05_01_2018.php:1669
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 05_01_2018.php on line 1669
+[09-May-2018 15:24:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configuration_bck_23.9.17.php:1671
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configuration_bck_23.9.17.php on line 1671
+[09-May-2018 16:39:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 05_01_2018.php:1669
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 05_01_2018.php on line 1669
+[09-May-2018 17:55:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping.php:153
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping.php on line 153
+[09-May-2018 18:10:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - Copy.php:1669
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - Copy.php on line 1669
+[09-May-2018 18:11:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-mine.php:1564
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-mine.php on line 1564
+[09-May-2018 21:06:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration_bck_29.6.17.php:463
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration_bck_29.6.17.php on line 463
+[09-May-2018 21:07:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-2-01-2018.php:1541
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-2-01-2018.php on line 1541
+[09-May-2018 21:08:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping_mock_up.php:211
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping_mock_up.php on line 211
+[09-May-2018 21:10:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-backup-01-02-2018-6pm.php:1690
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-backup-01-02-2018-6pm.php on line 1690
+[10-May-2018 03:15:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-mine.php:1564
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-mine.php on line 1564
+[10-May-2018 04:31:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 19_01_2018.php:1173
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 19_01_2018.php on line 1173
+[10-May-2018 07:02:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 05_01_2018.php:1669
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 05_01_2018.php on line 1669
+[10-May-2018 08:18:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configuration_bck_23.9.17.php:1671
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configuration_bck_23.9.17.php on line 1671
+[10-May-2018 11:48:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping.php:153
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping.php on line 153
+[10-May-2018 11:49:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - Copy.php:1669
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - Copy.php on line 1669
+[10-May-2018 11:50:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-mine.php:1564
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-mine.php on line 1564
+[10-May-2018 11:51:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration_bck_29.6.17.php:463
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration_bck_29.6.17.php on line 463
+[10-May-2018 11:53:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-2-01-2018.php:1541
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-2-01-2018.php on line 1541
+[10-May-2018 12:03:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping_mock_up.php:211
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping_mock_up.php on line 211
+[10-May-2018 13:18:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-backup-01-02-2018-6pm.php:1690
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-backup-01-02-2018-6pm.php on line 1690
+[11-May-2018 00:02:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-backup-01-02-2018-6pm.php:1690
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-backup-01-02-2018-6pm.php on line 1690
+[11-May-2018 01:18:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-mine.php:1564
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-mine.php on line 1564
+[11-May-2018 02:34:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration_bck_29.6.17.php:463
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration_bck_29.6.17.php on line 463
+[11-May-2018 03:50:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-2-01-2018.php:1541
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-2-01-2018.php on line 1541
+[11-May-2018 05:05:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping_mock_up.php:211
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping_mock_up.php on line 211
+[26-Aug-2018 23:39:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -12-01-2018.php:1210
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -12-01-2018.php on line 1210
+[26-Aug-2018 23:39:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration.php:1566
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration.php on line 1566
+[26-Aug-2018 23:40:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -04jan-2018.php:1733
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration -04jan-2018.php on line 1733
+[26-Aug-2018 23:40:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 18_01_2018.php:1174
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 18_01_2018.php on line 1174
+[26-Aug-2018 23:40:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 05_01_2018.php:1669
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 05_01_2018.php on line 1669
+[26-Aug-2018 23:40:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping.php:153
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping.php on line 153
+[26-Aug-2018 23:40:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configuration_bck_23.9.17.php:1671
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configuration_bck_23.9.17.php on line 1671
+[26-Aug-2018 23:41:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - Copy.php:1669
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - Copy.php on line 1669
+[26-Aug-2018 23:41:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration_bck_29.6.17.php:463
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration_bck_29.6.17.php on line 463
+[26-Aug-2018 23:41:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-mine.php:1564
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-mine.php on line 1564
+[26-Aug-2018 23:41:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-2-01-2018.php:1541
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-2-01-2018.php on line 1541
+[26-Aug-2018 23:41:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping_mock_up.php:211
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/product_grouping_mock_up.php on line 211
+[28-Aug-2018 13:56:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-existing.php:1541
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-existing.php on line 1541
+[28-Aug-2018 13:58:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-backup-01-02-2018-6pm.php:1690
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration-backup-01-02-2018-6pm.php on line 1690
+[28-Aug-2018 14:00:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 19_01_2018.php:1173
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/custom_cable_configuration/includes/shortcodes/cable_configration - 19_01_2018.php on line 1173

@@ -1,0 +1,191 @@
+// Porto Schedule Timeline
+.border-transparent {
+	border-color: transparent;
+}
+.no-box-shadow {
+	box-shadow: none !important;
+}
+.timeline-circle {
+	position: relative;
+	margin-#{$left}: 25px;
+	width: 118px;
+	height: 118px;
+	border-radius: 50%;
+	border-width: 1px;
+	border-style: solid;
+	z-index: 2;
+	box-shadow: 0px 11px 21px 0px rgba(229, 232, 235, 0.75);
+	.circle-dotted {
+		position: absolute;
+		padding: 16px;
+		width: 106px;
+		height: 106px;
+		top: 5px;
+		#{$left}: 5px;
+		display: -webkit-flex; display: -ms-flexbox; display: flex;
+		-webkit-align-items: center; -ms-align-items: center; align-items: center; -ms-flex-align: center;
+		-webkit-justify-content: center; -ms-justify-content: center; justify-content: center; -ms-flex-pack: center;
+		border-style: dashed;
+		border-width: 1px;
+		border-radius: 50%;
+		overflow: hidden;
+	}
+	.circle-center {
+		> span:first-child {
+			font-size: 1.5em;
+			line-height: 1;
+		}
+	}
+	&.circle-light {
+		border-color: #e6ebeb;
+		.circle-dotted {
+			border-color: #e6ebeb;
+		}
+	}
+}
+
+.timeline-balloon {
+	position: relative;
+	&::before {
+		content: '';
+		position: absolute;
+		top: -35px;
+		#{$left}: 83px;
+		width: 1px;
+		height: 120%;
+		background-color: #e6ebeb;
+	}
+	&:last-of-type::before {
+		height: 75px;
+	}
+	.balloon-cell {
+		display: table-cell;
+		vertical-align: top;
+		width: 100%;
+	}
+	.balloon-time {
+		padding-top: 25px;
+		width: 93px;
+		white-space: nowrap;
+		.time-text {
+			display: inline-block;
+			vertical-align: middle;
+			width: 72px;
+		}
+		.time-dot {
+			position: relative;
+			width: 25px;
+			height: 25px;
+			display: inline-block;
+			vertical-align: middle;
+			&::before {
+				content: '';
+				position: absolute;
+				width: 19px;
+				height: 19px;
+				top: 50%;
+				left: 50%;
+				border-style: solid;
+				border-width: 2px;
+				border-radius: 50%;
+				-webkit-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
+			}
+			&::after {
+				content: '';
+				position: absolute;
+				width: 7px;
+				height: 7px;
+				top: 50%;
+				left: 50%;
+				border-radius: 50%;
+				-webkit-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
+			}
+		}
+	}
+	.balloon-content {
+		position: relative;
+		margin-#{$left}: 34px;
+		padding: 25px;
+		padding-#{$right}: 15px;
+		border-width: 1px;
+		border-style: solid;
+		border-radius: 3px;
+		border-color: #e6ebeb;
+		&.balloon-shadow {
+			box-shadow: 0px 11px 21px 0px rgba(229, 232, 235, 0.75);
+		}
+		.balloon-arrow {
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			top: 35px;
+			#{$left}: -15px;
+			border-width: 1px;
+			border-style: solid;
+			border-#{$right}: none;
+			border-bottom: none;
+			border-color: #e6ebeb;
+			@if $rtl == 1{
+				-webkit-transform: rotate(45deg);
+				transform: rotate(45deg);
+				-webkit-transform-origin: right top;
+				transform-origin: right top;
+			} @else {
+				-webkit-transform: rotate(-45deg);
+				transform: rotate(-45deg);
+				-webkit-transform-origin: left top;
+				transform-origin: left top;	
+				
+			}
+		}
+		.balloon-photo {
+			display: table-cell;
+			vertical-align: top;
+			height: 64px;
+			width: 64px;
+		}
+		.balloon-description {
+			display: table-cell;
+			padding-#{$left}: 25px;
+			p {
+				line-height: 1.6;
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.timeline-circle {
+		margin: 0px auto 35px !important;
+	}
+	.timeline-balloon {
+		&:before {
+			#{$left}: 50%;
+		}
+		.balloon-time {
+			.time-dot {
+				display: none;
+			}
+			.time-text {
+				position: absolute;
+				top: -11px;
+				left: 50%;
+				text-align: center;
+				background: #FFF;
+				border-width: 1px;
+				border-style: solid;
+				border-radius: 3px;
+				border-color: #e6ebeb;
+				padding: 5px 0px;
+				z-index: 1;
+				-webkit-transform: translateX(-50%);
+				transform: translateX(-50%);
+			}
+		}
+		.balloon-content {
+			margin-#{$left}: 5px;
+		}
+	}
+}

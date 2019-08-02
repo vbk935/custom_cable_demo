@@ -1,0 +1,19 @@
+.esb-cie-form-table td {
+    vertical-align: top;
+}
+.esb-cie-importers code {
+    width: 100%;
+    display: inline-block;
+}
+.esb-cie-importers thead {
+    background: #E7E7E7;
+}
+.esb-cie-tab-content {
+    display: none;
+}
+.esb-cie-importers {
+    width: 85%;
+}
+.esb-cie-importers .cb {
+    width: 6%;
+}

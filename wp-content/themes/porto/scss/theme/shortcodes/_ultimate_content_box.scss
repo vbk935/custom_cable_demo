@@ -1,0 +1,19 @@
+/* Content Box */
+.porto-ultimate-content-box-container,
+.porto-ultimate-content-box-container * {
+    box-sizing: border-box
+}
+.porto-ultimate-content-box-container .porto-ultimate-content-box-anchor,
+.porto-ultimate-content-box-container .porto-ultimate-content-box-anchor:active,
+.porto-ultimate-content-box-container .porto-ultimate-content-box-anchor:focus,
+.porto-ultimate-content-box-container .porto-ultimate-content-box-anchor:hover,
+.porto-ultimate-content-box-container .porto-ultimate-content-box-anchor:visited {
+    text-decoration: none;
+    line-height: inherit;
+    outline: 0
+}
+.porto-ultimate-content-box:after {
+    content:'';
+    display:block;
+    clear:both;
+}

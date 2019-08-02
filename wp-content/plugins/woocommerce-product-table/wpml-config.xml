@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wpml-config>
+	<admin-texts>
+		<key name="wcpt_shortcode_defaults">
+			<key name="columns" />
+			<key name="add_selected_text" />
+		</key>
+	</admin-texts>
+</wpml-config>

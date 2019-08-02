@@ -1,0 +1,1 @@
+!function(){upfrontrjs.define([],function(){return Backbone.Model.extend({initialize:function(n){this.set({presets:n})}})})}();

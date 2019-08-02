@@ -1,0 +1,168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Products Visibility\n"
+"POT-Creation-Date: 2017-03-04 14:49+0200\n"
+"PO-Revision-Date: 2017-03-04 14:49+0200\n"
+"Last-Translator: \n"
+"Language-Team: Codemine <codeminelab@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-products-visibility.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-wcpv-backend-reset-settings.php:20
+#: includes/class-wcpv-backend.php:117
+#: includes/class-wcpv-cancel_hide_visible.php:21
+#: includes/class-wcpv-cancel_hide_visible.php:71
+msgid "Guest"
+msgstr ""
+
+#: includes/class-wcpv-backend-reset-settings.php:21
+msgid "Default"
+msgstr ""
+
+#: includes/class-wcpv-backend.php:48
+msgid "Are you sure you want to delete all rules?"
+msgstr ""
+
+#: includes/class-wcpv-backend.php:53 includes/class-wcpv-backend.php:68
+#: includes/class-wcpv-renderers.php:155
+msgid "Products Visibility"
+msgstr ""
+
+#: includes/class-wcpv-backend.php:115
+#: includes/class-wcpv-cancel_hide_visible.php:20
+#: includes/class-wcpv-cancel_hide_visible.php:70
+msgid "Default Logged User"
+msgstr ""
+
+#: includes/class-wcpv-backend.php:133
+msgid "Multiple User Roles Compatibility"
+msgstr ""
+
+#: includes/class-wcpv-backend.php:142
+msgid "Priority"
+msgstr ""
+
+#: includes/class-wcpv-backend.php:144
+msgid "Top Priority"
+msgstr ""
+
+#: includes/class-wcpv-backend.php:150
+msgid "Role Priority"
+msgstr ""
+
+#: includes/class-wcpv-backend.php:152
+msgid "Products"
+msgstr ""
+
+#: includes/class-wcpv-backend.php:153
+msgid "Show / Hide Product(s)"
+msgstr ""
+
+#: includes/class-wcpv-backend.php:154
+msgid "Select Product(s)"
+msgstr ""
+
+#: includes/class-wcpv-backend.php:154 includes/class-wcpv-backend.php:157
+#: includes/class-wcpv-backend.php:160
+msgid "Rule priority"
+msgstr ""
+
+#: includes/class-wcpv-backend.php:155
+msgid "Tags"
+msgstr ""
+
+#: includes/class-wcpv-backend.php:156
+msgid "Show / Hide Tags"
+msgstr ""
+
+#: includes/class-wcpv-backend.php:157
+msgid "Select Tags"
+msgstr ""
+
+#: includes/class-wcpv-backend.php:158
+msgid "Categories"
+msgstr ""
+
+#: includes/class-wcpv-backend.php:159
+msgid "Show / Hide Categories"
+msgstr ""
+
+#: includes/class-wcpv-backend.php:160
+msgid "Select Categories"
+msgstr ""
+
+#: includes/class-wcpv-dependencies.php:30
+#, php-format
+msgid ""
+"WooCommerce Products Visibility is enabled but not effective. It is not "
+"compatible with  <a href=\"%s\" target=\"_blank\">Woocommerce</a> versions "
+"prior %s."
+msgstr ""
+
+#: includes/class-wcpv-dependencies.php:44
+msgid "and"
+msgstr ""
+
+#: includes/class-wcpv-dependencies.php:52
+#, php-format
+msgid ""
+"WooCommerce Products Visibility is enabled but not effective. It requires %s "
+"in order to work."
+msgstr ""
+
+#: includes/class-wcpv-renderers.php:49
+#, php-format
+msgid "Role: %s"
+msgstr ""
+
+#: includes/class-wcpv-renderers.php:60
+msgid ""
+"Priority used to calculate product visibility. Smaller numbers get their "
+"rules applied first."
+msgstr ""
+
+#: includes/class-wcpv-renderers.php:85 includes/class-wcpv-renderers.php:88
+msgid "Show"
+msgstr ""
+
+#: includes/class-wcpv-renderers.php:86 includes/class-wcpv-renderers.php:89
+msgid "Hide"
+msgstr ""
+
+#: includes/class-wcpv-renderers.php:90
+msgid "Cancel hide"
+msgstr ""
+
+#: includes/class-wcpv-renderers.php:143
+msgid "Reset"
+msgstr ""
+
+#: includes/class-wcpv-renderers.php:157
+msgid "Toggle row visibility"
+msgstr ""
+
+#: includes/class-wcpv-renderers.php:168
+msgid "Rule Active"
+msgstr ""
+
+#: includes/class-wcpv-renderers.php:219
+msgid "Disable"
+msgstr ""
+
+#: includes/class-wcpv-renderers.php:220
+msgid "Enable"
+msgstr ""
+
+#: includes/class-wcpv-renderers.php:229
+msgid "Enable only if you have multiple roles per user"
+msgstr ""

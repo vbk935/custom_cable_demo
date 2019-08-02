@@ -1,0 +1,123 @@
+<?php
+if( function_exists('register_field_group') ):
+
+register_field_group(array (
+	'key' => 'group_54dd2365801f9',
+	'title' => 'Extra Images',
+	'fields' => array (
+		array (
+			'key' => 'field_54dd237e7fd1a',
+			'label' => 'Extra Images',
+			'name' => 'extra_images',
+			'prefix' => '',
+			'type' => 'repeater',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'min' => '',
+			'max' => '',
+			'layout' => 'block',
+			'button_label' => 'Add Row',
+			'sub_fields' => array (
+				array (
+					'key' => 'field_54dd23927fd1b',
+					'label' => 'Image',
+					'name' => 'extra_image',
+					'prefix' => '',
+					'type' => 'image',
+					'instructions' => '',
+					'required' => 0,
+					'conditional_logic' => 0,
+					'wrapper' => array (
+						'width' => '',
+						'class' => '',
+						'id' => '',
+					),
+					'return_format' => 'array',
+					'preview_size' => 'thumbnail',
+					'library' => 'all',
+					'min_width' => 0,
+					'min_height' => 0,
+					'min_size' => 0,
+					'max_width' => 0,
+					'max_height' => 0,
+					'max_size' => 0,
+					'mime_types' => '',
+				),
+				array (
+					'key' => 'field_54dd23ac7fd1c',
+					'label' => 'Text',
+					'name' => 'extra_text',
+					'prefix' => '',
+					'type' => 'text',
+					'instructions' => '',
+					'required' => 0,
+					'conditional_logic' => 0,
+					'wrapper' => array (
+						'width' => '',
+						'class' => '',
+						'id' => '',
+					),
+					'default_value' => '',
+					'placeholder' => '',
+					'prepend' => '',
+					'append' => '',
+					'maxlength' => '',
+					'readonly' => 0,
+					'disabled' => 0,
+				),
+			),
+		),
+		array (
+			'key' => 'field_54dd249273f7f',
+			'label' => 'Which Side',
+			'name' => 'which_side',
+			'prefix' => '',
+			'type' => 'radio',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'choices' => array (
+				'left' => 'Left',
+				'right' => 'Right',
+			),
+			'other_choice' => 0,
+			'save_other_choice' => 0,
+			'default_value' => '',
+			'layout' => 'horizontal',
+		),
+	),
+	'location' => array (
+		array (
+			array (
+				'param' => 'post_type',
+				'operator' => '==',
+				'value' => 'page',
+			),
+			array (
+				'param' => 'post_type',
+				'operator' => '==',
+				'value' => 'panel',
+			),
+		),
+	),
+	'menu_order' => 0,
+	'position' => 'side',
+	'style' => 'default',
+	'label_placement' => 'top',
+	'instruction_placement' => 'label',
+	'hide_on_screen' => '',
+));
+
+endif;
+?>

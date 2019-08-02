@@ -1,0 +1,17 @@
+.menu-item {
+    &[class*="col-"] {
+        -webkit-flex: none; -ms-flex: none; flex: none;
+        width: auto;
+        max-width: none;
+        min-height: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.no-transition {
+    transition: none !important;
+}
+
+.wpcf7 .wpcf7-validation-errors,
+.wpcf7 .ajax-loader { display: none !important; }

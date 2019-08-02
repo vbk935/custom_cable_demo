@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>WooCommerce Products Visibility</title>
+        <meta name="description" content="" />
+        <meta name="author" content="themeComplete" />
+        <meta name="copyright" content="themeComplete" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700,900,500,900italic,500italic,400italic,300italic,100italic,100,700italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet" />
+        <link href="assets/css/style.css" rel="stylesheet" />
+    </head>
+    <body id="body_top">
+        <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <span class="navbar-brand">CodeMine</span>
+                </div>
+                <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+                    <ul class="nav navbar-nav">              
+                        <li><a href="#overview" title="Overview">Overview</a></li>
+                        <li><a href="#installation" title="Installation">Installation</a></li>
+                        <li><a href="#basic-usage" title="Quick Start Guide">Quick Start Guide</a></li>
+                        <li><a href="#default_user_role" title="Basic Usage">The Default Logged User</a></li>
+                        <li><a href="#reset" title="Basic Usage">The Reset Button</a></li>
+                        <li><a href="#use-cases" title="Use Cases">Use Cases</a></li>
+                        <li><a href="#show_products_direct_url" title="Show Products Through Direct URL">Show Products Through Direct URL</a></li>
+                        <li><a href="#multiple_user_roles" title="Multiple Roles per User Compatibility">Multiple Roles per User Compatibility</a></li>
+                        <li><a href="#wpml" title="WMPL Compatibility">WPML Compatibility</a></li>
+                        <li><a href="#changelog" title="Changelog">Changelog</a></li>
+                    </ul>     
+                </nav>
+            </div>
+        </header>
+        <div class="container bs-docs-container">
+            <div class="row">
+                <div class="col-md-3 hidden-xs">
+                    <div role="complementary" class="bs-docs-sidebar hidden-print">
+                        <ul class="nav bs-docs-sidenav">              
+                            <li><a href="#overview" title="Overview">Overview</a>
+                                <ul class="nav">
+                                    <li><a href="#minimum_requirements">Minimum requirements</a></li>
+                                    <li><a href="#features">Features</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#installation" title="Installation">Installation</a>
+                                <ul class="nav">
+                                    <li><a href="#installation-zip">Install with a zip file</a></li>
+                                    <li><a href="#installation-ftp">Install by FTP Manager</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#basic-usage" title="Basic Usage">Quick Start Guide</a></li>
+                            <li><a href="#default_user_role" title="Basic Usage">The Default Logged User</a></li>
+                            <li><a href="#reset" title="Basic Usage">The Reset Button</a></li>
+                            <li>
+                                <a href="#use-cases" title="Use Cases">Use Cases</a>
+                                <ul class="nav">
+                                    <li><a href="#case_1">Case 1</a></li>
+                                    <li><a href="#case_2">Case 2</a></li>
+                                    <li><a href="#case_3">Case 3</a></li>
+                                    <li><a href="#case_4">Case 4</a></li>
+                                    <li><a href="#case_5">Case 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#show_products_direct_url" title="Show Products Through Direct URL">Show Products Through Direct URL</a></li>
+                            <li><a href="#multiple_user_roles" title="Multiple Roles per User Compatibility">Multiple Roles per User Compatibility</a></li>
+                            <li><a href="#wpml" title="WMPL Compatibility">WPML Compatibility</a></li>
+                            <li><a href="#changelog" title="Changelog">Changelog</a></li>
+                        </ul>
+                        <a href="#top" class="back-to-top">Back to top</a>
+                    </div>
+                </div>
+                <div role="main" class="col-md-9">
+                    <div id="content" class="bs-docs-header">
+                        <h1>WooCommerce Product Visibility</h1>
+                    </div>
+                    <div class="jumbotron">
+                        <p>
+                            Thank you for purchasing our plugin.<br><br>
+                            If you have any questions that are beyond the scope of this help file, please leave a message at the <a href="https://codecanyon.net/item/woocommerce-products-visibility-hide-or-show-by-user-role/18587731/comments" target="_blank">plugin's comment section</a> at codecanyon.<br><br>
+                            Don't forget to <a href="https://codecanyon.net/item/woocommerce-products-visibility-hide-or-show-by-user-role/reviews/18587731" target="_blank">rate</a> the plugin if you like it.<br><br>
+                            Thank you so much!
+                        </p>					   
+                    </div> 
+                    <div class="bs-docs-section">
+                        <h1 class="page-header" id="overview">Overview</h1>
+                        <p>With WooCommerce Products Visibility plugin you can decide <strong>which products will be visible site-wide for each user role</strong>.</p>
+                        <h3 id="minimum_requirements">Minimum requirements</h3>
+                        <ul>
+                            <li>PHP 5.4</li>
+                            <li>WordPress 4.4</li>
+                            <li>WooCommerce 2.3</li>
+                            <li>JavaScript / jQuery</li>
+                        </ul>
+                        <h3 id="features">Features</h3>
+                        <ul>
+                            <li>Hide or show <strong>specific</strong> products for each user role</li>
+                            <li>Hide or show products based on <strong>tag</strong> for each user role</li>
+                            <li>Hide or show products based on <strong>category</strong> for each user role</li>
+                            <li><strong>Combine</strong> product, tag or category rules for each user role</li>
+                            <li>Hide products, categories and tags both <strong>at the same time</strong> for particular role</li>
+                            <li>Hide products, categories and tags from <strong>menus, widgets and cart</strong></li>
+                            <li>Compatible with <strong>custom</strong> user roles</li>
+                            <li>Compatible with <strong>multiple</strong> user roles</li>
+                            <li>Show products through <strong>direct URL</strong> option</li>
+                            <li>Default <strong>logged</strong> user role for <strong>bulk</strong> actions</li>
+                            <li><strong>Reset</strong> all rules button</li>
+                            <li><strong>Toggle role visibility</strong> on backend to avoid clutter</li>
+                            <li><strong>Quick-view</strong> which user roles have visibility rules at a glance</li>
+                            <li><strong>Object Oriented Code</strong></li>
+                            <li><strong>WPML</strong> Compatible</li>
+                            <li><strong>Multilingual Ready:</strong> .pot file included, for easy translation (RU, UA contributed by users)</li>
+                        </ul>
+                    </div>
+                    <div class="bs-docs-section">
+                        <h1 class="page-header" id="installation">Installation</h1>
+                        <p>There are two primary methods for installing any WordPress plugin.</p>
+                        <h3 id="installation-zip">Install with a zip file</h3>
+                        <ol>
+                            <li>
+                                From your WordPress dashboard, choose <code class="text-link">Plugins > Add New</code></li>
+                            <li>
+                                Select <code class="text-link">Upload</code> from the set of links at the top of the page (the second link)</li>
+                            <li>
+                                From here, browse for the zip file included in your plugin purchase titled <strong>woocommerce-products-visibility.zip</strong> and click the <code class="text-link">Install Now</code> button</li>
+                            <li>
+                                Once installation is complete, click <code class="text-link">Activate Plugin</code> to activate it and enable its features.</li>
+                        </ol>	
+                        <h3 id="installation-ftp">Install by FTP Manager</h3>
+                        <p>
+                            If you are have no previous web experience and have no idea what an FTP Manager is, then this option is not for you.
+                        </p>
+                        <ol>
+                            <li>Access your host through the FTP manager</li>
+                            <li>Access the plugins directory of your WordPress install 
+                                <code>/<em>(WordPress directory)</em>/wp-content/plugins/</code>
+                                <p>If WordPress is installed on the root folder the directory is <code>/wp-content/plugins/</code></p>
+                            </li>
+                            <li>
+                                Find the directory titled <strong>woocommerce-products-visibility.zip</strong> and upload it and all files within to the directory from the previous step.
+                            </li>
+                            <li>From your WordPress dashboard, choose <code class="text-link">Plugins > Installed Plugins</code></li>
+                            <li>Locate the newly added plugin and click on the <code class="text-link">Activate</code> link to enable its features.</li>
+                        </ol>	
+                    </div>
+                    <div class="bs-docs-section">
+                        <h1 class="page-header" id="basic-usage">Quick Start Guide</h1>
+                        <h3>Step 1</h3>
+                        <p>When you activate the plugin, there's an options page added under the <strong>'WooCommerce' -> 'Settings' -> 'Products'</strong> section. At the top of that page you will see (between other links) <strong>'Products Visibility'</strong>. Go to this page to configure the plugin.</p>
+                        <img alt="WooCommerce Product Visibility" class="img-thumbnail img-responsive" src="assets/images/wcpv_basic_usage.png">
+                        <h3>Step 2</h3>
+                        <p>Next, <strong>click any of the user roles</strong> to start adding rules.</p>
+                        <p>The last role, guest, refers to all users that are not logged in.</p>
+                        <p>If you want to add more user roles, you can download, install and activate the <a href="https://wordpress.org/plugins/user-role-editor/" target="_blank">User Role Editor</a> plugin.</p>
+                        <img alt="WooCommerce Product Visibility" class="img-thumbnail img-responsive" src="assets/images/wcpv_click_role.png">
+                        <h3>Step 3</h3>
+                        <p>By clicking the role, a sub-part will unfold. You can now add your desired rules to the selected user role.</p>
+                        <p>You can see <strong>3 sections</strong> for each user role: <strong>products, tags and categories</strong>.</p>
+                        <ol>
+                            <li>In the <strong>products</strong> section, you can select which <strong>products</strong> will be visible or hidden for the select role.</li>
+                            <li>In the <strong>tags</strong> section, you can select which products will be visible or hidden for the select role, based on their <strong>tag</strong>.</li>
+                            <li>In the <strong>categories</strong> section, you can select which products will be visible or hidden for the select role, based on their <strong>category</strong>.</li>
+                        </ol>
+                        <p>You can also simultaneously <strong>combine rules</strong>. In that case, bear in mind that:</p>
+                        <ol>
+                            <li>The 1st rule that refers to the products, has <strong>top priority</strong>. This means that it will override the 2 consequent rules (tag and categories).</li>
+                            <li>The 2nd rule that refers to the tags, has <strong>middle priority</strong> and will override the categories rule.</li>
+                            <li>The 3rd rule has the <strong>lowest priority</strong>.</li>
+                        </ol>
+                        <p>For more examples, you can see the manual section <a href="#use-cases">Use Cases</a>.</p>
+                        <h3>Step 4</h3>
+                        <p>After having selected the desired rules for each user role, press <strong>Save Changes</strong> at the bottom to apply changes.</p>
+
+                        <p>For your convenience, user roles that have at least one rule active, will be highlighted. This way, you can quick-view which user roles have visibility rules at a glance!</p>
+                        <img alt="WooCommerce Product Visibility" class="img-thumbnail img-responsive" src="assets/images/wcpv_active_rules.png">
+                        <h3>Step 5</h3>
+                        <p>You can now go to your front-end, logged in as the desired user to confirm that you have applied the correct rules.</p>
+                    </div>
+                    <div class="bs-docs-section">
+                        <h1 class="page-header" id="default_user_role">The Default Logged User</h1>
+                        <p>The Default Logged User role is a helper role that helps you add <strong>bulk rules</strong> to the logged-in roles. This means that if you add a rule to this role, all the other roles (eg. administrator, editor, shop manager, etc.), except for guest, will <strong>inherit</strong> these rules.</p>
+                        <h3>The Cancel Hide radio button</h3>
+                        <p>When you add a rule to the default user role, a new radio button will appear for all the other roles (except for guest): the <strong>cancel hide</strong> button. By using this button, you can cancel some of the rules that you may have added in the default user role for the desired roles.</p>
+                        <div class="bs-callout bs-callout-warning">
+                            <p>The cancel hide button will show, <strong>only if</strong> you have set a rule to the default user role.</p>
+                        </div>
+                        <h3>A practical example</h3>
+                        <p>For example, let's say that you want to hide a specific category, let's say albums, from all users (logged and guests). But at the same time, you want to show this category to a specific role, let's the say wholesale role.</p>
+                        <p>To do so you can follow these easy steps:</p>
+                        <ol>
+                            <li><strong>Hide</strong> the albums category for the default logged users.</li>
+                            <li><strong>Hide</strong> the albums category for guest users.</li>
+                            <li><strong>Cancel hide</strong> the albums category for the wholesale users.</li>
+                        </ol>
+                    </div>
+                    <div class="bs-docs-section">
+                        <h1 class="page-header" id="reset">The Reset Button</h1>
+                        <p>If you want to <strong>erase all your rules simultaneously</strong>, you can press the reset button on the bottom right corner. Since this action is <strong>irreversible</strong>, a <strong>confirmation box</strong> will appear and ask you to verify your action. The reset action also remove all the role priorities to their default values (50).</p>
+                        <img alt="WooCommerce Product Visibility" class="img-thumbnail img-responsive" src="assets/images/reset.png">
+                    </div>
+                    <div class="bs-docs-section">
+                        <h1 class="page-header" id="use-cases">Use Cases</h1>
+                        <p>For demonstration purposes, let's say that we want to add some visibility rules for <strong>guest users</strong> and that we have the following 6 products with their corresponding tags and categories:</p>
+                        <table>
+                            <tr>
+                                <th>Product</th>
+                                <th>Tag</th>
+                                <th>Category</th>
+                            </tr>
+                            <tr>
+                                <td>Trouser 1</td>
+                                <td>Winter</td>
+                                <td>Trousers</td>
+                            </tr>
+                            <tr>
+                                <td>Trouser 2</td>
+                                <td>Summer</td>
+                                <td>Trousers</td>
+                            </tr>
+                            <tr>
+                                <td>Shoe 1</td>
+                                <td>Spring</td>
+                                <td>Shoes</td>
+                            </tr>
+                            <tr>
+                                <td>Shoe 2</td>
+                                <td>Winter</td>
+                                <td>Shoes</td>
+                            </tr>
+                            <tr>
+                                <td>Dress 1</td>
+                                <td>Summer</td>
+                                <td>Dresses</td>
+                            </tr>
+                            <tr>
+                                <td>Dress 2</td>
+                                <td>Spring</td>
+                                <td>Dresses</td>
+                            </tr>
+                        </table>
+                        <p></p>
+                        <p>For each case, you will see:</p>
+                        <ol>
+                            <li>An image preview of the backend settings to achieve the case's desired result.</li>
+                            <li>A table that describes which of the products will be visible and which not.</li>
+                        </ol>
+                        <h2 id="case_1">Case 1:</h2>
+                        <p>Hide dresses category</p>
+                        <img alt="WooCommerce Product Visibility" class="img-thumbnail img-responsive" src="assets/images/case_1.png">
+                        <table>
+                            <tr>
+                                <th>Product</th>
+                                <th>Tag</th>
+                                <th>Category</th>
+                                <th>Visible</th>
+                            </tr>
+                            <tr>
+                                <td>Trouser 1</td>
+                                <td>Winter</td>
+                                <td>Trousers</td>
+                                <td class="green">True</td>
+                            </tr>
+                            <tr>
+                                <td>Trouser 2</td>
+                                <td>Summer</td>
+                                <td>Trousers</td>
+                                <td class="green">True</td>
+                            </tr>
+                            <tr>
+                                <td>Shoe 1</td>
+                                <td>Spring</td>
+                                <td>Shoes</td>
+                                <td class="green">True</td>
+                            </tr>
+                            <tr>
+                                <td>Shoe 2</td>
+                                <td>Winter</td>
+                                <td>Shoes</td>
+                                <td class="green">True</td>
+                            </tr>
+                            <tr>
+                                <td>Dress 1</td>
+                                <td>Summer</td>
+                                <td>Dresses</td>
+                                <td class="red">False</td>
+                            </tr>
+                            <tr>
+                                <td>Dress 2</td>
+                                <td>Spring</td>
+                                <td>Dresses</td>
+                                <td class="red">False</td>
+                            </tr>
+                        </table>
+                        <h2 id="case_2">Case 2:</h2>
+                        <p>Show only winter tag</p>
+                        <img alt="WooCommerce Product Visibility" class="img-thumbnail img-responsive" src="assets/images/case_2.png">
+                        <table>
+                            <tr>
+                                <th>Product</th>
+                                <th>Tag</th>
+                                <th>Category</th>
+                                <th>Visible</th>
+                            </tr>
+                            <tr>
+                                <td>Trouser 1</td>
+                                <td>Winter</td>
+                                <td>Trousers</td>
+                                <td class="green">True</td>
+                            </tr>
+                            <tr>
+                                <td>Trouser 2</td>
+                                <td>Summer</td>
+                                <td>Trousers</td>
+                                <td class="red">False</td>
+                            </tr>
+                            <tr>
+                                <td>Shoe 1</td>
+                                <td>Spring</td>
+                                <td>Shoes</td>
+                                <td class="red">False</td>
+                            </tr>
+                            <tr>
+                                <td>Shoe 2</td>
+                                <td>Winter</td>
+                                <td>Shoes</td>
+                                <td class="green">True</td>
+                            </tr>
+                            <tr>
+                                <td>Dress 1</td>
+                                <td>Summer</td>
+                                <td>Dresses</td>
+                                <td class="red">False</td>
+                            </tr>
+                            <tr>
+                                <td>Dress 2</td>
+                                <td>Spring</td>
+                                <td>Dresses</td>
+                                <td class="red">False</td>
+                            </tr>
+                        </table>
+                        <h2 id="case_3">Case 3:</h2>
+                        <p>Hide all products from category shoes, except for shoe 1</p>
+                        <img alt="WooCommerce Product Visibility" class="img-thumbnail img-responsive" src="assets/images/case_3.png">
+                        <table>
+                            <tr>
+                                <th>Product</th>
+                                <th>Tag</th>
+                                <th>Category</th>
+                                <th>Visible</th>
+                            </tr>
+                            <tr>
+                                <td>Trouser 1</td>
+                                <td>Winter</td>
+                                <td>Trousers</td>
+                                <td class="green">True</td>
+                            </tr>
+                            <tr>
+                                <td>Trouser 2</td>
+                                <td>Summer</td>
+                                <td>Trousers</td>
+                                <td class="green">True</td>
+                            </tr>
+                            <tr>
+                                <td>Shoe 1</td>
+                                <td>Spring</td>
+                                <td>Shoes</td>
+                                <td class="green">True</td>
+                            </tr>
+                            <tr>
+                                <td>Shoe 2</td>
+                                <td>Winter</td>
+                                <td>Shoes</td>
+                                <td class="red">False</td>
+                            </tr>
+                            <tr>
+                                <td>Dress 1</td>
+                                <td>Summer</td>
+                                <td>Dresses</td>
+                                <td class="green">True</td>
+                            </tr>
+                            <tr>
+                                <td>Dress 2</td>
+                                <td>Spring</td>
+                                <td>Dresses</td>
+                                <td class="green">True</td>
+                            </tr>
+                        </table>
+                        <h2 id="case_4">Case 4:</h2>
+                        <p>Show only shoes and dresses, except for shoe 1 and products that have summer tag</p>
+                        <img alt="WooCommerce Product Visibility" class="img-thumbnail img-responsive" src="assets/images/case_4.png">
+                        <table>
+                            <tr>
+                                <th>Product</th>
+                                <th>Tag</th>
+                                <th>Category</th>
+                                <th>Visible</th>
+                            </tr>
+                            <tr>
+                                <td>Trouser 1</td>
+                                <td>Winter</td>
+                                <td>Trousers</td>
+                                <td class="red">False</td>
+                            </tr>
+                            <tr>
+                                <td>Trouser 2</td>
+                                <td>Summer</td>
+                                <td>Trousers</td>
+                                <td class="red">False</td>
+                            </tr>
+                            <tr>
+                                <td>Shoe 1</td>
+                                <td>Spring</td>
+                                <td>Shoes</td>
+                                <td class="red">False</td>
+                            </tr>
+                            <tr>
+                                <td>Shoe 2</td>
+                                <td>Winter</td>
+                                <td>Shoes</td>
+                                <td class="green">True</td>
+                            </tr>
+                            <tr>
+                                <td>Dress 1</td>
+                                <td>Summer</td>
+                                <td>Dresses</td>
+                                <td class="red">False</td>
+                            </tr>
+                            <tr>
+                                <td>Dress 2</td>
+                                <td>Spring</td>
+                                <td>Dresses</td>
+                                <td class="green">True</td>
+                            </tr>
+                        </table>
+                        <h2 id="case_5">Case 5:</h2>
+                        <p>Hide summer tag and trousers category, but show dress 1 and trouser 2</p>
+                        <img alt="WooCommerce Product Visibility" class="img-thumbnail img-responsive" src="assets/images/case_5.png">
+                        <table>
+                            <tr>
+                                <th>Product</th>
+                                <th>Tag</th>
+                                <th>Category</th>
+                                <th>Visible</th>
+                            </tr>
+                            <tr>
+                                <td>Trouser 1</td>
+                                <td>Winter</td>
+                                <td>Trousers</td>
+                                <td class="red">False</td>
+                            </tr>
+                            <tr>
+                                <td>Trouser 2</td>
+                                <td>Summer</td>
+                                <td>Trousers</td>
+                                <td class="green">True</td>
+                            </tr>
+                            <tr>
+                                <td>Shoe 1</td>
+                                <td>Spring</td>
+                                <td>Shoes</td>
+                                <td class="green">True</td>
+                            </tr>
+                            <tr>
+                                <td>Shoe 2</td>
+                                <td>Winter</td>
+                                <td>Shoes</td>
+                                <td class="green">True</td>
+                            </tr>
+                            <tr>
+                                <td>Dress 1</td>
+                                <td>Summer</td>
+                                <td>Dresses</td>
+                                <td class="green">True</td>
+                            </tr>
+                            <tr>
+                                <td>Dress 2</td>
+                                <td>Spring</td>
+                                <td>Dresses</td>
+                                <td class="green">True</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="bs-docs-section">
+                        <h1 class="page-header" id="show_products_direct_url">Show Products Through Direct URL</h1>
+                        <p>If for some reason, want to hide your products, but be able to send a direct url to your users, in order for them to see the hidden products, you can do so easily. Just just tick the <strong>enable</strong> radio button right next to the and press Show Products Through Direct URL option and <strong>Save changes</strong> </p>
+                        <img alt="WooCommerce Product Visibility" class="img-thumbnail img-responsive" src="assets/images/show products through direct url.png">
+                    </div>
+                    <div class="bs-docs-section">
+                        <h1 class="page-header" id="multiple_user_roles">Multiple Roles per User Compatibility</h1>
+                        <p>The plugin is compatible with multiple roles per user.</p>
+                        <p>If you want to add multiple user roles per user, you can download, install and activate the <a target="_blank" href="https://wordpress.org/plugins/multiple-roles/">Multiple Roles</a> plugin.</p>
+                        <p>To enable the multiple roles compatibility, just tick the <strong>enable</strong> radio button and press <strong>Save changes</strong>.</p>
+                        <img alt="WooCommerce Product Visibility" class="img-thumbnail img-responsive" src="assets/images/wcpv_multiple_roles.png">
+                        <h3>The Role Priority field</h3>
+                        <p>When you enable the multiple roles compatibility, then a new field will appear for each role: the <strong>Role Priority</strong> field.</p>
+                        <p>The Role Priority field is an <strong>integer number (1 or greater)</strong> that indicates which role rules will be applied first. Bear in mind, that <strong>the default logged user has a top priority of -1</strong>.</p>
+                        <p>To understand role priorities, let's say that a user has 2 different roles at the same time: the editor and the author. If the editor role has a default priority of 50 and the author role a priority of 51, this means that the editor rules will be applied first.</p>
+                        <div class="bs-callout bs-callout-warning">
+                            <p>The Role Priority field will show, <strong>only if</strong> you have enabled the Multiple User Roles Compatibility.</p>
+                        </div>                        
+                        <h3>A practical example</h3>
+                        <p>Let's say that you add the following rules:</p>
+                        <ol>
+                            <li>Hide posters for editors</li>
+                            <li>Hide albums for customers</li>
+                        </ol>
+                        <p>The result will be the following:</p>
+                        <ol>
+                            <li>The editors will not see the posters</li>
+                            <li>The customers will not see the albums</li>
+                            <li>Users that have the editor and customer role at the same time, will not see the posters and the albums</li>
+                        </ol>
+                        <h3>The Cancel Hide Radio Button</h3>
+                        <p>If you add multiple roles to at least one user, then a new radio button will appear for each role: the <strong>Cancel hide</strong> button.</p>
+                        <p>You can use the cancel hide rule to <strong>reset a hide rule</strong> that belongs to a higher priority role.</p>
+                        <p>In order to use the cancel hide button, the user role to which you will apply it must have a higher number (lower priority) than the role to which you have set the hide rule.</p>
+                        <h3>A practical example</h3>
+                        <p>For example, let's say that you have a user that has 2 user roles at the same time, the editor and the customer. In order to hide all posters from editors, but show it for customers you can do follow these steps:</p>
+                        <ol>
+                            <li><strong>Hide</strong> the albums category for editors.</li>
+                            <li>Set a 51 <strong>priority</strong> for customers (the editors have a default 50 priority).</li>
+                            <li><strong>Cancel hide</strong> the albums category for customers.</li>
+                        </ol>
+                        <h3>Cancel Hide and Show combination</h3>
+                        <p>When you add a <strong>show</strong> rule to a product, tag or category, it helps if you interpret this rule as a <strong>hide all others</strong> rule. For example, if you have 4 products, and you add a show rule for products 1 and for, this means that the other products, 3 and 4, will be hidden. </p>
+                        <h3>A practical example</h3>
+                        <p>Let's say that you add the following rules:</p>
+                        <ol>
+                            <li>Show only products 1 and 2 for editors with a role priority of 50</li>
+                            <li>Cancel hide product 3 for customers with a role priority of 51</li>
+                        </ol>
+                        <p>The result will be the following:</p>
+                        <ol>
+                            <li>The editors will see products 1 and 2 (since all other products will be hidden)</li>
+                            <li>Users that have the editor and customer role at the same time, will see products 1, 2 and 3</li>
+                        </ol>
+                    </div>
+                    <div class="bs-docs-section">
+                        <h1 class="page-header" id="wpml">WPML Compatibility</h1>
+                        <p>The plugin is WPML compatible. This means, that every rule that you create will also apply for the available translations.</p>
+                        <p>The plugin's backend options are only available for the site's default language.</p>
+                        <div class="bs-callout bs-callout-warning">
+                            <p>Make sure that all of your products, tags and categories on your default language, have been translated.</p>
+                        </div>
+                    </div>
+                    <div class="bs-docs-section">
+                        <h1 class="page-header" id="changelog">Changelog</h1>
+                        <h4>27.04.2018 <small>version 2.7</small></h4>
+                        <ul>
+                            <li>Add - Multiple user role wcpv_mur_intersect_include filter</li>
+                        </ul>
+                        <h4>20.02.2018 <small>version 2.6</small></h4>
+                        <ul>
+                            <li>Add - General helper filters</li>
+                        </ul>
+                        <h4>02.02.2018 <small>version 2.5</small></h4>
+                        <ul>
+                            <li>Add - Helper filter for multi-category products</li>
+                        </ul>
+                        <h4>02.09.2017 <small>version 2.4</small></h4>
+                        <ul>
+                            <li>Add - Show products through direct URL option</li>
+                        </ul>
+                        <h4>14.05.2017 <small>version 2.3</small></h4>
+                        <ul>
+                            <li>Fix - Relevanssi search plugin compatibility fix</li>
+                            <li>Fix - Live ajax search fix</li>
+                        </ul>
+                        <h4>20.04.2017 <small>version 2.2</small></h4>
+                        <ul>
+                            <li>Fix - Performance optimization</li>
+                        </ul>
+                        <h4>01.04.2017 <small>version 2.1</small></h4>
+                        <ul>
+                            <li>Add - Compatibility with WooCommerce 3.0</li>
+                        </ul>
+                        <h4>01.03.2017 <small>version 2.0</small></h4>
+                        <ul>
+                            <li>Add - Multiple user roles per user compatibility</li>
+                            <li>Add - Default logged user role added for bulk actions</li>
+                            <li>Add - Hide hidden products from cart</li>
+                            <li>Add - Reset all rules button</li>
+                            <li>Fix - Performance optimization</li>
+                            <li>Language - Fix Russian and Ukrainian translations</li>
+                        </ul>
+                        <h4>24.01.2017 <small>version 1.4</small></h4>
+                        <ul>
+                            <li>Fix - Do not hide irrelevant products from menus and widgets</li>
+                            <li>Fix - Performance optimization</li>
+                        </ul>
+                        <h4>13.01.2017 <small>version 1.3</small></h4>
+                        <ul>
+                            <li>Add - Hide hidden products from menus</li>
+                            <li>Fix - Do not hide post categories</li>
+                        </ul>
+                        <h4>12.01.2017 <small>version 1.2</small></h4>
+                        <ul>
+                            <li>Add - Hide hidden categories and tags from menus</li>
+                            <li>Add - Hide hidden categories from WooCommerce Product Categories widget</li>
+                            <li>Add - Fix categories counting in WooCommerce Product Categories widget</li>
+                            <li>Add - Hide hidden tags from Product Tags widget</li>
+                            <li>Language - Plugin localization</li>
+                            <li>Language - Add Russian and Ukrainian translations</li>
+                        </ul>
+                        <h4>29.12.2016 <small>version 1.1</small></h4>
+                        <ul><li>Fix - WPML problem with categories and tags</li></ul>
+                        <h4>26.10.2016 <small>version 1.0</small></h4>
+                        <ul><li>Initial release</li></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/jquery.js"></script> 
+        <script src="assets/js/bootstrap.min.js"></script> 
+        <script src="assets/js/scripts.js"></script> 
+    </body>
+</html>

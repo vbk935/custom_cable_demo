@@ -1,0 +1,56 @@
+.ced_cng_hide {
+	display: none;
+}
+.ced_ocor_row {
+  padding: 20px 0;
+  width: 100%;
+}
+.ced_ocor_main_wrapper .ced_ocor_row .ced_ocor_columns.ced_ocor_label_wrap {
+  float: left;
+  width: 25%;
+}
+.ced_ocor_main_wrapper .ced_ocor_row .ced_ocor_columns.ced_ocor_columns_content {
+  float: left;
+  width: 75%;
+  margin-top: 10px;
+}
+.ced_ocor_columns.ced_ocor_label_wrap > label {
+  font-weight: bold;
+}
+.ced_ocor_general_settings_wrap .ced_ocor_columns .select2-container.select2-container-multi {
+  width: 50%;
+}
+.ced_ocor_row .spinner {
+	float: none;
+}
+.ced_ocor_attachment_action {
+  margin: 10px 0;
+  text-align: center;
+  width: 140px;
+}
+.ced_ocor_attachment_wrapper {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  max-width: 115px;
+}
+.ced_ocor_attachment_wrapper > img {
+  width: 50%;
+}
+.ced_ocor_attachment_selector {
+  background-color: #999999;
+  border: none;
+  border-radius: 50%;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  height: 25px;
+  line-height: 20px;
+  position: absolute;
+  right: -10px;
+  text-align: center;
+  top: -10px;
+  width: 25px;
+}

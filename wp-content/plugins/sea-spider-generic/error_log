@@ -1,0 +1,72 @@
+[14-Jun-2018 00:49:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/page.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/page.php on line 6
+[14-Jun-2018 00:50:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/posts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/posts.php on line 7
+[14-Jun-2018 00:50:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/styles.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/styles.php on line 7
+[14-Jun-2018 00:50:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_image_size() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/media.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/media.php on line 2
+[14-Jun-2018 00:50:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/body.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/body.php on line 10
+[14-Jun-2018 00:51:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/scripts.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/scripts.php on line 19
+[14-Jun-2018 00:51:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/ss-admin.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/ss-admin.php on line 4
+[14-Jun-2018 00:51:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/dashboard.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/dashboard.php on line 4
+[14-Jun-2018 00:52:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/search.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/search.php on line 21
+[14-Jun-2018 02:23:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/page.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/page.php on line 6
+[14-Jun-2018 02:23:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/posts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/posts.php on line 7
+[14-Jun-2018 02:23:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/styles.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/styles.php on line 7
+[14-Jun-2018 02:23:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_image_size() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/media.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/media.php on line 2
+[14-Jun-2018 02:23:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/body.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/body.php on line 10
+[14-Jun-2018 02:24:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/scripts.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/scripts.php on line 19
+[14-Jun-2018 02:24:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/ss-admin.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/ss-admin.php on line 4
+[14-Jun-2018 02:24:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/dashboard.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/dashboard.php on line 4
+[14-Jun-2018 02:24:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/search.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-content/plugins/sea-spider-generic/search.php on line 21

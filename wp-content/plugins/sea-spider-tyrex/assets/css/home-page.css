@@ -1,0 +1,44 @@
+
+/*****************************************************************
+
+				homepage
+
+*****************************************************************/
+
+.home.page h1 {margin:0px;}
+.home.page .text-hide {position: absolute;}
+.home.page .title {margin: 0px -15px 40px -15px;}
+.h2-art {
+	max-width: 1170px;
+	height: auto;
+	margin: 0px 0px 10px 0px;
+	display: block;
+	width: 100%;
+}
+.home.page .title  {
+	margin-bottom: 40px;
+  margin: 0px -15px 40px -15px;
+}
+.home.page h2  {
+	text-align: center;
+	font-size: 35px;
+	line-height: 40px;
+	font-family: 'Merriweather', serif;
+	font-weight:700;
+	font-style:italic;
+	text-transform:capitalize;
+	margin:20px 0px 10px 0px;
+}
+.home.page h3 {
+	font-family: 'Alfa Slab One',  sans-serif;
+	letter-spacing: 1px;
+}
+a.lead-in {
+	padding: 0px 40px;
+}
+a.lead-in:hover {
+	text-decoration: none;
+}
+.home.page .footer-main  {
+	margin-top: 40px;
+}

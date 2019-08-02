@@ -1,0 +1,73 @@
+.panel ul, .panel ol {
+list-style: disc;
+margin-left:0px;
+}  
+
+
+/*****************************************************************
+
+				BUTTONS    MOVING!!!!!!!!!!!!!
+
+*****************************************************************/
+
+a.read-more, form .send {
+   background: #ffffff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#cccccc));
+   background: -webkit-linear-gradient(top, #ffffff, #cccccc);
+   background: -moz-linear-gradient(top, #ffffff, #cccccc);
+   background: -ms-linear-gradient(top, #ffffff, #cccccc);
+   background: -o-linear-gradient(top, #ffffff, #cccccc);
+   padding: 6px 8px;
+  -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #000;
+   font-size: 12px;
+   text-decoration: none;
+   vertical-align: middle;
+	border: solid 1px #fff;
+}
+a.read-more:hover, form .send:hover {
+	color: #fff;
+	background: #4D4D4D;
+	background: -webkit-gradient(linear, left top, left bottom, from(#4D4D4D), to(#333));
+	background: -webkit-linear-gradient(top, #4D4D4D, #333);
+	background: -moz-linear-gradient(top, #4D4D4D, #333);
+	background: -ms-linear-gradient(top, #4D4D4D, #333);
+	background: -o-linear-gradient(top, #4D4D4D, #333);
+}
+a.read-more .fa {
+	font-size: 55%;
+}
+
+
+
+/*****************************************************************
+
+				TINYMCE
+
+*****************************************************************/
+.alignleft{
+	display: block;
+	float: left;
+	margin: 0px 20px 20px 0px;
+}
+.aligncenter {
+	margin: 20px auto;
+	display: block;
+}
+.alignright{
+	display: block;
+	float: right;
+	margin: 0px 0px 20px 20px;	
+}
+
+
+
+.aligncenter {display:block; margin-left: auto; margin-right:auto;}
+.alignleft {display:block; margin: 0px 20px 20px 0px; float:left;}
+.alignright {display:block; margin: 0px 0px 20px 20px; float:right;}

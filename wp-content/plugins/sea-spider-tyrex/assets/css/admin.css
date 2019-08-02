@@ -1,0 +1,20 @@
+body .select2-results .select2-highlighted {color: #000 !important; } 
+
+#update-nag, .update-nag, .client #update-nag, .client .update-nag{display:none}
+
+/* client user woocommerce  */
+body.client #menu-posts {display:none;}
+body.client #menu-posts-article {display:none;}
+body.client #menu-posts-panel {display:none;}
+body.client #toplevel_page_jetpack {display:none;}
+body.client #menu-posts-download {display:none;}
+body.client #menu-posts-newsletter {display:none;}
+body.client #menu-posts {display:none;}
+body.client #menu-posts-company {display:none;}
+body.client #toplevel_page_site-settings {display:none;}
+
+body.client #dashboard_right_now {display:none;}
+body.client #jetpack_summary_widget {display:none;}
+
+body.client #jetpack_summary_widget a[href^="wc-status"] {display:none;}
+body.client #jetpack_summary_widget a[href^="wc-addons"] {display:none;}

@@ -1,0 +1,36 @@
+/* Porto Grid Container */
+.porto-grid-container {
+    position: relative;
+
+    .porto-grid-item {
+        float: $left;
+        max-width: 100%;
+
+        > .wpb_single_image {
+            margin-bottom: 0;
+
+            .vc_single_image-wrapper:hover {
+                background: #000;
+                @include transition(opacity 0.35s ease 0s);
+            }
+
+            a {
+                display: block;
+            }
+
+            .vc_single_image-wrapper {
+                width: 100%;
+                display: block;
+            }
+
+            img {
+                width: 100%;
+                @include transition(opacity 0.35s ease 0s);
+
+                &:hover {
+                    opacity: .9;
+                }
+            }
+        }
+    }
+}

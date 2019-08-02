@@ -1,0 +1,632 @@
+.upfront_choose_menu {
+	display: block;
+	margin: auto;
+	max-width: 760px;
+	min-width: 50px;
+	float: none;
+	font-family: 'Open Sans', Helvetica Neueu, Helvetica, Arial, sans-serif;
+	padding: 15px 0;
+}
+
+div.upfront-navigation.upfront-editable_entity i.navigation-add-item, div.upfront-navigation i.delete_menu_item
+/*, div.upfront-navigation i.edit_link*/ {
+	display: none;
+	z-index:1;
+	cursor: pointer !important;
+}
+div.upfront-navigation.upfront-editable_entity ul li > i.navigation-add-item {
+	display:none;
+	position: absolute;
+	right: -20px;
+	top: 30%;
+}
+
+div.upfront-navigation.upfront-editable_entity:hover ul li > i.navigation-add-item {
+	display: block;
+}
+
+
+div.upfront-navigation.upfront-editable_entity ul li.new_menu_item > i.navigation-add-item,
+div.upfront-navigation.upfront-editable_entity ul.menu > li > i.navigation-add-item  {
+	display:none !important;
+}
+
+div.upfront-navigation.upfront-editable_entity i.navigation-add-item:before {
+	content:'';
+	display:block;
+	width: 16px;
+	height: 16px;
+	background-position: -1363px -171px;
+	background-image: url('../../../img/uf-core-el-sprite.svg');
+	cursor: pointer;
+	overflow: hidden;
+	line-height: 3em;
+}
+
+div.upfront-navigation.upfront-editable_entity  ul.menu > li > i.navigation-add-item {
+	display: none !important;
+}
+
+.upfront-output-unewnavigation[data-style="vertical"] ul.sub-menu {
+  z-index:9999;
+}
+
+div.upfront-navigation.upfront-editable_entity ul.sub-menu > li > i.navigation-add-item {
+	left: 10px;
+	bottom: -22px !important;
+	padding: 2px;
+	position: absolute;
+	top: inherit;
+}
+div.upfront-navigation.upfront-editable_entity ul.sub-menu > li > i.navigation-add-item:before {
+	display:inline-block !important;
+	vertical-align:middle;
+}
+
+div.upfront-navigation.upfront-editable_entity ul.sub-menu > li > i.navigation-add-item:after {
+	content: 'Add Item';
+	display:inline-block;
+	padding-left:4px;
+
+	font-size:0.8em;
+	position:relative;
+	font-style:normal;
+	font-size: 12px;
+}
+
+div.upfront-navigation.upfront-editable_entity ul.menu li i.delete_menu_item {
+	width: 16px;
+	height: 16px;
+	background-position: -483px -171px;
+	background-image: url('../../../img/uf-core-el-sprite.svg');
+	position: absolute;
+	right: 4px;
+	top: -8px;
+	cursor: pointer;
+	overflow: hidden;
+	text-indent: 100px;
+	line-height: 3em;
+}
+/*
+div.upfront-navigation.upfront-editable_entity ul.menu li i.edit_link {
+	width: 16px;
+	height: 16px;
+	background-position: -923px -43px;
+	background-image: url('../../../img/uf-core-el-sprite.svg');
+	position: absolute;
+	left: -8px;
+	bottom: -8px;
+	cursor: pointer;
+	overflow: hidden;
+	line-height: 3em;
+}
+*/
+div.upfront-navigation.upfront-editable_entity ul.menu li:hover {
+	cursor: move;
+}
+
+div.upfront-navigation.upfront-editable_entity ul.menu li.edit_mode:hover {
+	cursor: text;
+}
+
+div.upfront-navigation.upfront-editable_entity ul.menu li:not(.edit_mode):hover > a:before {
+	content:'';
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	bottom: 0;
+	right: 0;
+	border:1px #ddd dotted;
+
+}
+
+div.upfront-navigation.upfront-editable_entity ul.menu li > i.visit_link {
+	bottom: -9px;
+	top: inherit;
+	left:-9px;
+}
+
+div.upfront-navigation.upfront-editable_entity ul.menu li:not(.edit_mode):hover > i.delete_menu_item
+,div.upfront-navigation.upfront-editable_entity ul.menu li:not(.edit_mode):hover > i.visit_link
+/*,div.upfront-navigation.upfront-editable_entity ul.menu li:not(.edit_mode):hover > i.edit_link*/ {
+	display:block;
+}
+
+div.upfront-navigation.upfront-editable_entity ul.time_being_display {
+	display:block;
+}
+
+div.upfront-navigation.upfront-editable_entity a.menu_item.menu_item_placeholder {
+	min-width: 92px;
+}
+
+/* This is being done to keep the placeholder on a new nav item, or an existing nav item, in position */
+span.menu_item-ueditor.redactor-placeholder,
+span.menu_item-ueditor.ueditor-placeholder {
+  position: inherit !important;
+  top: inherit !important;
+  left: inherit !important;
+  right: inherit !important;
+}
+
+div.upfront-navigation.upfront-editable_entity  div.existing_menu_list ul li:before, div.upfront-navigation.upfront-editable_entity  div.existing_menu_list li label:before {
+	display: none !important;
+}
+
+
+div.upfront-navigation div.existing_menu_list,  div.upfront-navigation div.new_menu_name, div.upfront-navigation div.new_menu_button {
+	display: inline-block;
+	vertical-align:middle;
+}
+div.upfront-navigation div.existing_menu_list {
+	margin-right: 0;
+	width: 40%;
+}
+div.upfront-navigation div.new_menu_name {
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 65%;
+}
+
+div.upfront-navigation div.new_menu_button {
+	margin-left: 5px;
+}
+
+div.upfront-navigation div.new_menu_name input {
+	height: 40px;
+	font-weight: 300;
+	font-size: 15px;
+	font-family: 'Open Sans', Helvetica Neueu, Helvetica, Arial, sans-serif;
+	border: 1px #a2bfda solid;
+}
+
+div.upfront-navigation div.new_menu_button input {
+	background: #f5faff;
+	border: 1px #a2bfda solid;
+	border-radius: 3px;
+	font-size: 15px;
+	height: 40px;
+	padding: 0 20px;
+	color: #6486a6;
+}
+
+div.upfront-navigation div.new_menu_button input[disabled] {
+	opacity: 0.5;
+}
+
+#unewnavigation-tooltip {
+	position: absolute;
+	width:250px;
+	z-index: 10;
+	background: rgb(242, 249, 255);
+	box-shadow: 3px 3px 0 rgba(99, 134, 166, 0.25);
+	border: 1px solid rgb(99, 134, 166);
+	padding: 10px;
+}
+
+#unewnavigation-tooltip h3{
+	font-size: 17px;
+	line-height: 17px;
+	color: rgb(99, 134, 166);
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-family: 'Open Sans', Helvetica Neueu, Helvetica, Arial, sans-serif;
+	margin: 0 0 10px;
+	font-weight: normal;
+}
+
+#unewnavigation-tooltip:before{
+	position: absolute;
+	top: 39px;
+	border: 9px solid transparent;
+	content: ' ';
+}
+
+#unewnavigation-tooltip:after{
+	position: absolute;
+	top: 40px;
+	border: 8px solid transparent;
+	content: ' ';
+}
+
+#unewnavigation-tooltip.unewnavigation-tooltip-left:after {
+	left: 100%;
+	border-left-color: rgb(242, 249, 255);
+}
+
+#unewnavigation-tooltip.unewnavigation-tooltip-left:before {
+	left: 100%;
+	border-left-color: rgb(99, 134, 166);
+}
+
+#unewnavigation-tooltip.unewnavigation-tooltip-right:after {
+	left: -16px;
+	border-right-color: rgb(242, 249, 255);
+}
+
+#unewnavigation-tooltip.unewnavigation-tooltip-right:before {
+	left: -18px;
+	border-right-color: rgb(99, 134, 166);
+}
+
+#unewnavigation-tooltip.unewnavigation-tooltip-bottom:after {
+	top: -16px;
+	left: 86px;
+	border-bottom-color: rgb(242, 249, 255);
+}
+
+#unewnavigation-tooltip.unewnavigation-tooltip-bottom:before {
+	top: -18px;
+	left: 85px;
+	border-bottom-color: rgb(99, 134, 166);
+}
+
+`
+#unewnavigation-tooltip div.upfront-field-wrap-select {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 10px;
+	width: 168px;
+}
+#unewnavigation-tooltip div.upfront-field-wrap-select div.upfront-field-select {
+	width: 172px;
+	height: 20px;
+}
+
+#unewnavigation-tooltip div.upfront-field-select .upfront-field-select-value {
+	margin-top: -3px;
+}
+#unewnavigation-tooltip div.upfront-field-select:after {
+	top: 8px;
+}
+div#label-anchors-select {
+	display: inline-block;
+}
+
+div#unewnavigation-tooltip {
+  padding: 10px;
+  width: 250px;
+}
+
+div#unewnavigation-tooltip input[type="radio"] {
+  margin-right:0;
+}
+
+div#unewnavigation-tooltip input#unavigation-link-url {
+  padding:4px;
+  height: 20px;
+  display:inline-block;
+  width: 130px;
+  margin-bottom:10px;
+  font-size: 10px;
+}
+
+div#unewnavigation-tooltip span.tooltip-title {
+  font-size: 13px;
+  color:#6386a6;
+}
+
+input#unavigation-link-type-3 {
+	margin-left: 10px;
+}
+
+
+.ui-sortable-placeholder {
+	vertical-align: top;
+}
+
+
+div.upfront-output-unewnavigation .ueditor-placeholder {
+	z-index:1 !important;
+}
+
+
+/* BURGER MENU */
+
+div.upfront-navigation div[data-style="burger"] i.navigation-add-item {
+  position: absolute;
+  display: block !important;
+  top: 2px !important;
+}
+div.upfront-navigation div[data-style="burger"] i.delete_menu_item {
+  right:100px !important
+}
+/*div.upfront-navigation div[data-style="burger"] i.edit_link  {
+  right:60px !important
+}*/
+div.upfront-navigation div[data-style="burger"][data-alignment="left"] i.navigation-add-item,
+div.upfront-navigation div[data-style="burger"][data-alignment="center"] i.navigation-add-item {
+  left:inherit !important;
+  margin-right:50px;
+}
+
+div.upfront-navigation div[data-style="burger"][data-alignment="right"] i.navigation-add-item {
+  right: inherit;
+  margin-left: 10px;
+}
+
+div.upfront-navigation div[data-style="burger"] ul.sub-menu {
+  z-index: inherit !important;
+}
+
+/* Hover to open sub-menu in the layout edit mode */
+/*div.upfront-navigation div[data-style="burger"] > ul.menu li.menu-item:hover > ul.sub-menu {
+  display: block;
+}*/
+
+.newnavigation_squished > b.upfront-entity_meta {
+	top: 5px !important;
+	right: 5px !important;
+}
+
+.newnavigation_squished .upfront-object > .upfront-entity_meta {
+	top: 5px !important;
+	right: 28px !important;
+}
+
+
+.newnavigation_squished .upfront-object > .upfront-entity_meta.newnavigation_add {
+	top: 5px !important;
+	right: 30px !important;
+}
+
+.upfront-settings-item div.menu_style > span {
+  display: inline-block;
+}
+
+.upfront-settings-item div.menu_style > span:first-child {
+  margin-right:20px;
+}
+
+/* Small adjustemnts for linking panel, it uses redactor template */
+div.upfront-navigation li.menu-item .redactor-toolbar a {
+	padding: 0;
+}
+div.upfront-navigation li.menu-item .redactor_air {
+	left: 50%;
+	margin-left: -20px;
+	display: none;
+}
+div.upfront-navigation li.menu-item.stayOpen .redactor_air,
+div.upfront-navigation li.menu-item.stayOpen .umenu-controls,
+div.upfront-navigation li.menu-item:hover .redactor_air {
+	display: block!important;
+}
+
+/* Make link panel work well */
+li.menu-item .uimage-controls.image-element-controls .upfront-inline-panel .upfront-inline-panel-item.labeled {
+	width: auto!important;
+	min-width: 0px!important;
+	line-height: inherit!important;
+	padding-left: 0;
+}
+li.menu-item .uimage-controls.image-element-controls .upfront-inline-panel .upfront-inline-panel-item.labeled i {
+	display: inline-block;
+	vertical-align: middle;
+}
+.upfront-navigation li.menu-item .uimage-controls.image-element-controls .upfront-inline-panel .upfront-inline-panel-item.labeled span {
+	display: inline-block;
+	vertical-align: middle;
+	width: auto;
+	line-height: 36px;
+}
+li.menu-item a {
+	min-height: 30px;
+}
+li.menu-item .uimage-controls.image-element-controls {
+	display: block;
+	visibility: hidden;
+	bottom: -38px;
+	left: 0;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+li.menu-item .uimage-controls.image-element-controls .upfront-inline-panel {
+	visibility: hidden;
+}
+li.menu-item.controls-visible > .uimage-controls.image-element-controls {
+	visibility: visible;
+	max-width: none;
+	overflow-x: visible;
+}
+li.menu-item.controls-visible > .uimage-controls.image-element-controls .upfront-inline-panel {
+	visibility: visible;
+}
+li.menu-item .open-item-controls {
+	display: block;
+	width: 30px;
+	height: 10px;
+	background: green;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+	display: none;
+	cursor: pointer;
+  background-image: -moz-linear-gradient(-89deg, #2F445D 0%, #152841 100%);
+  background-image: -ms-linear-gradient(-89deg, #2F445D 0%, #152841 100%);
+  background-image: linear-gradient(-179deg, #2F445D 0%, #152841 100%);
+}
+li.menu-item:hover > .open-item-controls,
+li.menu-item.controls-visible > .open-item-controls {
+	display: block;
+}
+li.menu-item .uimage-controls .upfront-inline-panel {
+	background-image: none;
+	box-shadow: none;
+	width: 300px!important;
+}
+li.menu-item .uimage-controls .inline-panel-control-dialog {
+	min-width: 190px;
+}
+li.menu-item .uimage-controls .upfront-inline-panel .upfront-inline-panel-item.upfront-control-dialog-open:first-child {
+	/*height: 39px!important;*/
+}
+li.menu-item .uimage-controls .upfront-inline-panel .upfront-inline-panel-item {
+  background-image: -moz-linear-gradient(-89deg, #2F445D 0%, #152841 100%);
+  background-image: -ms-linear-gradient(-89deg, #2F445D 0%, #152841 100%);
+  background-image: linear-gradient(-179deg, #2F445D 0%, #152841 100%);
+  -moz-box-shadow: inset 0px -1px 0px 0px #43607A, inset 0px 1px 0px 0px #26394A;
+  box-shadow: inset 0px -1px 0px 0px #43607A, inset 0px 1px 0px 0px #26394A;
+}
+/* Collapsed control */
+li.menu-item .open-item-controls:before {
+	background-image: url(../../../img/uf-core-el-sprite.svg);
+	content: " ";
+  background-repeat: no-repeat;
+  float: left;
+  display: block;
+	height: 6px;
+	width: 24px;
+	background-position: -699px -721px;
+	margin: 2px 0 0 3px;
+}
+div.upfront-navigation li.menu-item .uimage-controls a {
+  padding: 0;
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+
+.c17 .upfront-navigation .upfront_new_menu_name_and_button, .c16 .upfront-navigation .upfront_new_menu_name_and_button, .c15 .upfront-navigation .upfront_new_menu_name_and_button, .c14 .upfront-navigation .upfront_new_menu_name_and_button, .c13 .upfront-navigation .upfront_new_menu_name_and_button,
+.c12 .upfront-navigation .upfront_new_menu_name_and_button, .c11 .upfront-navigation .upfront_new_menu_name_and_button, .c10 .upfront-navigation .upfront_new_menu_name_and_button,
+.c9 .upfront-navigation .upfront_new_menu_name_and_button, .c8 .upfront-navigation .upfront_new_menu_name_and_button, .c7 .upfront-navigation .upfront_new_menu_name_and_button,
+.c6 .upfront-navigation .upfront_new_menu_name_and_button, .c5 .upfront-navigation .upfront_new_menu_name_and_button, .c4 .upfront-navigation .upfront_new_menu_name_and_button,
+.c3 .upfront-navigation .upfront_new_menu_name_and_button, .c2 .upfront-navigation .upfront_new_menu_name_and_button, .c1 .upfront-navigation .upfront_new_menu_name_and_button {
+	width: 320px;
+}
+
+.c17 div.upfront-navigation div.new_menu_name, .c16 div.upfront-navigation div.new_menu_name, .c15 div.upfront-navigation div.new_menu_name, .c14 div.upfront-navigation div.new_menu_name, .c13 div.upfront-navigation div.new_menu_name,
+.c12 div.upfront-navigation div.new_menu_name, .c11 div.upfront-navigation div.new_menu_name, .c10 div.upfront-navigation div.new_menu_name,
+.c9 div.upfront-navigation div.new_menu_name, .c8 div.upfront-navigation div.new_menu_name, .c7 div.upfront-navigation div.new_menu_name,
+.c6 div.upfront-navigation div.new_menu_name, .c5 div.upfront-navigation div.new_menu_name, .c4 div.upfront-navigation div.new_menu_name,
+.c3 div.upfront-navigation div.new_menu_name, .c2 div.upfront-navigation div.new_menu_name, .c1 div.upfront-navigation div.new_menu_name {
+	max-width: 181px;
+}
+
+.c7 div.upfront-navigation div.new_menu_name,
+.c6 div.upfront-navigation div.new_menu_name, .c5 div.upfront-navigation div.new_menu_name, .c4 div.upfront-navigation div.new_menu_name,
+.c3 div.upfront-navigation div.new_menu_name, .c2 div.upfront-navigation div.new_menu_name, .c1 div.upfront-navigation div.new_menu_name {
+	max-width: inherit;
+	width: 100%;
+}
+
+.c7 div.upfront-navigation div.new_menu_button,
+.c6 div.upfront-navigation div.new_menu_button, .c5 div.upfront-navigation div.new_menu_button, .c4 div.upfront-navigation div.new_menu_button,
+.c3 div.upfront-navigation div.new_menu_button, .c2 div.upfront-navigation div.new_menu_button, .c1 div.upfront-navigation div.new_menu_button {
+	margin-left: 0;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.c7 div.upfront-navigation div.new_menu_name input,
+.c6 div.upfront-navigation div.new_menu_name input, .c5 div.upfront-navigation div.new_menu_name input, .c4 div.upfront-navigation div.new_menu_name input,
+.c3 div.upfront-navigation div.new_menu_name input, .c2 div.upfront-navigation div.new_menu_name input, .c1 div.upfront-navigation div.new_menu_name input,
+.c7 div.upfront-navigation div.new_menu_button input,
+.c6 div.upfront-navigation div.new_menu_button input, .c5 div.upfront-navigation div.new_menu_button input, .c4 div.upfront-navigation div.new_menu_button input,
+.c3 div.upfront-navigation div.new_menu_button input, .c2 div.upfront-navigation div.new_menu_button input, .c1 div.upfront-navigation div.new_menu_button input {
+	font-size: 12px;
+	text-overflow: ellipsis;
+	width: 100%;
+}
+
+.c15 .upfront-navigation .existing_menu_list, .c14 .upfront-navigation .existing_menu_list, .c13 .upfront-navigation .existing_menu_list,
+.c12 .upfront-navigation .existing_menu_list, .c11 .upfront-navigation .existing_menu_list, .c10 .upfront-navigation .existing_menu_list,
+.c9 .upfront-navigation .existing_menu_list, .c8 .upfront-navigation .existing_menu_list, .c7 .upfront-navigation .existing_menu_list,
+.c6 .upfront-navigation .existing_menu_list, .c5 .upfront-navigation .existing_menu_list, .c4 .upfront-navigation .existing_menu_list,
+.c3 .upfront-navigation .existing_menu_list, .c2 .upfront-navigation .existing_menu_list, .c1 .upfront-navigation .existing_menu_list {
+	display: block;
+	margin: auto;
+	max-width: 320px;
+	width: auto;
+}
+
+.upfront-navigation > span {
+	margin: 0 10px;
+	font-weight: 300;
+}
+
+.c15 .upfront-navigation > span, .c14 .upfront-navigation > span, .c13 .upfront-navigation > span,
+.c12 .upfront-navigation > span, .c11 .upfront-navigation > span, .c10 .upfront-navigation > span,
+.c9 .upfront-navigation > span, .c8 .upfront-navigation > span, .c7 .upfront-navigation > span,
+.c6 .upfront-navigation > span, .c5 .upfront-navigation > span, .c4 .upfront-navigation > span,
+.c3 .upfront-navigation > span, .c2 .upfront-navigation > span, .c1 .upfront-navigation > span {
+	display: block;
+	text-align: center;
+	margin: 7px 10px;
+}
+
+.c15 .upfront_new_menu_name_and_button, .c14 .upfront_new_menu_name_and_button, .c13 .upfront_new_menu_name_and_button,
+.c12 .upfront_new_menu_name_and_button, .c11 .upfront_new_menu_name_and_button, .c10 .upfront_new_menu_name_and_button,
+.c9 .upfront_new_menu_name_and_button, .c8 .upfront_new_menu_name_and_button, .c7 .upfront_new_menu_name_and_button,
+.c6 .upfront_new_menu_name_and_button, .c5 .upfront_new_menu_name_and_button, .c4 .upfront_new_menu_name_and_button,
+.c3 .upfront_new_menu_name_and_button, .c2 .upfront_new_menu_name_and_button, .c1 .upfront_new_menu_name_and_button {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+.upfront_new_menu_name_and_button {
+	display: inline-block;
+	width: 54%;
+}
+
+.newnavigation_squished .upfront-editable_entity.upfront-navigation:hover .responsive_nav_toggler {
+	top:15px;
+	right: inherit;
+}
+
+.upfront-editable_entity.upfront-navigation:hover .responsive_nav_toggler {
+	right:15px;
+}
+
+div.preset-manager-panel .upfront-settings-item-title {
+	margin: 0px;
+}
+
+div.preset-manager-panel .menustyle_settings_item .upfront-field-label {
+	font-weight: normal;
+	position: relative;
+	top: 5px;
+}
+
+div.preset-manager-panel .menustyle_settings_item .menu_style {
+	width: 110px;
+}
+
+div.preset-manager-panel .menustyle_settings_item .menu_alignment {
+	width: 90px;
+	margin-top: -40px;
+	position: relative;
+	left: 125px;
+}
+
+div.preset-manager-panel div.menustyle_settings_item .upfront-settings-item-title span {
+	color: #
+}
+
+div.preset-manager-panel .menustyle_settings_item  .burger_alignment {
+	margin-top: 5px;
+	width: 215px;
+}
+
+.select-menu-box .upfront-settings-item-content {
+	padding: 0px 15px !important;
+}
+
+.umenu-controls {
+	display: none;
+	border-radius: 2px;
+}
+
+.menu-item:not(.edit_mode):hover .umenu-controls {
+    display: block;
+}
+
+.menu-item .upfront-inline-panel {
+	top: 0px;
+	right: 0px;
+}
+
+
+/* 614788-1519253004-ai */

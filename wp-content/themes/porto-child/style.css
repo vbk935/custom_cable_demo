@@ -1,0 +1,132 @@
+/*
+Theme Name: Porto Child
+Theme URI: https://www.portotheme.com/wordpress/porto
+Author: P-THEMES
+Author URI: https://www.portotheme.com/
+Description: Porto Responsive WordPress + eCommerce Theme.
+Version: 1.1
+Template: porto
+License: Commercial
+License URI: http://themeforest.net/licenses/regular_extended
+Tags: woocommerce, corporate, ecommerce, responsive, blue, black, green, white, light, dark, red, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+*/
+
+/*************** ADD YOUR CUSTOM CSS HERE  ***************/
+
+.hidden{
+	display:none !important; 
+}
+#steps-customs li.active:first-child > a::after, .canvas-outer #steps-customs li.visited > a::after {
+    content: "\f30b";
+}
+.row-block{
+	display:block;
+} 
+.custom-btnsec .btn{
+	background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #1796ea, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    font-family: Arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.custom-btnsec .btn:hover, .custom-btnsec .btn:focus{
+	background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+    color: #fff;
+}
+#steps-customs li.parent-element[data-config-name="breakout_options"] .sub-content li p, #steps-customs li.parent-element[data-config-name="length"] .sub-content li p {
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    font-weight: bold; 
+	font-size: 13px;
+    margin-top: 18px;
+}
+.canvas-outer .printBtn{
+	margin: 0px 0px 15px 15px;
+    margin-top: 0px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    padding: 7px 18px 7px 18px;
+    letter-spacing: .3px;
+    font-size: 14px;
+    line-height: 1.5;
+	background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #1796ea, #2980b9);
+}
+.canvas-outer .printBtn:hover, .canvas-outer .printBtn:focus{
+	color:#fff;
+	background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+/* ----------amrita mm */
+.row-outer #steps-customs li.parent-element[data-config-name="breakout_options"] .sub-content li, #steps-customs li.parent-element[data-config-name="length"] .sub-content li {
+    text-align: center;
+    min-height: 87px;
+}
+.row-outer #steps-customs li.parent-element[data-config-name="breakout_options"] li p {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.row-outer #steps-customs li.parent-element[data-config-name="breakout_options"] li {
+    min-height: 87px !important;
+}
+.row-outer #steps-customs li.parent-element[data-config-name="breakout_options"] button, .row-outer #steps-customs li.parent-element .sub-content.width-div li.custom-btnsec .btn-centerpostion {
+    padding: 0 !important;
+    height: 87px !important;
+}
+.row-outer .canvas-outer #canvas_config {
+    background-size: 25px;
+}
+.row-outer #steps-customs li.temp-active > a::after {
+    content: "\f30b";
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 18px;
+    line-height: 1;
+    bottom: 0;
+    margin: auto;
+
+}
+.row-outer .canvas-outer #steps-customs .select-boxbreakout {
+    padding-top: 5px;  
+}
+.canvas-outer #canvas_config{
+	/* min-height: 526px; */
+}
+.canvas-outer #canvas_config2{
+	top:25px !important;
+}
+/* .btn.resetbtn, .row-outer .canvas-outer .printBtn{margin-top: 70px !important;}  */
+select.selectpicker::-ms-expand{
+    display: none;
+}
+
+
+@media only screen and (min-width: 320px), not all and (min-width: 320px) (orientation: portrait){
+.row-outer .canvas-outer #steps-customs li[data-config-name="length"] .sub-content li a {
+    min-height: auto;
+}
+.row-outer .canvas-outer #steps-customs li[data-config-name="length"] .sub-content li .select-boxbreakout #inputField {
+    margin-left: 15px;
+}
+}

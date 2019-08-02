@@ -1,0 +1,617 @@
+.ulinkpanel {
+	width: 230px;
+}
+
+.ulinpanel-dark {
+	background: initial !important;
+	text-transform: initial !important;
+	font: normal 13px/16px Verdana, sans-serif !important;
+}
+
+.ulinkpanel .upfront-field-select-value {
+	color: #2F475F !important;
+    font-size: 11px !important;
+    font-family: Verdana, sans-serif !important;
+    line-height: 22px !important;
+	text-transform: initial !important;
+}
+
+.ulinkpanel-title {
+	margin-bottom: 10px;
+	line-height: 1em;
+}
+
+.ulinkpanel .upfront-field-wrap {
+	margin: 5px 0px 5px 0px !important;
+	float: left;
+}
+
+.ulinkpanel-dark .upfront-field-wrap {
+	margin: 0px !important;
+}
+
+.ulinkpanel .ulinkpanel-external-wrap {
+	margin: 0;
+}
+
+.ulinkpanel .ulinkpanel-external-wrap input {
+	margin: 0 0 3px 0;
+}
+
+.ulinkpanel-external-wrap {
+	width: 100%;
+}
+
+.ulinkpanel-image-wrap {
+	width: 120px;
+}
+
+.ulinkpanel-anchor-wrap,
+.ulinkpanel-lightbox-wrap {
+	width: 110px;
+}
+
+.ulinkpanel div.ulinkpanel-image-wrap,
+.ulinkpanel div.ulinkpanel-lightbox-wrap {
+	margin-bottom: 0;
+}
+
+.ulinkpanel-selected-entry .ulinkpanel-entry-wrap,
+.ulinkpanel-selected-entry .ulinkpanel-anchor-wrap {
+	margin-bottom: 2px;
+}
+
+.ulinkpanel .upfront-field-radio {
+	margin-right: 5px;
+}
+
+.ulinkpanel-external-wrap label {
+	width: 30px;
+	display: inline-block;
+}
+
+.ulinkpanel #ulinkpanel-link-url {
+	width: 230px;
+	padding: 2px 4px;
+	height: 24px;
+}
+
+a.ulinkpanel-entry-url,
+a.ulinkpanel-entry-url:link {
+	display: block !important;
+	width: 100%;
+	margin-bottom: 5px !important;
+	font-size: 13px;
+	float: left;
+	line-height: 1em;
+	color: #7c9dbf;
+}
+
+a.ulinkpanel-entry-url:hover {
+	color: #3ea;
+}
+
+.ueditor-placeholder {
+	opacity: 0.5;
+}
+
+.ulinkpanel-anchor-selector {
+	height: 18px;
+	width: 100%;
+}
+
+#ulinkpanel-lightbox-extra {
+	width: 100%;
+	clear: both;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+#ulinkpanel-create-lightbox {
+	color: #7c9dbf;
+	border: 1px solid #7c9dbf;
+	width: 90px;
+	text-align: center;
+	display: block;
+	padding: 2px;
+	float: right;
+	margin-top: 5px;
+}
+
+#ulinkpanel-create-lightbox:hover {
+	color: rgb(48, 71, 94);
+	border: 1px solid #3ea;
+}
+
+.ulinkpanel-dark #ulinkpanel-create-lightbox:hover {
+	color: #cbe5ff;
+}
+
+.ulinkpanel-new-lightbox,
+.ulinkpanel-lightbox-selector {
+	margin-top: 1px;
+}
+
+.group-link-control .ulinkpanel-new-lightbox {
+	margin-top: 0px;
+}
+
+.ulinkpanel-lightbox-selector {
+	border: 1px solid #7c9dbf;
+}
+
+.ulinkpanel input.ulinkpanel-lightbox-input {
+	height: 21px;
+	background: #fff;
+	margin-right: 2px;
+	vertical-align: top;
+}
+
+.ulinkpanel a.ulinkpanel-lightbox-cancel {
+	background-image: url('../img/uf-core-el-sprite.png');
+	background-image: url('../img/uf-core-el-sprite.svg'), none;
+
+	background-position: -483px -170px;
+	display: inline-block;
+	width: 15px;
+	height: 18px;
+
+	opacity: .7;
+}
+
+.ulinkpanel a.ulinkpanel-lightbox-cancel:hover {
+	opacity: .9;
+}
+
+div.ulinkpanel.ulinkpanel-dark .upfront-field-wrap{
+	color: #cbe5ff;
+}
+
+.ulinkpanel-dark .ulinkpanel-entry-browse {
+	background: initial !important;
+	padding: 2px 15px !important;
+	text-transform: initial !important;
+	margin: initial;
+	margin-top: 2px;
+	font: normal 13px/16px Verdana, sans-serif !important;
+	color: rgb(0, 0, 0) !important;
+	border: 1px solid #e5e5e5;
+	border-radius: 2px;
+	height: 24px;
+	min-height: 24px;
+	line-height: 24px;
+}
+
+.ulinkpanel-dark .ulinkpanel-entry-browse:hover {
+	background: initial !important;
+	padding: 2px 15px !important;
+	text-transform: initial !important;
+	margin: initial;
+	margin-top: 2px;
+	font: normal 13px/16px Verdana, sans-serif !important;
+	color: rgb(0, 0, 0) !important;
+	border: 1px solid #e5e5e5;
+	border-radius: 2px;
+	height: 24px;
+	line-height: 24px;
+}
+
+.ulinkpanel-dark a.ulinkpanel-entry-url {
+	color: #3ea !important;
+	padding: 3px 8px;
+	height: 24px;
+	line-height: 24px;
+	margin-top: 2px;
+	font: normal 13px/16px Verdana, sans-serif !important;
+	color: rgb(0, 0, 0) !important;
+}
+
+.ulinkpanel-dark .upfront-home-link {
+	font-size: 12px;
+    text-transform: uppercase;
+    width: 120px !important;
+    padding: 2px 0px;
+	text-indent: 10px;
+}
+
+.ulinkpanel-dark a.ulinkpanel-entry-url:hover {
+	color: #3ea !important;
+}
+
+.ulinkpanel-dark .upfront-field-radio {
+	border-color: #85a9cb;
+}
+
+.ulinkpanel-dark .upfront-field-radio:checked {
+	border-color: #fff;
+	background: rgb(0, 219, 143);
+}
+
+.ulinkpanel-dark .ulinkpanel-title {
+	color: rgb(83,97,109);
+	margin-bottom:3px;
+	background: initial !important;
+	padding: initial !important;
+	text-transform: initial !important;
+	margin: initial !important;
+	font: normal 13px/16px Verdana, sans-serif !important;
+}
+.redactor-dropdown .ulinkpanel-dark .ulinkpanel-title{
+	color: #cbe5ff;
+}
+.upfront-ui.uimage-control-panel label {
+	background: initial !important;
+	text-transform: initial !important;
+	font: normal 13px/16px Verdana, sans-serif !important;
+}
+
+.inline-panel-control-dialog-link label.upfront-field-label {
+	display: block;
+	margin-bottom: .5rem;
+}
+
+.ulinkpanel-dark .upfront-settings-button_panel{
+	bottom: -36px;
+	right: 0;
+}
+
+
+.ulinkpanel .anchor-selector {
+	clear: both;
+}
+
+.ulinkpanel .upfront-field-select {
+	width: 230px;
+}
+
+.redactor-toolbar li.upfront-field-select-option {
+	float: none;
+}
+
+.ulinkpanel form > :first-child,
+.ulinkpanel-dark form > :first-child {
+	margin-top: 0;
+}
+
+.ulinkpanel-dark .upfront-field-select-option label {
+	padding: 2px 20px 2px 6px;
+}
+
+/* dark UI overwrtites */
+
+.ulinkpanel-dark .upfront-field-select,
+.ulinkpanel-dark .upfront-field-select:hover,
+.ulinkpanel-dark .upfront-field-select-options,
+.ulinkpanel-dark #ulinkpanel-link-url {
+	border-color:#c3d3e0;
+}
+.ulinkpanel-dark .no-lightboxes-msg {
+	font:normal 11px/13px verdana, sans-serif;
+	color:#FF8787;
+}
+
+.ui-resizable-autohide.upfront-control-visible .uimage-controls {
+	display: block;
+}
+
+.uimage-control-panel-content .ulinkpanel .upfront-field-select label,
+.uimage-control-panel-content .ulinkpanel-dark .upfront-field-select label {
+	color: #606f99;
+}
+.uimage-control-panel-content .ulinkpanel .upfront-field-select li:hover label,
+.uimage-control-panel-content .ulinkpanel-dark .upfront-field-select li:hover label {
+	color: inherit;
+}
+
+/* Image / Gallery / Slider Panels */
+
+.upfront-image_module .ulinkpanel-dark,
+.upfront-gallery .ulinkpanel-dark,
+.upfront-slider_module .ulinkpanel-dark {
+	min-width:280px;
+}
+.link-panel-lightbox-trigger {
+	display: block;
+	width: 20px;
+	position: absolute;
+	top: 2px;
+	right: 32px;
+	text-align: center;
+	color: black;
+	font-size: 10px;
+	cursor: pointer;
+}
+.link-panel-lightbox-trigger:hover {
+	font-size: 11px;
+}
+
+.menu-item-type-editor .link-panel-lightbox-trigger {
+	right: 0;
+}
+
+.lightbox-selector {
+	width: 165px;
+}
+
+.menu-item-type-editor .lightbox-selector {
+	width: 190px;
+}
+
+.link-control-panel .upfront-field-icon {
+	padding: 0 4px;
+}
+.upfront-field-icon-link-homepage:before {
+	background-position: -412px -282px;
+}
+.upfront-field-icon-link-external:before {
+	background-position: -262px -281px;
+}
+.upfront-field-icon-link-email:before {
+	background-position: -352px -281px;
+}
+.upfront-field-icon-link-phone:before {
+	background-position: -383px -281px;
+}
+.upfront-field-icon-link-entry:before {
+	background-position: -292px -281px;
+}
+.upfront-field-icon-link-anchor:before {
+	background-position: -322px -281px;
+}
+.upfront-field-icon-link-image:before {
+	background-position: -442px -340px;
+}
+.upfront-field-icon-link-lightbox:before {
+	background-position: -443px -281px;
+}
+.upfront-field-icon-link-unlink:before {
+	background-position: -442px -310px;
+}
+.ulinkpanel-dark .upfront-link-back:before {
+	background-position: -290px -102px;
+}
+.ulinkpanel-dark {
+	background: #ffffff;
+}
+.link-control-panel-content {
+	position: relative;
+}
+.link-control-panel-content .upfront-link-select {
+	width: 42px;
+}
+.link-control-panel-content .upfront-settings-link-select label span,
+.link-control-panel-content .upfront-settings-link-select .upfront-field-select-value span {
+	display: none;
+}
+.ulinkpanel-dark .upfront-link-back,
+.ulinkpanel-dark .upfront-apply {
+	width: 25px;
+	height: 22px;
+	position: relative;
+}
+.ulinkpanel-dark .icon-apply:before {
+	background-position: -325px -106px;
+}
+.upfront-element-controls .upfront-inline-panel .ulinkpanel-dark {
+	left: 0px;
+	top: -29px;
+}
+/* Link panel on responsive breakpoints */
+.responsive-breakpoint .upfront-element-controls .upfront-inline-panel .ulinkpanel-dark {
+	left: -220px;
+}
+.upfront-element-controls .link-control-panel-first-level .link-control-panel {
+	position: relative;
+	top: 6px;
+}
+.upfront-element-controls .link-control-panel-first-level .ulinkpanel-dark {
+	top: -2px;
+}
+.upfront-element-controls .link-control-panel-first-level .upfront-control-arrow {
+	left: -3px !important;
+}
+.upfront-element-controls .link-control-panel-first-level .link-control-panel-content {
+	left: -5px !important;
+}
+.upfront-element-controls .link-control-panel-item {
+	position: relative;
+	z-index: 99;
+}
+.link-control-panel .upfront-control-arrow{
+	top: -39px;
+	z-index: 99;
+}
+.link-control-panel .upfront-link-back, .link-control-panel .ulinkpanel-back {
+	/* We need !important here because for some elements UF automatically add width and height to the element id */
+	width: 35px !important;
+	height: 28px !important;
+	display: block;
+	float: left;
+}
+.link-control-panel .upfront-settings-link-select {
+	width: 42px;
+	height: 24px;
+	display: block;
+	float: left;
+}
+.link-control-panel .upfront-field-select {
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	margin-top: 1px;
+	height: 26px;
+	max-height: 26px;
+}
+.link-control-panel .upfront-field-select-options,
+.link-control-panel .upfront-settings-link-field {
+	text-align: left;
+}
+.link-control-panel .upfront-settings-link-field .upfront-field-select-options {
+	background: #fff;
+	color: #000;
+	border-color: #cccccc;
+}
+.link-control-panel .upfront-create-new-lightbox {
+    position: relative;
+    width: 100%;
+	background: #f9f9f9;
+	border-bottom: 1px solid #e5e5e5;
+}
+.link-control-panel .upfront-create-new-lightbox label {
+	cursor: pointer;
+}
+.link-control-panel .upfront-lightbox-select .upfront-field-select-options {
+	padding: 0px !important;
+}
+.link-control-panel .upfront-lightbox-select .upfront-field-select-options::-webkit-scrollbar {
+	width: 0;
+}
+.link-control-panel .upfront-lightbox-select .upfront-field-select-options.upfront-field-select-options-scrollbar::-webkit-scrollbar {
+	background: none;
+	width: 5px;
+}
+.link-control-panel .upfront-settings-link-field .upfront-field-select-option:hover {
+	background: #eaedee;
+	color: #000;
+}
+.link-control-panel .upfront-field-select .upfront-field-select-value {
+	box-shadow: none;
+	text-align: left;
+}
+.link-control-panel .upfront-navigation .upfront-field-select-value {
+	text-align: left;
+}
+.link-control-panel .upfront-field-select:after {
+	content: " ";
+	/* background-image: url('../img/uf-core-el-sprite.svg?v=20131127'); */
+	background-image: url('../img/uf-core-el-sprite_new.png');
+    background-image: url('../img/uf-core-el-sprite_new.svg');
+	background-repeat: no-repeat;
+	float: left;
+	display: block;
+	background-position: -350px -109px;
+	width: 15px;
+	height: 3px;
+	border: none;
+	right: 6px;
+	pointer-events: none;
+	top: 11px;
+}
+.link-control-panel .upfront-link-select .upfront-field-select-option:hover {
+	background: #e5e5e5;
+	color: #000;
+}
+.link-control-panel .upfront-link-select .upfront-field-select-options {
+	border: 1px solid #d9d9d9;
+	background: #fff;
+	max-height: 250px;
+	top: 24px;
+	box-shadow: none;
+	border-top: none;
+	padding: 5px 0;
+}
+.link-control-panel .upfront-link-select .upfront-field-select-options:before {
+	content: " ";
+	width: 80%;
+	border-top: 1px solid #e5e5e5;
+	position: absolute;
+	left: 5px;
+    margin-top: -4px;
+}
+.link-control-panel .upfront-apply {
+	width: 25px;
+	height: 28px;
+	display: block;
+	float: left;
+}
+.link-control-panel .upfront-apply:before {
+	background-position: -318px -98px;
+	width: 25px;
+	height: 24px;
+}
+.link-control-panel .upfront-settings-link-target {
+	top: 5px;
+    position: absolute;
+	right: 40px;
+}
+.link-control-panel .upfront-settings-link-target,
+.link-control-panel .upfront-settings-link-field {
+	display: block;
+	float: left;
+}
+.link-control-panel .upfront-settings-link-field {
+	width: 198px;
+	padding-left: 5px;
+}
+.link-control-panel .ulinkpanel-entry-wrap {
+	width: auto;
+	white-space: nowrap;
+}
+.link-control-panel .anchor-selector {
+	margin-top: 0px;
+}
+.link-control-panel .uf-link-target-select {
+	width: 38px;
+}
+.link-control-panel .uf-link-target-select .upfront-field-select {
+	background: #4e4e4e;
+	color: #fff;
+	width: 38px;
+	height: 16px;
+	border: none;
+}
+.link-control-panel .uf-link-target-select .upfront-field-select:after {
+	background: none;
+	display: none;
+}
+.link-control-panel .uf-link-target-select .upfront-field-select-value {
+	line-height: 1;
+	padding: 3px;
+	text-align: center;
+	font-size: 10px;
+}
+.link-control-panel .uf-link-target-select .upfront-field-select-options {
+	border: none;
+	background: #5e5e5e;
+	color: #fff;
+	line-height: 1;
+	padding: 0px !important;
+	text-align: center;
+	font-size: 10px;
+	top: 1px;
+    box-shadow: none;
+    border-top: none;
+}
+.link-control-panel .uf-link-target-select .upfront-field-select-options label,
+.link-control-panel .uf-link-target-select .upfront-field-select-option-selected label {
+	text-align: center;
+	font-size: 10px;
+	padding: 2px;
+	height: 16px;
+	color: #fff;
+	line-height: 1;
+}
+.link-control-panel .uf-link-target-select .upfront-field-select-option-selected {
+	background: #000;
+}
+.link-control-panel .uf-link-target-select .upfront-field-select-value {
+	height: 16px;
+}
+.link-control-panel .uf-link-target-select .upfront-field-select-options::-webkit-scrollbar,
+.link-control-panel .upfront-link-select .upfront-field-select-options::-webkit-scrollbar {
+	width: 0px;
+}
+.link-control-panel .uf-link-target-select .upfront-field-select-option:hover {
+	background: #333333;
+}
+.link-control-panel input.upfront-field-text {
+	background: #f7f7f7;
+	border: 1px solid #e7e7e7;
+	position: relative;
+	top: -1px;
+}
+.group-link-control .link-control-panel input.upfront-field-text {
+	top: 1px;
+}
+.js-ulinkpanel-input-external-padding {
+	padding-right: 55px !important;
+}

@@ -1,0 +1,349 @@
+body {font-family:'Signika', Tahoma, Arial, Helvetica, sans-serif;font-size: 16px;background: #4D4D4D;}
+.main-container {margin-top: 40px;margin-bottom: 20px;background: #fff;-webkit-box-shadow:1px 1px 5px #000000,2px 2px 25px #000000;box-shadow: 1px 1px 5px #000000,2px 2px 25px #000000;
+padding: 15px 15px 0px 15px;}
+.main-column { padding-left: 0px;}
+/*start new css*/
+h1.entry-page-title {font-family:'Signika', Tahoma, Arial, Helvetica, sans-serif;font-weight: bold;font-size: 27px;text-align: center;color: #34456c; margin-bottom:20px; margin-top:10px;padding-left: 15px;}
+form .send, #content form input.add-to-cart[type="submit"] {
+    background: #af1515 none repeat scroll 0 0;
+    border-radius: 2px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 14px;
+}
+form .send, #content form input.add-to-cart[type="submit"]:hover {
+    text-decoration: none;
+	background: #af1515 none repeat scroll 0 0;
+	color: #fff;
+}
+form .send, #content form input.add-to-cart.disable-btn[type="submit"]{background:#4d4d4d;}
+.custom-sol{ float:right;}
+.custom-sol span{ color:#626569; font-size:15px; font-weight:regular;}
+#steps-customs{ margin:0; padding:0; list-style-type:none;counter-reset:ol-counter;}
+#steps-customs li{ margin:0; padding:0; position:relative; -webkit-transition: all 0.4s ease;  transition: all 0.4s ease;}
+#steps-customs > li {width:95%;}
+#steps-customs > li > a {background: #818488;color: #ffffff;display: block;padding: 6px 10px 6px 42px;margin-bottom: 5px;text-transform: uppercase; border:1px solid #818488; font-size:15px; }
+#steps-customs > li > a:hover{ text-decoration:none; background:#a0a3a7;}
+#steps-customs li a:focus{text-decoration:none; outline:0;}
+#steps-customs > li.active{width:100%; z-index: 1;}
+#steps-customs > li.active > a{text-decoration:none; background: #ffffff; color:#34456c; border:1px solid #818488; border-right-color:#ffffff;}
+#steps-customs li:before {content: counter(ol-counter);counter-increment: ol-counter;background: #fff;width: 24px;height: 24px;display: inline-block;border-radius: 50%;
+	position: absolute;left: 10px;top:6px;font-weight: 500;text-align: center;line-height: 24px;font-size: 13px;font-weight: bold;	color: #383a3d;}
+#steps-customs li.active:before{background:#34456c; color:#ffffff;}
+#steps-customs li.active:after {	content: "";background: url('../images/right-list-ar.png') right center no-repeat;position: absolute;    width: 17px;
+    height: 33px;     right: 0px;     display: inline-block;     top: 1px;     z-index: 9;     background-color: #fff; }
+	#steps-customs li.active .sub-content{ display:block; text-align:center;}
+#steps-customs li .sub-content li:before{content: none;counter-increment:none;}
+#steps-customs .sub-content {background: #ffffff;border: 1px solid #818488;position: absolute;top: 0;min-width: 128px;z-index: 0;left: 100%;margin-left: -1px !important;
+-webkit-box-shadow: 1px 2px 2px 0px rgba(0,0,0,0.31);-moz-box-shadow: 1px 2px 2px 0px rgba(0,0,0,0.31);box-shadow: 1px 2px 2px 0px rgba(0,0,0,0.31);counter-reset:none; list-style-type:none; margin:0; padding:0; display:none;}
+#steps-customs .sub-content li span.pro-lbl{ color:#34456c; font-size:13px; display:block; padding:5px 0;}
+#steps-customs .sub-content li img{ margin-top:12px;}
+#steps-customs .sub-content li a{ text-decoration:none;}
+#steps-customs .sub-content li{ border-bottom:1px solid #818488;}
+#steps-customs .sub-content li:hover{ background:#f3f3f3;}
+#steps-customs .question-icon {background: transparent;border: 0;color: #34456c;font-size: 21px;font-weight: bold;	position: absolute;	right: 0;}
+#steps-customs .question-icon:focus{outline:0;}
+#steps-customs .popover{ min-width:300px;}
+#canvas_config {	background-color: #f8f8f8; width:100%; height:auto; border:1px solid #d4d7db;}
+.pad0{padding:0}
+.custom-btn{ background:#c72222; color:#ffffff; padding-left:20px; padding-right:20px; font-size:14px; text-transform:uppercase; margin:10px 0 10px 5px;}
+.custom-btn i{ padding-right:5px; }
+.custom-btn:hover{background:#af1515; color:#ffffff;}
+.disable-btn,.disable-btn:hover{cursor: not-allowed; background:#a5a7aa; color:#e5e5e5;}
+.search-row {border-top: 1px solid #dfdfdf;margin-bottom: 30px;margin-top: 20px;padding-top: 40px;display: inline-block;	width: 100%;}
+.pad-right0{ padding-right:0;}
+.history-frm label {color: #34456c;font-weight: normal;display: block;	font-size: 18px;}
+.history-frm.form-inline .form-control {	width: 94%;}
+.history-frm.form-inline .form-group {display: block;}
+.history-frm.form-inline  .btn-default{background:#34456c; color:#ffffff;padding: 5px 12px; vertical-align:top; position:absolute; right:0;}
+.history-frm.form-inline  .btn-default i{font-size:20px;}
+.history-frm.form-inline .form-control::-webkit-input-placeholder { color:#cacaca; font-weight:normal;}
+.history-frm.form-inline .form-control::-moz-placeholder { color:#cacaca; font-weight:normal;}
+.history-frm.form-inline .form-control:-ms-input-placeholder {color:#cacaca; font-weight:normal;}
+.history-frm.form-inline .form-control:-moz-placeholder {color:#cacaca; font-weight:normal;}
+
+/*    search result css */
+.history-frm-outer table th,  .serachPartNoForm table th{
+    background: #f5f5f5;
+}
+.history-frm-outer table  tr:first-child th , .serachPartNoForm  table  tr:first-child th{
+    font-size: 20px;
+    font-weight: 700;
+    background: #34456C;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.history-frm-outer table tbody tr:nth-of-type(2n+1), .serachPartNoForm table tbody  tr:nth-of-type(2n+1) {
+    background: #f5f5f5;
+}
+.history-frm-outer table tbody tr:first-child, .serachPartNoForm table tbody  tr:first-child{
+background: none;
+}
+
+.history-frm-outer table , .serachPartNoForm  table{
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    -ms-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    -o-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    border: 1px solid #ddd;
+    float: left;
+}
+.history-frm-outer table th, .history-frm-outer table td , .serachPartNoForm  table th, .serachPartNoForm  table td{
+    padding: 5px 10px 8px;
+}
+.serachPartNoForm table td button.getProductConfigData {
+    background: #d8615f;
+    background: -moz-linear-gradient(top, #d8615f 0%, #cc3a36 100%);
+    background: -webkit-linear-gradient(top, #d8615f 0%,#cc3a36 100%);
+    background: linear-gradient(to bottom, #d8615f 0%,#cc3a36 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8615f', endColorstr='#cc3a36',GradientType=0 );
+	border: 0px;
+	color: #fff;
+	font-size: 12px;
+padding: 6px 10px;
+border-radius: 20px;
+}
+.serachPartNoForm  table td  button:hover {
+    background: #b93733;
+}
+
+.history-frm-outer table tr td:last-child a {
+border: 0px;
+text-decoration:none;
+	color: #fff;
+	font-size: 12px;
+padding: 6px 10px;
+border-radius: 20px;
+    color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#556EA8), to(#34456c));
+background: -webkit-linear-gradient(top, #556EA8, #34456c);
+background: -moz-linear-gradient(top, #556EA8, #34456c);
+background: -ms-linear-gradient(top, #556EA8, #34456c);
+background: -o-linear-gradient(top, #556EA8, #34456c);
+}
+.history-frm-outer table tr td:last-child a:hover,
+.history-frm-outer table tr td:last-child a:focus{
+background: #34456c;
+}
+
+/* tabel new cs */
+article .entry-content table.product-grpngTable {
+    width: 100%;
+    idth: 100%;
+box-shadow: 0 1px 1px rgba(0,0,0,.05);
+-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+-moz-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+-ms-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+-o-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+border: 1px solid #ddd;
+}
+article .entry-content table.product-grpngTable th , article .entry-content table.product-grpngTable td {
+    padding: 5px 10px 8px;
+}
+
+
+ article .entry-content table.product-grpngTable th , article .entry-content table.product-grpngTable tr:nth-of-type(odd)
+ { background: #f5f5f5;
+ }
+ section article .entry-content table.product-grpngTable tr:first-child th { 
+font-size: 20px;
+font-weight: 700;
+    background: #34456C;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+ section article .entry-content table.product-grpngTable a {
+    color: #fff;
+    background: #34456c;
+    font-size: 12px;
+    padding: 6px 10px;
+-webkit-border-radius: 20px;
+-ms-border-radius: 20px;
+-o-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+text-decoration: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(#556EA8), to(#34456c));
+    background: -webkit-linear-gradient(top, #556EA8, #34456c);
+    background: -moz-linear-gradient(top, #556EA8, #34456c);
+    background: -ms-linear-gradient(top, #556EA8, #34456c);
+    background: -o-linear-gradient(top, #556EA8, #34456c);
+}
+ section article .entry-content table.product-grpngTable a:hover,  section article .entry-content table.product-grpngTable a:focus{
+      color: #fff;
+    background: #1B2C54;
+    background: -webkit-gradient(linear, left top, left bottom, from(#34456c), to(#1B2C54));
+    background: -webkit-linear-gradient(top, #34456c, #1B2C54);
+    background: -moz-linear-gradient(top, #34456c, #1B2C54);
+    background: -ms-linear-gradient(top, #34456c, #1B2C54);
+    background: -o-linear-gradient(top, #34456c, #1B2C54);
+}
+ section article .entry-content table.product-grpngTable td b
+ {
+     font-size: 20px;
+ }
+  section article .entry-content table.product-grpngTable td .cart-btn {
+ background: #d8615f; /* Old browsers */
+background: -moz-linear-gradient(top, #d8615f 0%, #cc3a36 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #d8615f 0%,#cc3a36 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #d8615f 0%,#cc3a36 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8615f', endColorstr='#cc3a36',GradientType=0 ); /* IE6-9 */
+}
+  section article .entry-content table.product-grpngTable td .cart-btn:hover{ background:#b93733;}
+
+   /* 14 june  new css */
+.tableOuter-coantainer {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 8px;
+      margin-top: 8px;
+}
+.tableOuter-coantainer table.product-grpngTable tr:nth-child(1) td:first-child
+{
+    background: #34456C;
+    color: #fff;
+ 
+}   
+.tableOuter-coantainer table.product-grpngTable tr td:first-child {
+position: relative;
+padding-left: 50px;
+
+}
+.tableOuter-coantainer table.product-grpngTable tr td {
+    padding: 15px 10px 15px;
+}
+
+ .tableOuter-coantainer table.product-grpngTable tr td .graphics-icon {
+   position: absolute;
+width: 36px;
+vertical-align: top;
+top: 13px;
+left: 8px;
+}
+ section article .entry-content  .tableOuter-coantainer table.product-grpngTable tr:first-child th {
+    font-size: 16px;
+}
+section article .entry-content  .tableOuter-coantainer table.product-grpngTable td b{
+   font-size: 18px;
+text-align: center;
+width: 100%;
+float: left;
+
+}
+section article .entry-content  .tableOuter-coantainer table.product-grpngTable .config-btn {
+    background-color: none !important;
+    color: transparent !important;
+    background: none;
+}
+
+section article .entry-content  .tableOuter-coantainer table.product-grpngTable .config-btn {
+position: relative;
+float: right;
+}
+
+/*replace the content value with the
+corresponding value from the list below*/
+
+section article .entry-content  .tableOuter-coantainer table.product-grpngTable .config-btn:before {
+content: "\f013";
+font-family: FontAwesome;
+font-style: normal;
+font-weight: normal;
+text-decoration: inherit;
+/*--adjust as necessary--*/
+color: #3d3d3d;
+font-size: 16px;
+padding-right: 0.5em;
+
+}
+section article .entry-content  .tableOuter-coantainer table.product-grpngTable a.config-btn:hover::before {
+    color: #1B2C54;
+}
+section article .entry-content  .tableOuter-coantainer table.product-grpngTable .link{
+    background: none;
+    color: #333;
+    border-radius: 0px;
+    padding: 0px;
+    font-size: 16px;
+    width: 100%;
+float: left;
+
+}
+  
+/* table result css */
+/* table result css ends*/
+/* search result css ends */
+
+
+
+
+
+/*===============media queries==================*/
+@media (max-width: 991px)
+{
+#steps-customs > li > a{font-size: 14px;}
+#steps-customs li:before {width: 20px;height: 20px;line-height: 20px;font-size: 12px;}
+#steps-customs li.active:after{ height: 32px; }
+ .main-container section article .entry-content table.product-grpngTable a {
+    font-size: 11px;
+    padding: 6px 8px;
+    }
+   .main-container  section article .entry-content table.product-grpngTable tr:first-child th,  .main-container section article .entry-content table.product-grpngTable td b{
+        font-size: 15px;
+    }
+   .main-container article .entry-content table.product-grpngTable td{
+      font-size: 14px;  
+    }
+}
+@media (max-width:767px)
+{
+#steps-customs{padding-left: 15px;}
+#steps-customs > li {	width: 100%;}
+.sm-canvas.pad0{padding-left: 30px;padding-right: 15px; margin-top:10px;}
+#steps-customs .sub-content {position: relative; left: 0;margin-left: 0px !important; top: -5px; -webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+#steps-customs > li.active > a{border-right-color:#818488;}
+#steps-customs li.active:after{background: url('../images/sm-right-list-ar.png') no-repeat;height: 15px;right: 4px;top: 9px;}
+#steps-customs .popover{ min-width:200px; max-width:210px;}
+#steps-customs .question-icon{right: auto;left: 0;}
+#steps-customs .sub-content{z-index: 2;}
+.custom-sol{float: none;display: block;text-align: center;margin-bottom: 10px;}
+.btm-btns{ text-align:center; padding-left: 10px;}
+.history-frm.form-inline .form-control {	width: 94%;	display: inline-block;}
+}
+@media (max-width:580px)
+{
+.search-row [class*="col-"] {width:100%;}
+.history-frm.form-inline .btn-default{position: relative;}
+.history-frm.form-inline .form-control {	width: 85%;font-size: 13px;}
+/*    search result css */
+.history-frm-outer table tr:first-child th, .serachPartNoForm table tr:first-child th {
+    font-size: 13px;
+    font-weight: 700;
+    background: #34456C;
+    color: #fff;
+   padding: 10px 7px;
+}
+.history-frm-outer table th, .history-frm-outer table td, .serachPartNoForm table th, .serachPartNoForm table td {
+    padding: 5px 5px 8px;
+    font-size: 14px;
+}
+/*    search result css ends */
+  .tableOuter-coantainer {
+        width: 100%;
+    } 
+}
+@media (max-width:400px)
+{
+.history-frm-outer table tr td:last-child a , .serachPartNoForm table td button.getProductConfigData{
+    font-size: 10px;
+    padding: 6px 5px;
+} }
+
+.navbar-nav > li:hover ul {
+    display: block;
+}

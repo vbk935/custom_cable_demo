@@ -1,0 +1,124 @@
+#page .upfront-accordion-wrap {
+	/*overflow-x: hidden;*/
+	/*overflow-y: hidden;*/
+}
+#page .upfront-accordion-container .accordion-panel {
+	position: relative;
+}
+#page .upfront-accordion-container .accordion-panel-title {
+	position: relative;
+}
+.upfront-accordion-container .accordion-panel-title {
+	padding: 7px 15px;
+}
+.upfront-accordion-container .accordion-panel-title:after,
+.upfront-accordion-container .accordion-panel-active .accordion-panel-title:after {
+  border:5px solid transparent;
+}
+.upfront-accordion-container .accordion-panel-title:after {
+	content: '';
+	width: 0;
+	height: 0;
+	border-top: 5px solid #000;
+	position: absolute;
+	top: 45%;
+	right: 22px;
+}
+
+.upfront-accordion-container .accordion-panel-active .accordion-panel-title:after {
+	content: '';
+	width: 0;
+	height: 0;
+	border-left: 5px solid #000;
+	position: absolute;
+	top: 45%;
+	right: 22px;
+}
+
+#page .upfront-accordion-container .accordion-panel>i { /* Direct descendents only */
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-position: -483px -171px;
+  background-image: url('../../../img/uf-core-el-sprite.svg');
+  position: absolute;
+  right: 20px;
+  top: 13px;
+  visibility: hidden;
+  cursor: pointer;
+  overflow: hidden;
+  line-height: 3em;
+  z-index: 1;
+}
+
+#page .upfront-accordion_module .upfront-accordion-container .accordion-panel-active:hover i {
+  visibility: visible;
+}
+
+#page .upfront-accordion-container .accordion-panel-content {
+	overflow: hidden;
+	padding: 7px 15px;
+}
+
+.accordion-panel-title:focus {
+	outline: #2ea3f2 auto 5px;
+}
+
+#page .upfront-accordion-container .upfront-entity_meta {
+	top: 52px;
+	right: 5px;
+}
+#page .upfront-accordion-container {
+	width: 100%;
+}
+.upfront-editable_entity:hover .upfront-entity_meta .upfront-icon-button-accordion-add-panel {
+    opacity: 1;
+	visibility: visible;
+}
+#page .upfront-accordion-container .upfront-icon-button-accordion-add-panel
+{
+	box-shadow: inset 0 0 0 1px #e6ab2e;
+	background: #f2b530 -moz-linear-gradient(-45deg, rgba(255,190,51,1) 0%, rgba(255,190,51,1) 50%, rgba(0,0,0,0) 51%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: #f2b530 -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(255,190,51,1)), color-stop(50%,rgba(255,190,51,1)), color-stop(51%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */	 				 		  	 	 				 	
+	background: #f2b530 -webkit-linear-gradient(-45deg, rgba(255,190,51,1) 0%,rgba(255,190,51,1) 50%,rgba(0,0,0,0) 51%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: #f2b530 -o-linear-gradient(-45deg, rgba(255,190,51,1) 0%,rgba(255,190,51,1) 50%,rgba(0,0,0,0) 51%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: #f2b530 -ms-linear-gradient(-45deg, rgba(255,190,51,1) 0%,rgba(255,190,51,1) 50%,rgba(0,0,0,0) 51%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: #f2b530 linear-gradient(135deg, rgba(255,190,51,1) 0%,rgba(255,190,51,1) 50%,rgba(0,0,0,0) 51%,rgba(0,0,0,0) 100%); /* W3C */
+}
+
+.uaccordion-settings-panel .inline-radios {
+	float: left;
+	margin-top: 3px;
+	width: 15px;
+}
+
+.uaccordion-settings-panel .inline-radios span:first-child {
+	height: 15px;
+	margin-bottom: 20px;
+}
+.uaccordion-settings-panel .upfront-field-select {
+	vertical-align: middle;
+	width: 110px;
+}
+
+.uaccordion-settings-panel .upfront-field-wrap .upfront-field-label {
+	font-size: 11px;
+}
+
+.uaccordion-settings-panel span.upfront-field-label-text {
+	font-size: 11px;
+	color:rgb(124, 158, 191);
+}
+
+.uaccordion-settings-panel a.sp-replacer {
+  width: 92px;
+}
+
+.uaccordion-settings-panel .upfront-field-wrap-select .upfront-field-label {
+	display: inline-block;
+	vertical-align: middle;
+	width: 87px;
+}
+
+
+/* 614788-1519253004-ai */

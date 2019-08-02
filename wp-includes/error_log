@@ -1,0 +1,4 @@
+[21-Feb-2018 17:45:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/megladon/shop.megladonmfg.com/wp-includes/rss-functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/wp-includes/rss-functions.php on line 8

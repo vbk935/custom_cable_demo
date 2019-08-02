@@ -1,0 +1,110 @@
+/*****************************************************************
+
+				CONTACT US
+
+*****************************************************************/
+.contact-us h2 {
+	font-size: 16px;
+	line-height: 10px;
+	text-transform: uppercase;
+	border-bottom: solid 1px #000;
+	padding-bottom: 3px;
+	margin-bottom: 15px;
+}
+
+.img-rounded {
+  border-radius: 6px;
+  max-height: 160px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.contact-us #googleMap {
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+.contact-us .address-panel {
+	float: right;
+	margin-left: 20px;
+	min-width: 320px;
+	min-height: 350px;
+}
+.contact-us  .address-panel .social-media {
+	font-size: 30px;
+}
+
+.main-column .contact-info a, .main-column .contact-info .fa,
+.main-column .contact-info .address .street-address, .main-column .contact-info .telephone
+ {color: #000;}
+
+@media only screen and (max-width: 1000px) {
+
+.contact-us .address-panel {
+  float: none;
+  margin-left: 0px;
+  min-width: initial;
+  min-height: initial;
+}
+
+
+
+}
+
+
+
+
+@media only screen and (max-width : 480px) {
+	
+	.address-panel h2 {text-align:center;}
+	.address-panel .address .street-address, .address-panel .telephone, .address-panel .fax {text-align:center;}
+	
+	
+	
+	
+  #recaptcha_challenge_image{
+    margin: 0 !important;
+    width: 100% !important;
+  }
+  #recaptcha_response_field {
+    margin: 0 !important;
+    width: 100% !important;
+  }
+  .recaptchatable #recaptcha_image {
+    margin: 0 !important;
+    width: 95% !important;
+  }
+  .recaptchatable .recaptcha_r1_c1,
+  .recaptchatable .recaptcha_r3_c1,
+  .recaptchatable .recaptcha_r3_c2,
+  .recaptchatable .recaptcha_r7_c1,
+  .recaptchatable .recaptcha_r8_c1,
+  .recaptchatable .recaptcha_r3_c3,
+  .recaptchatable .recaptcha_r2_c1,
+  .recaptchatable .recaptcha_r4_c1,
+  .recaptchatable .recaptcha_r4_c2,
+  .recaptchatable .recaptcha_r4_c4,
+  .recaptchatable .recaptcha_image_cell,
+  .recaptchatable .recaptcha_r2_c2
+   {
+    margin: 0 !important;
+    /*width: 100% !important;*/
+    background: #eee !important;
+  }
+  #recaptcha_table tbody tr td {
+    padding: 0 !important;
+    width: 75px;
+  }
+  .recaptchatable .recaptcha_image_cell {
+    padding-right: 0 !important;
+  }
+  #recaptcha_privacy a {
+    line-height: 1.2em;
+  }
+  span#recaptcha_privacy {
+    width: 100px;
+  }
+body #recaptcha_area, body #recaptcha_table {
+   width: auto !important; 
+}  
+  
+  
+}

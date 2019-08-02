@@ -1,0 +1,48 @@
+2019-07-24T05:11:20+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/sea-spider-tyrex/cpt/team.php:2
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/sea-spider-tyrex/sea-spider-tyrex.php(66): require_once()
+#1 /home/megladon/shop.megladonmfg.com/demo/wp-admin/includes/plugin.php(629): include_once('/home/megladon/...')
+#2 /home/megladon/shop.megladonmfg.com/demo/wp-admin/plugins.php(44): activate_plugin('sea-spider-tyre...', 'https://shop.me...', false)
+#3 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/sea-spider-tyrex/cpt/team.php on line 2
+
+2019-07-24T05:11:23+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/sea-spider-tyrex/cpt/team.php:2
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/sea-spider-tyrex/sea-spider-tyrex.php(66): require_once()
+#1 /home/megladon/shop.megladonmfg.com/demo/wp-admin/includes/plugin.php(2050): include('/home/megladon/...')
+#2 /home/megladon/shop.megladonmfg.com/demo/wp-admin/plugins.php(175): plugin_sandbox_scrape('sea-spider-tyre...')
+#3 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/sea-spider-tyrex/cpt/team.php on line 2
+
+2019-07-24T05:11:24+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/sea-spider-tyrex/cpt/team.php:2
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/sea-spider-tyrex/sea-spider-tyrex.php(66): require_once()
+#1 /home/megladon/shop.megladonmfg.com/demo/wp-admin/includes/plugin.php(2050): include('/home/megladon/...')
+#2 /home/megladon/shop.megladonmfg.com/demo/wp-admin/plugins.php(175): plugin_sandbox_scrape('sea-spider-tyre...')
+#3 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/sea-spider-tyrex/cpt/team.php on line 2
+
+2019-07-24T05:14:42+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/sea-spider-tyrex/cpt/team.php:2
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/sea-spider-tyrex/sea-spider-tyrex.php(66): require_once()
+#1 /home/megladon/shop.megladonmfg.com/demo/wp-admin/includes/plugin.php(629): include_once('/home/megladon/...')
+#2 /home/megladon/shop.megladonmfg.com/demo/wp-admin/plugins.php(44): activate_plugin('sea-spider-tyre...', 'https://shop.me...', false)
+#3 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/sea-spider-tyrex/cpt/team.php on line 2
+
+2019-07-24T05:14:45+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/sea-spider-tyrex/cpt/team.php:2
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/sea-spider-tyrex/sea-spider-tyrex.php(66): require_once()
+#1 /home/megladon/shop.megladonmfg.com/demo/wp-admin/includes/plugin.php(2050): include('/home/megladon/...')
+#2 /home/megladon/shop.megladonmfg.com/demo/wp-admin/plugins.php(175): plugin_sandbox_scrape('sea-spider-tyre...')
+#3 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/sea-spider-tyrex/cpt/team.php on line 2
+
+2019-07-24T05:14:46+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/sea-spider-tyrex/cpt/team.php:2
+Stack trace:
+#0 /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/sea-spider-tyrex/sea-spider-tyrex.php(66): require_once()
+#1 /home/megladon/shop.megladonmfg.com/demo/wp-admin/includes/plugin.php(2050): include('/home/megladon/...')
+#2 /home/megladon/shop.megladonmfg.com/demo/wp-admin/plugins.php(175): plugin_sandbox_scrape('sea-spider-tyre...')
+#3 {main}
+  thrown in /home/megladon/shop.megladonmfg.com/demo/wp-content/plugins/sea-spider-tyrex/cpt/team.php on line 2
+

@@ -1,0 +1,1035 @@
+.canvas_container{
+    float: left;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+#canvas_config{
+    background-color: #f8f8f8;
+}
+.create_config{
+    padding-left: 0 !important;
+    margin-top: 20px !important;
+}
+.select_condition{
+    padding-left: 0 !important;
+    margin-top: 20px !important;
+}
+.add_case{
+    float: right;
+    width:10%;
+    margin-top: 5px;
+}
+.newActiveCheck{
+    display: none;
+}
+/*.dataTables_filter {
+    display: none;
+}*/
+#DataTables_Table_0 th {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0  !important;;
+    pointer-events: none !important;
+}
+.add_case a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.child_parent_category_outer{
+    float: left;
+    width: 45%;
+}
+.child_child_category_outer{
+    float: left;
+    width: 45%;
+}
+.conditions .condition{
+    min-height: 35px;
+    float: left;
+    width: 100%;
+}
+
+.add_child_row{
+    margin-left: 10px;
+}
+
+.submit_button{
+    text-align: right;
+}
+.perunitcost{
+    display:block;
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-bottom: 16px;
+}
+.perunitcost.show{
+    display:block;
+}
+.sub_config{
+    background: #fff;
+
+}
+.show_config{
+    display:block;
+}
+.show_config.hide{
+    display:block;
+}
+
+.canvas_sidebar{
+    float: left;
+    width: 20%;     
+}
+
+.configuration_container{
+    float: left;
+    width: 80%;
+}
+.sub_config {
+    display:none;
+    position: absolute;
+    left: 224px;
+    margin-top: -38px;
+    text-align: center;
+    border: 1px solid #818489;
+    max-width: 130px;
+}
+.sub_config .single_heading{
+    float: left;
+    width: 100%;
+}
+.sub_config .single_heading:hover a.add_image{
+    background-color: #f1f1f1;
+}
+
+.main_title{
+    cursor:pointer;
+    background: #818489;
+    color: #fff;
+    padding: 7px 10px;
+}
+.config_single_outer.active .main_title{
+    background: #fff;
+    max-width: 100%;
+    color: #000;
+    border-left: 1px solid #818489;
+    border-top: 1px solid #818489;
+    border-bottom: 1px solid #818489;
+    position: relative;
+    z-index: 9;
+}
+.config_single_outer.active .main_title:after{
+    content: "\f178";
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 5px;
+}
+.config_single_outer.active .sub_config{
+    display:block;
+}
+
+.single_heading img{
+    width: 100%;
+    max-width: 90px;
+    margin: 0 auto;
+}
+
+.single_heading h4{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.single_heading a.add_image{
+    color: #23527c;
+    float: left;
+    width: 100%;
+    padding: 5px;
+    border-bottom: 1px solid #818489;
+}
+.single_heading a.add_image:hover,.single_heading a.add_image:focus{
+    color: #23527c;
+    text-decoration: none;
+}
+.show_simple_product,.show_configuration{
+    display:none;
+}
+
+.show_simple_product.show,.show_configuration.show{
+    display:table-row;;
+}
+.more_info{
+    top: 2px;
+    position: absolute;
+    right: 5px;
+    z-index: 9999;
+}
+.more_info .info_popup{
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.11);
+    top: 0;
+    left: 0;
+}
+.more_info .info_popup.show{
+    display: block;
+}
+.bottom_control #add_to_cart_config{
+    padding: 7px 12px 7px 36px;
+    background: #c72222;
+    color: #fff;
+    border-radius: 5px;
+    display: block;
+    float: right;
+    position: relative;
+    margin-left: 15px;
+}
+.bottom_control #reset_config{
+    padding: 7px 12px 7px 36px;
+    background: #c72222;
+    color: #fff;
+    border-radius: 5px;
+    display: block;
+    float: right;
+    position: relative;
+    margin-left: 15px;
+}
+.bottom_control #reset_config:before{
+    content: "\f021";
+    font-family: FontAwesome;
+    position: absolute;
+    left: 12px;
+}
+.bottom_control #add_to_cart_config:before{
+    content: "\f07a";
+    font-family: FontAwesome;
+    position: absolute;
+    left: 12px;
+}
+.bottom_control{
+    text-align: right;
+    margin-top: 15px;
+}
+
+/* Front End Style */
+
+.page-template-custom-cc .post-edit-link{
+    display: none;
+}
+.page-template-custom-cc .page h1{
+    font-family: 'Signika', Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+    text-align: center;
+}
+
+/* new 30 may 2017 */
+
+.meta-box-sortables.ui-sortable .conditions_outer .Product-ConfigurationsGroups .condition label {
+    width: 120px;
+    float: left;
+    vertical-align: middle;
+    line-height: 30px;
+    font-size: 12px;
+}
+.meta-box-sortables.ui-sortable   .Product-ConfigurationsGroups .condition select {
+
+    margin-bottom: 10px;
+}
+
+
+.meta-box-sortables.ui-sortable .conditions_outer  .Product-ConfigurationsGroups input , .meta-box-sortables.ui-sortable   .Product-ConfigurationsGroups .condition select {
+    float: left;
+    width: 100%;
+    max-width: 200px;
+}
+
+.meta-box-sortables.ui-sortable .conditions_outer  .Product-ConfigurationsGroups .condition .product-decs-inputOuter:last-child .input-outer {
+    width: 100%;
+    float: left;
+}
+
+.select_condition,
+.conditions_outer .create_config {
+    font-size: 14px;
+    font-weight: 500;
+}
+#changable_field, h2.select_condition, .show_config .create_config {
+
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    text-transform: capitalize;
+    color: #23282d;
+}
+
+/*    31-05-2017 */
+.confgrtn-listng table.dataTable.no-footer {
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+}
+
+.confgrtn-listng table.dataTable.display tbody tr.odd>.sorting_1, .confgrtn-listng table.dataTable.order-column.stripe tbody tr.odd>.sorting_1 {
+    background-color: transparent;
+}
+.confgrtn-listng .dataTables_wrapper {
+    margin-top: 10px;
+}
+.confgrtn-listng .dataTables_wrapper  table.dataTable thead th, .confgrtn-listng .dataTables_wrapper  table.dataTable thead td {
+    padding: 10px 18px;
+    border-bottom: 1px solid #111;
+    color: #333;
+    text-align: left;
+    padding-left: 10px;
+    border-left: 1px solid rgba(255,255,255,.4);
+}
+
+
+.confgrtn-listng .dataTables_wrapper table.dataTable a.edit-btn:hover, .confgrtn-listng .dataTables_wrapper table.dataTable a.edit-btn:focus 
+{
+    color: #fff;
+    color: #555;
+    border-color: #ccc;
+    background: #f7f7f7;
+    -webkit-box-shadow: 0 1px 0 #ccc;
+    -moz-box-shadow: 0 1px 0 #ccc;
+    -ms-box-shadow: 0 1px 0 #ccc;
+    -o-box-shadow: 0 1px 0 #ccc;
+    box-shadow: 0 1px 0 #ccc;
+    border: 1px solid;
+    vertical-align: top;
+}
+.confgrtn-listng .dataTables_wrapper table.dataTable a.delete-btn {
+    background: #d8615f;
+    background: -moz-linear-gradient(top, #d8615f 0%, #cc3a36 100%);
+    background: -webkit-linear-gradient(top, #d8615f 0%,#cc3a36 100%);
+    background: linear-gradient(to bottom, #d8615f 0%,#cc3a36 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8615f', endColorstr='#cc3a36',GradientType=0 );
+}
+.confgrtn-listng .dataTables_wrapper table.dataTable a.delete-btn:hover , .confgrtn-listng .dataTables_wrapper table.dataTable a.delete-btn:focus {
+    background: #b93733;
+}
+
+.confgrtn-listng .dataTables_wrapper table.dataTable a.delete-btn, .confgrtn-listng .dataTables_wrapper table.dataTable a.edit-btn, .confgrtn-listng .dataTables_wrapper table.dataTable a.setting-btn{
+    background: #f7f7f7;
+    -webkit-box-shadow: 0 1px 0 #ccc;
+    -moz-box-shadow: 0 1px 0 #ccc;
+    -ms-box-shadow: 0 1px 0 #ccc;
+    -o-box-shadow: 0 1px 0 #ccc;
+    box-shadow: 0 1px 0 #ccc;
+    border: 1px solid #ccc;
+    vertical-align: top;
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    padding: 0!important;
+    height: 2em!important;
+    width: 2em;
+    display: inline-block;
+    border-radius: 3px;
+    text-shadow: none;
+}
+.confgrtn-listng .dataTables_wrapper table.dataTable a.setting-btn:after {
+    content: "\f111"; 
+}
+.confgrtn-listng .dataTables_wrapper table.dataTable a.edit-btn:after {
+    content: "\f464";
+}
+.confgrtn-listng .dataTables_wrapper table.dataTable a.delete-btn:after{
+    content: "\f182"; 
+}
+.confgrtn-listng .dataTables_wrapper table.dataTable a.edit-btn:hover, .confgrtn-listng .dataTables_wrapper table.dataTable a.delete-btn:hover,
+.confgrtn-listng .dataTables_wrapper table.dataTable a.edit-btn:hover, .confgrtn-listng .dataTables_wrapper table.dataTable a.delete-btn:focus ,
+.confgrtn-listng .dataTables_wrapper table.dataTable a.setting-btn:hover, .confgrtn-listng .dataTables_wrapper table.dataTable a.setting-btn:focus{
+    border-color: #999;
+    color: #23282d;
+    background: none;
+}
+.confgrtn-listng .dataTables_wrapper table.dataTable a.edit-btn:hover::after, .confgrtn-listng .dataTables_wrapper table.dataTable a.delete-btn:hover::after,
+.confgrtn-listng .dataTables_wrapper table.dataTable a.edit-btn:hover::after, .confgrtn-listng .dataTables_wrapper table.dataTable a.delete-btn:focus::after 
+{
+    border-color: #999;
+    color: #23282d;   
+}
+.confgrtn-listng .dataTables_wrapper table.dataTable a.edit-btn:after, .confgrtn-listng .dataTables_wrapper table.dataTable a.delete-btn:after , .confgrtn-listng .dataTables_wrapper table.dataTable a.setting-btn:after {
+    font-family: Dashicons;
+    text-indent: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    line-height: 1.85;
+    margin: 0;
+    text-align: center;
+    speak: none;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    top: 0;
+    font-weight: 400;
+    text-shadow: none;
+}
+.confgrtn-listng .dataTables_wrapper th{
+    background: #fff;
+}
+
+
+
+.confgrtn-listng table.dataTable.no-footer {
+    border: 1px solid #e5e5e5;
+}
+.confgrtn-listng .dataTables_wrapper table.dataTable tr{
+    background: #fff;
+}
+.confgrtn-listng .dataTables_wrapper table.dataTable tbody tr {
+    background: #F7FCFE;
+}
+.confgrtn-listng .dataTables_wrapper table.dataTable tbody th, .confgrtn-listng .dataTables_wrapper table.dataTabler tbody td, .confgrtn-listng .dataTables_wrapper table.dataTable tbody th, .confgrtn-listng .dataTables_wrapper table.dataTable tbody td {
+    border-top: 1px solid #eee;
+}
+
+
+.confgrtn-listng .confg-btn {
+    padding: 4px 8px;
+    position: relative;
+    text-decoration: none;
+    border: none;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    background: #f7f7f7;
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: normal;
+    color: #0073aa;
+    cursor: pointer;
+    outline: 0;
+}
+
+.confgrtn-listng .confg-btn:focus , .confgrtn-listng .confg-btn:hover {
+    border-color: #5b9dd9;
+    -webkit-box-shadow: 0 0 2px rgba(30,140,190,.8);
+    box-shadow: 0 0 2px rgba(30,140,190,.8);
+    border-color: #008EC2;
+    background: #00a0d2;
+    color: #fff;
+
+}
+button#updateData , button#saveData{
+    padding: 4px 12px;
+    position: relative;
+    text-decoration: none;
+    border: none;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 2px;
+    border-radius: 3px;
+    background: #f7f7f7;
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: normal;
+    color: #0073aa;
+    cursor: pointer;
+    outline: 0;
+}
+
+.wrap.edit-config .parentClass select , .main-div.Add-Configuration .parentClass select{
+    margin-bottom: 20px;
+}
+.wrap.edit-config .parentClass label, .main-div.Add-Configuration  .parentClass label {
+    margin-bottom: 3px;
+    float: left;
+    margin-top: 0px;
+    font-weight: 600;
+}
+.wrap.edit-config .main-secondary , .main-div.Add-Configuration{
+    margin-top: 15px;
+}
+
+.wrap.edit-config .main-secondary label , .main-div.Add-Configuration .main-secondary label{
+    cursor: pointer;
+    font-weight: 600;
+}
+.wrap.edit-config  form#formConduction {
+    width: 100%;
+    float: left;
+}
+.main-div.Add-Configuration .main-secondary{
+    margin-bottom: 10px;   
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+    cursor: default;
+    color: #666 !important;
+    border: 1px solid transparent;
+    background: transparent;
+    box-shadow: none;
+    /* padding: 10px; */
+}
+
+.wrap.confgrtn-listng .dataTables_paginate .paginate_button {
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 1.5em;
+    padding: 0.4em .7em;
+
+}
+.wrap.confgrtn-listng .dataTables_wrapper .dataTables_paginate .paginate_button.previous ,
+.wrap.confgrtn-listng  .dataTables_wrapper .dataTables_paginate .paginate_button.next {
+    border: 1px solid #979797;
+    background-color: white;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #dcdcdc)); 
+    background: -webkit-linear-gradient(top, #fff 0%, #dcdcdc 100%); 
+    background: -moz-linear-gradient(top, #fff 0%, #dcdcdc 100%);
+    background: -ms-linear-gradient(top, #fff 0%, #dcdcdc 100%);
+    background: -o-linear-gradient(top, #fff 0%, #dcdcdc 100%);
+    background: linear-gradient(to bottom, #fff 0%, #dcdcdc 100%); 
+}
+.dataTables_wrapper .dataTables_paginate  .paginate_button.previous:hover,     .dataTables_wrapper .dataTables_paginate  .paginate_button.previous:focus ,
+.dataTables_wrapper .dataTables_paginate  .paginate_button.next:hover,  .dataTables_wrapper .dataTables_paginate  .paginate_button.next:focus {
+    color: #333 !important;
+    background-color: #f5f5f5 !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2b2b2b), color-stop(100%, #0c0c0c)) !important;
+    background: -webkit-linear-gradient(top, #eee 0%, #f5f5f5 100%) !important;
+    background: -moz-linear-gradient(top, #eee 0%, #f5f5f5 100%) !important;
+    background: -ms-linear-gradient(top, #eee 0%, #f5f5f5 100%) !important;
+    background: -o-linear-gradient(top, #eee 0%, #f5f5f5 100%) !important;
+    background: linear-gradient(to bottom, #eee 0%, #f5f5f5 100%) !important; 
+    box-shadow: inset 0 0 5px #eee;
+
+}
+
+.wrap.confgrtn-listng .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+    /* background: none;
+     border: 0px;*/
+}
+.wrap.confgrtn-listng  .dataTables_wrapper .dataTables_paginate {
+    padding-top: 10px;
+}
+img.divLoader2,   img.divLoader3,   img.divLoader4 , img.divLoader5 ,  img.divLoader6, img.divLoader1{
+    position: absolute;
+    max-width: 32px;
+    visibility: hidden;
+
+}
+/* 02 may 2017 */
+
+.main-div .parentClass .childClass label , .main-div .parentClass>div label{   
+    padding-top: 5px;
+    padding-right: 3px;
+}
+.main-div.Add-Configuration .childClass form#formConduction  , .main-div .childClass form#formConduction {
+    width: 100%;
+    float: left;
+}
+.main-div.Add-Configuration .parentClass>div , .main-div .parentClass>div{
+    width: auto !important;
+    padding-right: 36px;
+}
+
+/* */
+.conditions_outer.Product-Confg .product-decs-inputOuter , .product-decs-inputOuter #changable_field , .conditions_outer.Product-Confg .product-decs-inputOuter .input-outer {
+    float: left;
+    width: 100%;
+}
+
+/*     17/07/2017  */
+.main-div   img.divLoader1 {
+    right: 0;
+}
+.main-div.Add-Configuration .parentClass>div {
+    position: relative;
+}
+.main-div.Add-Configuration .parentClass>div{position: static;}
+.main-div.Add-Configuration .parentClass>div:first-child{position: relative;}
+
+/* */
+.add-configBtn-outer{
+    margin-bottom: 15px;
+}
+.selectConfig-outer select {
+    max-width: 260px;
+}
+.wrap.edit-config .selectConfig-outer select {
+    width: 260px !important;
+}
+.add-configBtn-outer a {
+    margin-right: 5px;   
+}
+
+.main-div.Add-Configuration .parentClass  select{
+    margin-bottom: 10px;   
+}
+.main-div.Add-Configuration .selectConfig-outer, .main-div.Add-Configuration  .add-configBtn-outer {
+    display: inline-block;
+}
+.add-configBtn-outer {
+    padding-left: 20px;
+}
+.main-div.Add-Configuration .new_config div{
+    display: inline-block;
+}
+.main-div.Add-Configuration .new_config div:nth-of-type(odd){
+    padding-left: 0px;
+    float: left;
+    padding-right: 25px;
+}
+
+.main-div.Add-Configuration .new_config .child_parent_category_all {
+    float: left;
+}
+.main-div.Add-Configuration .new_config div:nth-of-type(odd) div{
+    padding: 0px;
+}
+body .main-div.Add-Configuration .new_config .add-configBtn-outer {
+    padding-left: 25px !important;
+    line-height: 27px;
+}
+.main-div.Add-Configuration .new_config select.child_parent_category_all {
+    margin-right: 35px;
+}
+body .main-div.Add-Configuration .new_config .config-type-outer{
+    clear: both;
+    width: 100%;
+}
+/* */
+.wrap.edit-config .new_config .config-type-outer label,
+.wrap.edit-config .new_config .config-type-outer select,
+.wrap.edit-config .new_config .config-type-outer img, 
+.wrap.edit-config .new_config .config-type-outer div{
+    width: auto;
+    float: left;
+}
+.wrap.edit-config .new_config .config-type-outer>label+select,
+.wrap.edit-config .new_config .config-type-outer>label+select
+{
+    margin-right: 35px;
+    max-width: 174px;
+    width: 100%;
+
+}
+.wrap.edit-config .parentClass>.config-type-outer label+select{
+    width: 174px;
+}
+
+
+.wrap.edit-config button#updateData, .wrap.edit-config  button#saveData {
+    float: left;
+    width: auto;
+    clear: both;
+}
+.wrap.edit-config .new_config .config-type-outer{width: 100%; float: left;}
+.wrap.edit-config .new_config .selectConfig-outer .childClass>label+select,
+.wrap.edit-config .parentClass .childClass>label+select{
+    max-width: 260px;
+    width: 100%;
+}
+.wrap.edit-config .parentClass> .childClass .add-configBtn-outer{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+.childClass .new_config .config-type-outer .child_parent_category_all+img {
+    float: left !important;
+    position: relative;
+    margin-left: -30px;
+    right: auto !important;
+}
+
+.wrap.edit-config .parentClass > .config-type-outer{
+    position: relative;
+}
+.wrap.edit-config .parentClass > .config-type-outer #divLoader1 {
+    right: 0;
+    top: 0;
+}
+.confgrtn-listng .dataTables_wrapper table.dataTable a.delete-btn, .confgrtn-listng .dataTables_wrapper table.dataTable a.edit-btn , body .confgrtn-listng .dataTables_wrapper table.dataTable .setting-btn {
+    height: 1.6em !important;
+    width: 1.6em !important;
+    margin-bottom: 4px;
+}
+.wrap.confgrtn-listng table.dataTable tbody th, .wrap.confgrtn-listng table.dataTable tbody td {
+    padding: 8px 8px;
+}
+.confgrtn-listng .dataTables_wrapper table.dataTable a.delete-btn:after, .confgrtn-listng .dataTables_wrapper table.dataTable a.edit-btn:after, body .confgrtn-listng .dataTables_wrapper table.dataTable .setting-btn:after{
+    line-height: 1.65;  
+}
+.confgrtn-listng .dataTables_wrapper table.dataTable a.delete-btn {  margin-right: 4px; }
+/* .main-div .new_config .config-type-outer .child_parent_category_all+img.divLoader1 {
+    right: auto !important;
+    margin-left: -35px;
+} */
+
+.wrap.edit-config .config-type-outer .child_parent_category_all+img {
+
+    right: 0;
+    top: 0px;
+}
+.wrap.edit-config  .childClass .selectConfig-outer {
+    display: inline-block;
+}
+.main-div.Add-Configuration .parentClass > .config-type-outer select+img.divLoader1 {
+    right: 0;
+    top: 0;
+}
+.main-div.Add-Configuration .parentClass  .childClass .config-type-outer .selectConfig-outer .child_child_category_primary{width: 230px;}
+/* */
+.wrap.confgrtn-listng .myTable.dataTable.no-footer tbody tr td:nth-child(3), 
+.wrap.confgrtn-listng .myTable.dataTable.no-footer thead tr th:nth-child(3),
+.wrap.confgrtn-listng .myTable.dataTable.no-footer tbody tr td:nth-child(2), 
+.wrap.confgrtn-listng .myTable.dataTable.no-footer thead tr th:nth-child(2) {
+    max-width: 300px !important;
+}
+.wrap.confgrtn-listng .myTable.dataTable.no-footer tbody tr td:nth-child(1), 
+.wrap.confgrtn-listng .myTable.dataTable.no-footer thead tr th:nth-child(1){
+    max-width: 200px !important; 
+}
+.wrap.confgrtn-listng .myTable.dataTable.no-footer  .tooltip .tooltiptext {
+    padding: 7px 13px; left: 140%;}
+.wrap.confgrtn-listng .myTable.dataTable.no-footer  .tooltip .tooltiptext:after {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 10px solid rgba(0,0,0,.9);
+    border-bottom: 10px solid transparent;
+    display: block;
+    content: '';
+    position: absolute;
+    left: -12px;
+    top: 7px;
+}
+.wrap.confgrtn-listng .myTable.dataTable.no-footer  .tooltip .tooltiptext h4 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    text-align: left;
+}
+.wrap.confgrtn-listng .myTable.dataTable.no-footer .tooltip .tooltiptext {
+    min-width: 290px; text-align: left; background-color: rgba(0,0,0,.9);}
+
+.wrap.confgrtn-listng .myTable.dataTable.no-footer .tooltip .tooltiptext ul li ul li{
+
+
+    padding-left: 15px;
+    position: relative;
+
+}
+.wrap.confgrtn-listng .myTable.dataTable.no-footer .tooltip .tooltiptext ul li ul li::before{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.6);
+    display: block;
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 7px;
+    float: left;
+}
+.wc-shipping-zones .wc-shipping-zone-rows.ui-sortable .wc-shipping-zone-name .view .row-actions {
+    display: block;
+}
+
+#col-full {width:80%; background:#fff; padding:15px;}
+#col-full .form-field input[type="text"], 
+#col-full .form-field input[type="password"], 
+#col-full .form-field input[type="email"], 
+#col-full .form-field input[type="number"], 
+#col-full .form-field input[type="search"], 
+#col-full .form-field input[type="tel"], 
+#col-full .form-field input[type="url"], 
+#col-full .form-field textarea{width: calc(50% - 150px); float: left;}
+#col-full.addPro-comp select{width: calc(50% - 150px);}
+#col-full.addPro-comp ul.optionList {max-height:120px; width: calc(50% - 150px); overflow-y:scroll; border:1px solid #dadada;}
+#col-full.addPro-comp ul.optionList li{margin:10px;}
+.wp-core-ui .button-primary{text-shadow:none; font-weight:600;}
+
+#col-full .form-field {display:inline-block; width:100%;}
+#col-full .main-secondary label{cursor: pointer; font-weight:600; max-width:140px; width:100%;  float:left;}
+
+/* 22-11-2017 */
+#canvas_img_section .cnvs-imgDiv img {max-width: 120px;}
+#canvas_img_section .cnvs-imgDiv {float: none;
+                                  display: inline-block;}
+#canvas_img_section .cnvs-imgDiv input[type="text"]{
+    width: 100%;
+    max-width: 100px;
+    clear: both;
+    min-width: 100px;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+#canvas_img_section .cnvs-imgDiv {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 10px .5% 10px 2%;
+    width: 16.5%;
+    border: 1px solid rgba(0,0,0,.2);
+    margin-bottom: 4px;
+}
+#canvas_img_section .images_container {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+#canvas_img_section .cnvs-imgDiv  img {
+    max-width: 90px;
+    width: auto;
+    margin-top: 4px;
+    margin-right: 20px;
+}
+#canvas_img_section .cnvs-imgDiv .fa.fa-times {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-left: -18px;
+    background: #fff;
+    color: red;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    text-align: center;
+    text-shadow: none;
+    line-height: 14px;
+    margin-top: 3px;
+    font-size: 14px;
+    border: 1px solid red;
+}
+#canvas_img_section .cnvs-imgDiv  .display_name {
+    width: 100%;
+    float: left;
+    font-weight: 600;
+    margin-top: 5px;
+}
+#canvas_img_section .cnvs-imgDiv .img-outerDiv {
+    width: auto;
+    display: inline-block;
+}
+#canvas_img_section .canvasimg-outerDiv{
+    width: 100%;
+    float: left;
+}
+
+
+/* Menu Section */
+#menu_img_section .cnvs-imgDiv img {max-width: 120px;}
+#menu_img_section .cnvs-imgDiv {float: none;
+                                display: inline-block;}
+#menu_img_section .cnvs-imgDiv input[type="text"]{
+    width: 100%;
+    max-width: 100px;
+    clear: both;
+    min-width: 100px;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+#menu_img_section .cnvs-imgDiv {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 10px .5% 10px 2%;
+    width: 16.5%;
+    border: 1px solid rgba(0,0,0,.2);
+    margin-bottom: 4px;
+}
+#menu_img_section .menu_images_container {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+#menu_img_section .cnvs-imgDiv  img {
+    max-width: 90px;
+    width: auto;
+    margin-top: 4px;
+    margin-right: 20px;
+}
+#menu_img_section .cnvs-imgDiv .fa.fa-times , .Add-Configuration.addPro-comp .cnvs-imgDiv .fa.fa-times{
+    position: absolute;
+    top: unset;
+    right: unset;
+    margin-left: -18px;
+    background: #fff;
+    color: red;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    text-align: center;
+    text-shadow: none;
+    line-height: 14px;
+    margin-top: 3px;
+    font-size: 14px;
+    border: 1px solid red;
+    top: 0px;
+    right: 0px;
+}
+#menu_img_section .cnvs-imgDiv  .display_name {
+    width: 100%;
+    float: left;
+    font-weight: 600;
+    margin-top: 5px;
+}
+#menu_img_section .cnvs-imgDiv .img-outerDiv , .Add-Configuration.addPro-comp  .cnvs-imgDiv .img-outerDiv{
+    width: auto;
+    display: inline-block;
+    position: relative;
+}
+#menu_img_section .canvasimg-outerDiv{
+    width: 100%;
+    float: left;
+}
+/*  24-11-2017 */
+.Add-Configuration.addPro-comp .main-secondary .form-field label.error {
+    font-weight: 600;
+    max-width: 180px;
+    padding-left: 10px;
+    color: red;
+    font-size: 12px;
+    margin-top: -6px;
+}
+.Add-Configuration.addPro-comp .main-secondary .form-field select{
+    float: left;
+}
+#add_component .form-field .note , .Add-Configuration.addPro-comp  .form-field .note, 
+#add_component .form-field .err_msg, .Add-Configuration.addPro-comp  .form-field .err_msg,
+#add_component .form-field .m_err_msg , .Add-Configuration.addPro-comp  .form-field  .m_err_msg {
+    width: 100%;
+    float: left;
+    margin-top: 3px;
+    padding-left: 140px;
+}
+
+/*   */
+.optionList .child-checkboxOuter {
+    padding-left: 20px;
+}
+.optionList .parent-checkboxOuter {
+    font-weight: 600;
+}
+
+.optionList input[type=checkbox]:checked:before {
+    color: #e14d43;
+}
+
+.optionList input[type=checkbox]:checked:before {
+    content: "\f147";
+    margin: -3px 0 0 -4px;
+    color: #000 !important;
+}
+.optionList input[type=radio]:checked:before, .optionList input[type=checkbox]:checked:before {
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    font: 400 21px/1 dashicons;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.optionList input[type=radio], .optionList input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background: #fff;
+}
+
+/*  media query */
+@media only screen and (max-width: 1600px) {
+    .main-div.Add-Configuration .parentClass select {
+        margin-bottom: 10px;
+        max-width: 230px !important;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .wrap.confgrtn-listng .myTable.dataTable.no-footer .tooltip .tooltiptext {
+        left: auto;
+        right: 125% !important;
+    }
+    .wrap.confgrtn-listng .myTable.dataTable.no-footer  .tooltip .tooltiptext:after {
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-left: 10px solid rgba(0,0,0,.9);
+        border-bottom: 10px solid transparent;
+        display: block;
+        content: '';
+        position: absolute;
+        right: -9px;
+        top: 7px;
+        left: auto;
+        border-right: 0px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .parentClass .set_condition div {
+        width: 45% !important;
+    }   
+    .main-div.Add-Configuration .parentClass>div {
+        position: static;
+        width: 100% !important;
+    }
+    #canvas_img_section .cnvs-imgDiv {
+        padding: 10px .5% 10px 2%;
+        width: 46.5%;
+    }
+    #menu_img_section .cnvs-imgDiv {
+        padding: 10px .5% 10px 2%;
+        width: 46.5%;
+    }
+    #col-full.addPro-comp ul.optionList {min-width: 200px;}
+}
+/* Tool Tip CSS */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+@media only screen and (max-width: 500px) {
+    #add_component .form-field .note ,  .Add-Configuration.addPro-comp  .form-field .note,
+    #add_component .form-field .err_msg, .Add-Configuration.addPro-comp  .form-field .err_msg,
+    #add_component .form-field .m_err_msg , .Add-Configuration.addPro-comp  .form-field  .m_err_msg {
+        padding-left: 0px;
+    }
+}
+
+.err_msg 
+{
+    color: red;
+    font-weight: bold;
+}
+
+.m_err_msg
+{
+    color: red;
+    font-weight: bold;
+}
+
+/*  */

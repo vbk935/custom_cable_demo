@@ -1,0 +1,1 @@
+upfrontrjs.define(["scripts/upfront/settings/modules-container"],function(t){var s=t.extend({onInitialize:function(t){"Global"!==this.options.state?this.$el.addClass("state_modules state_settings state_settings_"+this.options.state.toLowerCase()):this.$el.addClass("state_modules global_modules")}});return s});

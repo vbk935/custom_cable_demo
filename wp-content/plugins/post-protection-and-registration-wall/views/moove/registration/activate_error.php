@@ -1,0 +1,1 @@
+<p class="error"><?php _e( 'An error occurred while activating this user account.','moove' ); ?></p>

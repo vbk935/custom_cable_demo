@@ -1,0 +1,110 @@
+.sections h2 {margin-bottom: 20px}
+.sections .panel h2 {margin: 10px;font-size: 20px;}
+.sections .panel h3 {
+
+}
+.sections .full-width-image {
+	margin-bottom: 40px;
+	border: solid 2px #999;
+}
+.sections .gallery {
+	margin: 0px 15px 40px 15px;
+}
+.sections .carousel-inner {margin-bottom: 40px;margin-left: 0px; max-height: 450px;}
+.sections .carousel-indicators {bottom: -40px;}
+.sections .carousel-indicators .active {background: #999;}
+.sections .carousel-indicators li {border: 1px solid #999;}
+.sections .carousel-caption {
+	right: 5%;
+	left: 5%;
+	padding-bottom: 30px;
+}
+.sections .columns, .video-gallery {margin-bottom: 40px;}
+.embed-container { 
+	position: relative; 
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+} 
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed { 
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/*****************************************************************
+
+
+				Pics
+
+*****************************************************************/
+
+.pics img {
+	max-height: 150px;
+	width: auto;
+	margin:10px auto;
+}
+.pics div {text-align: center; }
+.pics a {min-height: 200px;}
+/*****************************************************************
+
+
+				.article-sidebar
+
+*****************************************************************/
+.article-sidebar.pull-right {margin-left: 20px;}
+.article-sidebar.pull-left {margin-right: 20px;}
+
+
+
+/*****************************************************************
+
+
+				Panels
+
+*****************************************************************/
+.panel-default>.panel-heading {
+  color: #FFF;
+  background: #777;
+}
+.panel-default>.panel-heading.arl {
+	background: #D92426;
+}
+.panel-default>.panel-heading.dli {
+	background: #000;
+}
+.panel-default>.panel-heading.irex {
+	background: #008356;
+}
+.panel-default>.panel-heading.meg {
+  background: #34456C;
+}
+.panel-default>.panel-heading.good {
+	background: #F7941E;
+}
+.panel-default>.panel-heading.sbd {
+	background: #231E60;
+  }
+.panel-default>.panel-heading.sbr {
+	background: #231E60;
+}
+.panel-default>.panel-heading.tyr {
+	background: #5A1617;
+}
+
+
+
+@media only screen and (max-width: 414px) {
+.sections .panel h2 {text-align: center;}
+.panel-body {
+  padding: 0px;
+}
+
+}
