@@ -305,6 +305,7 @@ class FrmFormsController {
 		add_filter( 'the_content', 'FrmFormsController::preview_content', 9999 );
 		add_action( 'loop_no_results', 'FrmFormsController::show_page_preview' );
 		add_filter( 'is_active_sidebar', '__return_false' );
+		FrmStylesController::enqueue_css( 'enqueue', true );
 		get_template_part( 'page' );
 	}
 
@@ -788,7 +789,9 @@ class FrmFormsController {
 
 		$api       = new FrmFormTemplateApi();
 		$templates = $api->get_api_info();
-		self::add_user_templates( $templates );
+
+		$custom_templates = array();
+		self::add_user_templates( $custom_templates );
 
 		$error   = '';
 		$expired = false;
@@ -1006,6 +1009,9 @@ class FrmFormsController {
 	 */
 	public static function buttons_settings( $values ) {
 		$styles = apply_filters( 'frm_get_style_opts', array() );
+
+		$frm_settings    = FrmAppHelper::get_settings();
+		$no_global_style = $frm_settings->load_style === 'none';
 
 		include( FrmAppHelper::plugin_path() . '/classes/views/frm-forms/settings-buttons.php' );
 	}

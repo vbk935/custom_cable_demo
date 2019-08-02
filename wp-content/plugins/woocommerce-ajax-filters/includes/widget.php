@@ -860,7 +860,7 @@ class BeRocket_AAPF_Widget extends WP_Widget {
         $set_query_var_title['widget_id']                   = ( $this->id ? $this->id : $widget_id );
         $set_query_var_title['widget_id_number']            = ( $this->number ? $this->number : $widget_id_number );
         $set_query_var_title['slug_urls']                   = ! empty($br_options['slug_urls']);
-        $set_query_var_title['date_style']                  = berocket_isset($date_style);
+        $set_query_var_title = apply_filters('berocket_aapf_query_var_title_filter', $set_query_var_title, $instance, $br_options);
         set_query_var( 'berocket_query_var_title', $set_query_var_title );
 
         // widget title and start tag ( <ul> ) can be found in templates/widget_start.php
@@ -1302,7 +1302,7 @@ if( BeRocket_AAPF::$debug_mode ) {
         if ( ! $taxonomy || $taxonomy == 'price' ) return array();
         if( $taxonomy == '_rating' ) $taxonomy = 'product_visibility';
 
-        global $wp_query, $wpdb, $br_wc_query;
+        global $wp_query, $wpdb, $br_wc_query, $br_aapf_wc_footer_widget;
 
         $post__in = ( isset($wp_query->query_vars['post__in']) ? $wp_query->query_vars['post__in'] : array() );
         if (
@@ -1395,7 +1395,7 @@ if( BeRocket_AAPF::$debug_mode ) {
                     }
                 }
                 $queried_object = $wp_query->get_queried_object_id();
-                if( ! empty($queried_object) ) {
+                if( ! empty($queried_object) && empty($br_aapf_wc_footer_widget) ) {
                     $query_object = $wp_query->get_queried_object();
                     if( ! empty($query_object->taxonomy) && ! empty($query_object->slug) ) {
                         $tax_query[ $query_object->taxonomy ] = array(
@@ -1520,7 +1520,7 @@ if( BeRocket_AAPF::$debug_mode ) {
                     }
                 }
                 $queried_object = $wp_query->get_queried_object_id();
-                if( ! empty($queried_object) ) {
+                if( ! empty($queried_object) && empty($br_aapf_wc_footer_widget) ) {
                     $query_object = $wp_query->get_queried_object();
                     if( ! empty($query_object->taxonomy) && ! empty($query_object->slug) ) {
                         $tax_query[ $query_object->taxonomy ] = array(
@@ -1718,7 +1718,7 @@ if( BeRocket_AAPF::$debug_mode ) {
                         );
                     }
                     $queried_object = $wp_query->get_queried_object_id();
-                    if( ! empty($queried_object) ) {
+                    if( ! empty($queried_object) && empty($br_aapf_wc_footer_widget) ) {
                         $query_object = $wp_query->get_queried_object();
                         if( ! empty($query_object->taxonomy) && ! empty($query_object->slug) ) {
                             $tax_query[ $query_object->taxonomy ] = array(
@@ -1735,7 +1735,7 @@ if( BeRocket_AAPF::$debug_mode ) {
                     $tax_query_sql   = $tax_query->get_sql( $wpdb->posts, 'ID' );
                     unset($tax_query);
                     if( ! empty($re) && ! is_wp_error($re) ) {
-                        $term_ids = wp_list_pluck( $re, 'term_id' );
+                        $term_ids = wp_list_pluck( $re, 'term_taxonomy_id' );
                     }
                     if( empty($term_ids) || ! is_array($term_ids) || ! count($term_ids) ) {
                         $terms = array();
@@ -1776,6 +1776,10 @@ if( BeRocket_AAPF::$debug_mode ) {
 }
                         $wpdb->query( 'SET SESSION group_concat_max_len = 1000000' );
                         $results           = $wpdb->get_results( $query );
+                        $term_to_taxonomy  = wp_list_pluck( $re, 'term_id', 'term_taxonomy_id' );
+                        foreach($results as &$results_convert) {
+                            $results_convert->term_count_id = $term_to_taxonomy[$results_convert->term_count_id];
+                        }
                         $results_pid       = wp_list_pluck( $results, 'PID', 'term_count_id' );
                         $results           = wp_list_pluck( $results, 'term_count', 'term_count_id' );
                         $term_count = array();
@@ -2035,7 +2039,7 @@ if( BeRocket_AAPF::$debug_mode ) {
                 }
 
                 $queried_object = $wp_query->get_queried_object_id();
-                if ( ! empty($queried_object) ) {
+                if ( ! empty($queried_object) && empty($br_aapf_wc_footer_widget) ) {
                     $query_object = $wp_query->get_queried_object();
                     if ( ! empty($query_object->taxonomy) && ! empty($query_object->slug) ) {
                         $tax_query[ $query_object->taxonomy ] = array(
@@ -2058,7 +2062,7 @@ if( BeRocket_AAPF::$debug_mode ) {
                 $meta_query_sql  = $meta_query->get_sql( 'post', $wpdb->posts, 'ID' );
                 $tax_query_sql   = $tax_query->get_sql( $wpdb->posts, 'ID' );
                 if( ! empty($re) && count($re)) {
-                    $term_ids = wp_list_pluck( $re, 'term_id' );
+                    $term_ids = wp_list_pluck( $re, 'term_taxonomy_id' );
 
                     // Generate query
                     $query           = array();
@@ -2160,6 +2164,10 @@ if( BeRocket_AAPF::$debug_mode ) {
             $term_recount_log['query_2'] = $query;
         }
                         $results           = $wpdb->get_results( $query );
+                        $term_to_taxonomy  = wp_list_pluck( $re, 'term_id', 'term_taxonomy_id' );
+                        foreach($results as &$results_convert) {
+                            $results_convert->term_count_id = $term_to_taxonomy[$results_convert->term_count_id];
+                        }
                         $results_pid       = wp_list_pluck( $results, 'PID', 'term_count_id' );
                         $results           = wp_list_pluck( $results, 'term_count', 'term_count_id' );
                     }

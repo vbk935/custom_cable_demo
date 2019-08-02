@@ -1,9 +1,9 @@
 === WooCommerce Admin ===
 Contributors: automattic
 Tags: ecommerce, e-commerce, store, sales, reports, analytics, dashboard, activity, notices, insights, stats, woo commerce, woocommerce
-Requires at least: 5.0.0
+Requires at least: 5.2.0
 Tested up to: 5.2.1
-Requires PHP: 5.4.0
+Requires PHP: 5.6.20
 Stable tag: 1.0.0
 License: GPLv3
 License URI: https://github.com/woocommerce/woocommerce-admin/blob/master/license.txt
@@ -34,7 +34,7 @@ WooCommerce Admin also allows store owners to customize a new dashboard screen w
 
 = Minimum Requirements =
 
-* WordPress 5.0
+* WordPress 5.2
 * WooCommerce 3.6.0 or greater
 * PHP version 5.4 or greater. PHP 7.2 or greater is recommended
 * MySQL version 5.0 or greater. MySQL 5.6 or greater is recommended
@@ -70,6 +70,25 @@ Release and roadmap notes are available on the [WooCommerce Developers Blog](htt
 3. Analytics
 
 == Changelog ==
+
+= 0.16.0 2019-07-24 =
+
+- Tweak: Change verbiage of feedback notification. #2677
+- Dev: Update unit tests to work with PHPUnit 7+. #2678
+- Fix: Bug that was preventing confirmation dialog from showing after saving settings. #2660
+- Fix: completed orders lingering in activity panel. #2659 (Activity Panel, REST API)
+- Dev: Webpack: Use wp.url instead of bundling package #2663 (Build)
+- Fix: Location of unread indicators in activity panel. #2662
+- Bug: Fix missing nav on connected admin pages. #2676
+- Task: Add priority 2 Tracks events #2633 (Components, Packages)
+- Dev: Replace 'stringifyQuery' with 'addQueryArgs' #2655 (Build, Components, Packages)
+- Task: Add priority 3 Tracks events #2638 (Components, Packages)
+- Fix: Z-index issue in empty message on chart #2646 (Components, Packages)
+- Dev: Tests setup: bring in Woo Core dependencies #2640 (Build)
+- Fix: Disable placeholder animation when prefers-reduced-motion is set #2645 (Accessibility)
+- Task: Add instructions for translating to contributing docs. #2618 (Documentation)
+- Dev: show example extension list as list in readme #2619 (Documentation)
+- Fix: react-spring breaking IE11 #2698 (Build)
 
 = 0.15.0 2019-07-11 =
 

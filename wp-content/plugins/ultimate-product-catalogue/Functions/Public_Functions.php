@@ -176,5 +176,30 @@ function UPCP_Get_All_Products() {
 
 	return $Product_Array;
 }
-	
+
+function UPCP_Get_All_Categories() {
+	global $wpdb, $categories_table_name;
+
+	return $wpdb->get_results("SELECT * FROM $categories_table_name");
+}
+
+function UPCP_Get_Catalogues() {
+	global $wpdb, $catalogues_table_name;
+
+	return $wpdb->get_results("SELECT * FROM $catalogues_table_name");
+}
+
+function UPCP_Add_All_Items_To_Catalogue($catalogue_id) {
+	global $wpdb, $catalogues_table_name, $catalogue_items_table_name, $categories_table_name, $items_table_name;
+
+	$Categories = $wpdb->get_results("SELECT Category_ID FROM $categories_table_name");
+	foreach ($Categories as $Category) {
+		AJAX_Add_Categories_Catalogue($catalogue_id, $Category->Category_ID);
+	}
+
+	$Products = $wpdb->get_results("SELECT Item_ID FROM $items_table_name WHERE Category_ID=0");
+	foreach ($Products as $Product) {
+		AJAX_Add_Products_Catalogue($catalogue_id, $Product->Item_ID);
+	}
+}	
 ?>

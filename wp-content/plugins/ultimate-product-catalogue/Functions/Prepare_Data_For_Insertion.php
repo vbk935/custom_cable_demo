@@ -265,10 +265,10 @@ function Prepare_Details_Image() {
 
 		/* Double check that everything worked correctly in moving the file, return blank to erase the custom image or return the link */
 		if (isset($_POST['Details_Image']) and ($_POST['Details_Image'] == "http://" or $_POST['Details_Image'] == "")) {
-			  return;
+			return;
 		}
 		else {
-				return $_POST['Details_Image'];
+			return isset($_POST['Details_Image']) ? $_POST['Details_Image'] : '';
 		}
 
 }

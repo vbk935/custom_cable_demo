@@ -330,6 +330,8 @@ var berocket_admin_filter_types_by_attr = {
                                      && filter_type != 'product_cat'
                                      && filter_type != 'tag' )
                                      || type != 'select' ) );
+            berocket_aapf_show_hide( $('.br_aapf_date_style_select', $parent), 
+                                     ( filter_type != 'date' ) );
             if ( type == 'color' || type == 'image' ) {
                 var tax_color_name;
                 if ( filter_type == 'attribute' ) {

@@ -322,6 +322,9 @@ Reordering Categories
 24. View of the labelling options
 
 == Changelog ==
+= 4.4.15 =
+- Correcting notices
+
 = 4.4.14 =
 - Removing deprecated create_function from one remaining file
 

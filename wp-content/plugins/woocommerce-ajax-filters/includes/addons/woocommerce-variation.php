@@ -35,7 +35,7 @@ class BeRocket_AAPF_compat_woocommerce_variation {
         $outofstock = wc_get_product_visibility_term_ids();
         if( empty($outofstock['outofstock']) ) {
             $outofstock = get_term_by( 'slug', 'outofstock', 'product_visibility' );
-            $outofstock = $outofstock->term_id;
+            $outofstock = $outofstock->term_taxonomy_id;
         } else {
             $outofstock = $outofstock['outofstock'];
         }
@@ -66,28 +66,20 @@ class BeRocket_AAPF_compat_woocommerce_variation {
         $current_attributes = array_unique($current_attributes);
         $current_terms = implode('", "', $current_terms);
         $current_attributes = implode('", "', $current_attributes);
-        $query = sprintf( '
-SELECT filtered_post.id, filtered_post.out_of_stock, COUNT(filtered_post.ID) as post_count FROM 
-(
-    SELECT filtered_post.*, max_filtered_post.max_meta_count, stock_table.out_of_stock_init as out_of_stock FROM 
-    (
+        $query_filtered_posts = '
         SELECT %1$s.id as var_id, %1$s.post_parent as ID, COUNT(%1$s.id) as meta_count FROM %1$s
         INNER JOIN %2$s AS pf1 ON (%1$s.ID = pf1.post_id)
         WHERE %1$s.post_type = "product_variation"
         AND %1$s.post_status != "trash"
         AND pf1.meta_key IN ("%4$s") AND pf1.meta_value IN ("%5$s")
-        GROUP BY %1$s.id
-    ) as filtered_post
+        GROUP BY %1$s.id';
+        $query = sprintf( '
+SELECT filtered_post.id, filtered_post.out_of_stock, COUNT(filtered_post.ID) as post_count FROM 
+(
+    SELECT filtered_post.*, max_filtered_post.max_meta_count, stock_table.out_of_stock_init as out_of_stock FROM ('.$query_filtered_posts.') as filtered_post
     INNER JOIN 
     (
-        SELECT ID, MAX(meta_count) as max_meta_count FROM 
-        (
-            SELECT %1$s.id as var_id, %1$s.post_parent as ID, COUNT(%1$s.id) as meta_count FROM %1$s
-            INNER JOIN %2$s AS pf1 ON (%1$s.ID = pf1.post_id)
-            WHERE %1$s.post_type = "product_variation"
-            AND pf1.meta_key IN ("%4$s") AND pf1.meta_value IN ("%5$s")
-            GROUP BY %1$s.id
-        ) as max_filtered_post 
+        SELECT ID, MAX(meta_count) as max_meta_count FROM ('.$query_filtered_posts.') as max_filtered_post 
         GROUP BY ID
     ) as max_filtered_post ON max_filtered_post.ID = filtered_post.ID AND max_filtered_post.max_meta_count = filtered_post.meta_count
     LEFT JOIN 

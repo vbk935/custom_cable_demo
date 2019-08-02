@@ -54,14 +54,6 @@ if( !class_exists( 'YITH_WCAS_Admin' ) ) {
          */
         protected $_panel_page = 'yith_wcas_panel';
 
-        /**
-         * Various links
-         *
-         * @var string
-         * @access public
-         * @since 1.0.0
-         */
-        public $doc_url    = 'https://docs.yithemes.com/yith-woocommerce-ajax-search/';
 
     	/**
 		 * Constructor
@@ -136,18 +128,19 @@ if( !class_exists( 'YITH_WCAS_Admin' ) ) {
                 'premium'  => __( 'Premium Version', 'yith-woocommerce-ajax-search' ),
             );
 
-            $args = array(
-                'create_menu_page' => true,
-                'parent_slug'      => '',
-                'page_title'       => __( 'Ajax Search', 'yith-woocommerce-ajax-search' ),
-                'menu_title'       => __( 'Ajax Search', 'yith-woocommerce-ajax-search' ),
-                'capability'       => 'manage_options',
-                'parent'           => '',
-                'parent_page'      => 'yith_plugin_panel',
-                'page'             => $this->_panel_page,
-                'admin-tabs'       => $admin_tabs,
-                'options-path'     => YITH_WCAS_DIR . '/plugin-options'
-            );
+	        $args = array(
+		        'create_menu_page' => true,
+		        'parent_slug'      => '',
+		        'page_title'       => __( 'YITH WooCommerce Ajax Search', 'yith-woocommerce-ajax-search' ),
+		        'menu_title'       => __( 'Ajax Search', 'yith-woocommerce-ajax-search' ),
+		        'capability'       => 'manage_options',
+		        'parent'           => '',
+		        'parent_page'      => 'yith_plugin_panel',
+		        'page'             => $this->_panel_page,
+		        'admin-tabs'       => $admin_tabs,
+		        'class'            => yith_set_wrapper_class(),
+		        'options-path'     => YITH_WCAS_DIR . '/plugin-options'
+	        );
 
 
             /* === Fixed: not updated theme  === */

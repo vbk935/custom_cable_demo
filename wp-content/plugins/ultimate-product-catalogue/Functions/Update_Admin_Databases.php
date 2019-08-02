@@ -894,7 +894,7 @@ function Edit_UPCP_Product($Item_ID, $Item_Name, $Item_Slug, $Item_Photo_URL, $I
 								}
 								elseif ($InArray == false) {$CustomFieldError = __(" One or more custom field values were incorrect.", 'ultimate-product-catalogue');}
 								
-								if ($NoFile == "Delete") {$wpdb->query($wpdb->prepare("DELETE FROM $fields_meta_table_name WHERE Item_ID=%d AND Field_ID=%d", $Item_ID, $Field->Field_ID));}
+								if (isset($NoFile) and $NoFile == "Delete") {$wpdb->query($wpdb->prepare("DELETE FROM $fields_meta_table_name WHERE Item_ID=%d AND Field_ID=%d", $Item_ID, $Field->Field_ID));}
 
 								unset($Value);
 								unset($InArray);
@@ -1433,7 +1433,7 @@ function Update_UPCP_Options() {
 	if ($Full_Version == "Yes" and isset($_POST['infinite_scroll'])) {update_option("UPCP_Infinite_Scroll", $_POST['infinite_scroll']);}
 	if ($Full_Version == "Yes" and isset($_POST['products_per_page'])) {update_option("UPCP_Products_Per_Page", $_POST['products_per_page']);}
 	if ($Full_Version == "Yes" and isset($_POST['pagination_location'])) {update_option("UPCP_Pagination_Location", $_POST['pagination_location']);}
-	if ($Full_Version == "Yes" and isset($_POST['Options_Submit'])) {update_option("UPCP_Product_Sort", $_POST['product_sort']);}
+	if ($Full_Version == "Yes" and isset($_POST['Options_Submit'])) {update_option("UPCP_Product_Sort", (isset($_POST['product_sort']) ? $_POST['product_sort'] : ''));}
 	if ($Full_Version == "Yes" and isset($_POST['cf_converion'])) {update_option("UPCP_CF_Conversion", $_POST['cf_converion']);}
 	if ($Full_Version == "Yes" and isset($_POST['related_products'])) {update_option("UPCP_Related_Products", $_POST['related_products']);}
 	if ($Full_Version == "Yes" and isset($_POST['next_previous'])) {update_option("UPCP_Next_Previous", $_POST['next_previous']);}
@@ -1647,15 +1647,17 @@ function Update_UPCP_Options() {
 	if ($Full_Version == "Yes" and isset($_POST['pagination_font_color'])) {update_option("UPCP_Pagination_Font_Color", $_POST['pagination_font_color']); }
 	if ($Full_Version == "Yes" and isset($_POST['pagination_font_color_hover'])) {update_option("UPCP_Pagination_Font_Color_Hover", $_POST['pagination_font_color_hover']); }
 
-	$Sidebar_Items_Order[$_POST['Sidebar_Items_Order_Product_Sort']] = "Product Sort";
-	$Sidebar_Items_Order[$_POST['Sidebar_Items_Order_Product_Search']] = "Product Search";
-	$Sidebar_Items_Order[$_POST['Sidebar_Items_Order_Price_Filter']] = "Price Filter";
-	$Sidebar_Items_Order[$_POST['Sidebar_Items_Order_Categories']] = "Categories";
-	$Sidebar_Items_Order[$_POST['Sidebar_Items_Order_Sub-Categories']] = "Sub-Categories";
-	$Sidebar_Items_Order[$_POST['Sidebar_Items_Order_Tags']] = "Tags";
-	$Sidebar_Items_Order[$_POST['Sidebar_Items_Order_Custom_Fields']] = "Custom Fields";
-	ksort($Sidebar_Items_Order);
-	if ($Full_Version == "Yes" and isset($_POST['Sidebar_Items_Order_Product_Sort'])) {update_option('UPCP_Sidebar_Items_Order', $Sidebar_Items_Order);}
+	if (isset($_POST['Sidebar_Items_Order_Product_Sort'])) {
+		$Sidebar_Items_Order[$_POST['Sidebar_Items_Order_Product_Sort']] = "Product Sort";
+		$Sidebar_Items_Order[$_POST['Sidebar_Items_Order_Product_Search']] = "Product Search";
+		$Sidebar_Items_Order[$_POST['Sidebar_Items_Order_Price_Filter']] = "Price Filter";
+		$Sidebar_Items_Order[$_POST['Sidebar_Items_Order_Categories']] = "Categories";
+		$Sidebar_Items_Order[$_POST['Sidebar_Items_Order_Sub-Categories']] = "Sub-Categories";
+		$Sidebar_Items_Order[$_POST['Sidebar_Items_Order_Tags']] = "Tags";
+		$Sidebar_Items_Order[$_POST['Sidebar_Items_Order_Custom_Fields']] = "Custom Fields";
+		ksort($Sidebar_Items_Order);
+		if ($Full_Version == "Yes" and isset($_POST['Sidebar_Items_Order_Product_Sort'])) {update_option('UPCP_Sidebar_Items_Order', $Sidebar_Items_Order);}
+	}
 
 	if ((!isset($_POST['Pretty_Links'])) OR $_POST['Pretty_Links'] == "Yes") {
 		 update_option("UPCP_Update_RR_Rules", "Yes");

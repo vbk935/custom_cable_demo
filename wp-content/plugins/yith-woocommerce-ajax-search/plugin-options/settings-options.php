@@ -17,29 +17,6 @@ return array(
 
 	'settings' => array(
 
-        'section_general_settings_videobox'         => array(
-          'name' => __( 'Upgrade to the PREMIUM VERSION', 'yith-woocommerce-ajax-search' ),
-          'type' => 'videobox',
-          'default' => array(
-              'plugin_name'        => __( 'YITH WooCommerce Ajax Search', 'yith-woocommerce-ajax-search' ),
-              'title_first_column' => __( 'Discover the Advanced Features', 'yith-woocommerce-ajax-search' ),
-              'description_first_column' => __('Upgrade to the PREMIUM VERSION
-of YITH WOOCOMMERCE AJAX SEARCH to benefit from all features!', 'yith-woocommerce-ajax-search'),
-              'video' => array(
-                  'video_id'           => '118917627',
-                  'video_image_url'    =>  YITH_WCAS_ASSETS_IMAGES_URL.'ajax-search-premium.jpg',
-                  'video_description'  => __( 'YITH WooCommerce Ajax Search', 'yith-woocommerce-ajax-search' ),
-              ),
-              'title_second_column' => __( 'Get Support and Pro Features', 'yith-woocommerce-ajax-search' ),
-              'description_second_column' => __('By purchasing the premium version of the plugin, you will take advantage of the advanced features of the product and you will get one year of free updates and support through our platform available 24h/24.', 'yith-woocommerce-ajax-search'),
-              'button' => array(
-                  'href' => $yith_wcas->obj->get_premium_landing_uri(),
-                  'title' => 'Get Support and Pro Features'
-              )
-          ),
-          'id'   => 'yith_wcas_general_videobox'
-      ),
-
 		'section_general_settings'          => array(
 			'name' => __( 'General settings', 'yith-woocommerce-ajax-search' ),
 			'type' => 'title',
@@ -93,13 +70,14 @@ of YITH WOOCOMMERCE AJAX SEARCH to benefit from all features!', 'yith-woocommerc
             )
         ),
 
-        'enable_transient' => array(
-	        'name'    => __( 'Enable transients to cache autocomplete results', 'yith-woocommerce-ajax-search' ),
-	        'desc'    => __( 'Save the results of a query in a transient','yith-woocommerce-ajax-search' ),
-	        'id'      => 'yith_wcas_enable_transient',
-	        'default' => 'no',
-	        'type'    => 'checkbox'
-        ),
+		'enable_transient' => array(
+			'name'      => __( 'Enable transients to cache autocomplete results', 'yith-woocommerce-ajax-search' ),
+			'desc'      => __( 'Save the results of a query in a transient', 'yith-woocommerce-ajax-search' ),
+			'id'        => 'yith_wcas_enable_transient',
+			'default'   => 'no',
+			'type'      => 'yith-field',
+			'yith-type' => 'onoff',
+		),
 
 
         'transient_duration' => array(
@@ -107,7 +85,13 @@ of YITH WOOCOMMERCE AJAX SEARCH to benefit from all features!', 'yith-woocommerc
 	        'desc'    => __( '(hours)','yith-woocommerce-ajax-search' ),
 	        'id'      => 'yith_wcas_transient_duration',
 	        'default' => 12,
-	        'type'    => 'text'
+	        'type'      => 'yith-field',
+	        'yith-type' => 'text',
+	        'deps'             => array(
+		        'id'    => 'yith_wcas_enable_transient',
+		        'value' => 'yes',
+		        'type'  => 'hide'
+	        ),
         ),
 
 

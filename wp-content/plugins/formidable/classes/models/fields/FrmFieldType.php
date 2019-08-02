@@ -12,6 +12,12 @@ abstract class FrmFieldType {
 	protected $field;
 
 	/**
+	 * @var int
+	 * @since 3.0
+	 */
+	protected $field_id = 0;
+
+	/**
 	 * @var string
 	 * @since 3.0
 	 */
@@ -68,6 +74,7 @@ abstract class FrmFieldType {
 	public function __construct( $field = 0, $type = '' ) {
 		$this->field = $field;
 		$this->set_type( $type );
+		$this->set_field_id();
 	}
 
 	/**
@@ -93,6 +100,23 @@ abstract class FrmFieldType {
 			if ( empty( $this->type ) && ! empty( $type ) ) {
 				$this->type = $type;
 			}
+		}
+	}
+
+	/**
+	 * @since 4.02
+	 */
+	protected function set_field_id() {
+		if ( empty( $this->field ) ) {
+			return;
+		}
+
+		if ( is_array( $this->field ) ) {
+			$this->field_id = $this->field['id'];
+		} else if ( is_object( $this->field ) && property_exists( $this->field, 'id' ) ) {
+			$this->field_id = $this->field->id;
+		} elseif ( is_numeric( $this->field ) ) {
+			$this->field_id = $this->field;
 		}
 	}
 
@@ -898,6 +922,13 @@ DEFAULT_HTML;
 	 */
 	public function validate( $args ) {
 		return array();
+	}
+
+	/**
+	 * @since 4.02
+	 */
+	public function maybe_trim_excess_values( &$value ) {
+		// Override in a child class.
 	}
 
 	public function is_not_unique( $value, $entry_id ) {

@@ -970,7 +970,7 @@ class Ai1wm_Main_Controller {
 
 		wp_localize_script( 'ai1wm_updater', 'ai1wm_updater', array(
 			'ajax' => array(
-				'url' => wp_make_link_relative( admin_url( 'admin-ajax.php?action=ai1wm_updater' ) ),
+				'url' => wp_make_link_relative( add_query_arg( array( 'ai1wm_nonce' => wp_create_nonce( 'ai1wm_updater' ) ), admin_url( 'admin-ajax.php?action=ai1wm_updater' ) ) ),
 			),
 		) );
 
@@ -1012,9 +1012,11 @@ class Ai1wm_Main_Controller {
 		}
 
 		// Check for updates
-		if ( isset( $_GET['ai1wm_updater'] ) ) {
-			if ( current_user_can( 'update_plugins' ) ) {
-				Ai1wm_Updater::check_for_updates();
+		if ( isset( $_GET['ai1wm_check_for_updates'] ) ) {
+			if ( check_admin_referer( 'ai1wm_check_for_updates', 'ai1wm_nonce' ) ) {
+				if ( current_user_can( 'update_plugins' ) ) {
+					Ai1wm_Updater::check_for_updates();
+				}
 			}
 		}
 	}

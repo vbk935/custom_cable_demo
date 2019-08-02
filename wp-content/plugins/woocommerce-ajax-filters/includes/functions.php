@@ -2205,14 +2205,19 @@ if ( ! function_exists( 'br_filters_query' ) ) {
 }
 
 if( ! function_exists('berocket_add_filter_to_link') ) {
-    function berocket_add_filter_to_link($attribute = '', $values = array(), $operator = 'OR', $remove_attribute = FALSE) {
+    function berocket_add_filter_to_link($attribute = '', $values = array(), $operator = 'OR', $remove_attribute = FALSE, $current_url = FALSE) {
         if( ! is_array($values) ) {
             $values = array($values);
         }
         $options = BeRocket_AAPF::get_aapf_option();
 
-        $current_url = "//" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-        $filters = (empty($_GET['filters']) ? '' : $_GET['filters']);
+        if( $current_url === FALSE ) {
+            $current_url = "//" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+            $filters = (empty($_GET['filters']) ? '' : $_GET['filters']);
+        } else {
+            parse_str(parse_url($current_url, PHP_URL_QUERY), $filters);
+            $filters = br_get_value_from_array($filters, 'filters');
+        }
         $current_url = remove_query_arg('filters', $current_url);
         if( strpos($current_url, '?') === FALSE ) {
             $url_string = $current_url;

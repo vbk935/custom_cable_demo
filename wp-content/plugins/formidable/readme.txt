@@ -4,7 +4,7 @@ Tags: forms, contact form, form builder, survey, form maker, form, form creator
 Requires at least: 4.6
 Tested up to: 5.2
 Requires PHP: 5.6
-Stable tag: 4.01.02
+Stable tag: 4.02
 
 The most advanced WordPress forms plugin. Go beyond contact forms with our drag & drop form builder for surveys, quiz forms, and more.
 
@@ -124,7 +124,7 @@ Need your customers to upload a file when they purchase a product? No problem. S
 
 You can even show submitted form values in the WooCommerce purchase receipt emails as well as trigger SMS text messages or marketing integrations when an order is completed.
 
-= Make Powerful Quiz Forms & Calculators = 
+= Make Powerful Quiz Forms & Calculators =
 
 Along with a contact form, you can also use the Formidable form builder plugin to create quiz forms and calculator forms.
 
@@ -239,7 +239,7 @@ In addition to all the form builder features listed above, power up contact form
 * <a href="https://formidableforms.com/features/form-entries-to-getresponse/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion">GetResponse Forms</a>. Collect leads in contact forms, add them to GetResponse, and trigger GetResponse marketing automations.
 * <a href="https://formidableforms.com/features/aweber-addon/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion">AWeber Forms</a>. Subscribe users to an AWeber mailing list when a newsletter signup form or contact form is submitted.
 * <a href="https://formidableforms.com/features/mailpoet-newsletters-addon/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion">MailPoet Newsletter forms</a>. Fill your email marketing lists from newsletter signup forms and contact forms. Then send WordPress newsletters from your own site using MailPoet.
-* <a href="https://formidableforms.com/features/highrise-addon/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion">Highrise Forms</a>. Add leads to your Highrise CRM account any time a WordPress lead form, registration form, or payment form is submitted.
+* <a href="https://formidableforms.com/features/highrise-addon/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion">Highrise Forms</a>. Add leads to your Highrise CRM account any time a WordPress contact form, registration form, or payment form is submitted.
 * <a href="https://formidableforms.com/features/form-entries-to-salesforce/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion">Salesforce Forms</a>. Create leads, contacts, and any other Salesforce objects directly from your contact page and advanced forms.
 * <a href="https://formidableforms.com/features/entries-to-activecampaign/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion">ActiveCampaign Forms</a>. Let your contact form pull double duty as a payment form, post creation form, user registration form, and an ActiveCampaign integration.
 * <a href="https://formidableforms.com/features/form-entries-to-hubspot/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion">HubSpot Forms</a>. Route contact form and lead form data from your WordPress forms to HubSpot CRM.
@@ -361,6 +361,13 @@ Formidable Forms drag & drop form builder combined with our add-ons is the most 
 To get access to more features, integrations, and support, <a href="https://formidableforms.com/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion">upgrade to Formidable Forms Pro</a>. A Pro license gives you access to the full version of Formidable Forms for more advanced contact forms, Formidable Views, graphs and stats, priority support, and Formidable Forms Add-ons!
 
 == Changelog ==
+= 4.02 =
+* New: Adjust the process and layout of starting a new form.
+* New: Separate custom templates from downloadable templates.
+* New: Add frm_modify_posted_field_value hook or adjusting a posted value.
+* UX: Don't show the style template option if the Formidable styling is turned off.
+* Fix: Always include form styling when previewing forms in the theme.
+
 = 4.01.02 =
 * Fix: Prevent the frm_alignright class from affecting the layout on the form builder page
 * Fix: Importing in Windows was failing and not finding the file

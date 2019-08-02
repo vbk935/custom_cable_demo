@@ -271,6 +271,8 @@ function UpdateTables() {
 
 	if (get_option("UPCP_Installed_Skins") == "") {update_option("UPCP_Installed_Skins", array());}
 
+	if (get_option("UPCP_Install_Time") == "") {update_option("UPCP_Install_Time", time());}
+
 	if (!is_array(get_option("UPCP_Product_Sort"))) {
 		$Current_Sort = get_option("UPCP_Product_Sort");
 		$Product_Sort = array();

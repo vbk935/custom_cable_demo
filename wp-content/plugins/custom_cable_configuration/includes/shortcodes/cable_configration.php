@@ -1539,9 +1539,12 @@ function cable_configuration_func($atts) {
             body += '<button type="button" class="btn btn-primary" data-trigger="specialOrderModal" data-btn="yes"><i></i> Yes!</button>';
             body += ' <button type="button" class="btn btn-default" data-trigger="specialOrderModal" data-btn="no" data-dismiss="modal"> No, Continue Shopping</button>';
             jQuery('#specialOrderPopup').find('div.dyn-content').html(body);
+            //jQuery('#specialOrderPopup').show();
+            //jQuery('#specialOrderPopup').addClass('in');
             jQuery('#specialOrderPopup').modal({
                 backdrop: 'static',
             });
+           
         }
 
         function initSpecialOrderConfirmationModal(body) {
@@ -1639,7 +1642,7 @@ function cable_configuration_func($atts) {
         // }
 
 		
-		jQuery('body').on('click', '[data-trigger="specialOrderModalguser"]', function(e) {
+		jQuery('body').on('click', '[data-trigger="specialOrderModalguser"]', function(e) {  
             var $btnClicked = jQuery(this);                        
             // Incase of Yes
             if (jQuery(this).attr('data-btn') == 'yes') {
@@ -1749,20 +1752,20 @@ function cable_configuration_func($atts) {
         });
 
 
-        jQuery('body').on('click', '[data-canvas-gui="specialOrderPopupBtn"]', function(e) {
+        jQuery('body').on('click', '[data-canvas-gui="specialOrderPopupBtn"]', function(e) { 
             //checkLogin(checkLoginUrl, checkLoginFormData, initSpecialOrderModal, showLoginPopup);
             if($(this).hasClass("guserquote"))
-            {
+            { 
 				if($("#request_status").val() == "1")
 				{										
 					jQuery('#specialOrderPopupGuserMsg').modal('toggle');
 					$('.msg-content').html('<p>You have already requested pricing for same configuration. You can reset or change selection to get quote for a different configuration.</p><button type="button" class="btn btn-default" data-dismiss="modal">Continue Shopping</button>');
-				} else {
+				} else { 
 					jQuery('#specialOrderPopupGuser').modal({
 						show: false
 					}); 
 				}
-			} else {
+			} else { 
 				initSpecialOrderModal();
 			}
         });
@@ -1946,7 +1949,7 @@ function my_footer_scripts() {
     ?>
     <script type="text/javascript">
         $(document).ready(function () {
-            $('[data-toggle="tooltip"]').tooltip();
+            //$('[data-toggle="tooltip"]').tooltip();
         });
 
     </script>

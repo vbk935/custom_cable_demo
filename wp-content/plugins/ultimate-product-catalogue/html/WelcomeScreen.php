@@ -5,10 +5,12 @@
 	$Product_Search = get_option("UPCP_Product_Search");
 ?>
 <div class='upcp-welcome-screen'>
+	<?php  if (!isset($_GET['exclude'])) { ?>
 	<div class='upcp-welcome-screen-header'>
 		<h1><?php _e('Welcome to the Ultimate Product Catalog Plugin', 'ultimate-product-catalogue'); ?></h1>
 		<p><?php _e('Thanks for choosing the Ultimate Product Catalog! The following will help you get started with the setup of your catalog by creating your first product, category and catalog, as well as adding your catalog to a page and configuring a few key options.', 'ultimate-product-catalogue'); ?></p>
 	</div>
+	<?php } ?>
 
 	<div class='upcp-welcome-screen-box upcp-welcome-screen-categories upcp-welcome-screen-open' data-screen='categories'>
 		<h2><?php _e('1. Create Categories', 'ultimate-product-catalogue'); ?></h2>
@@ -29,7 +31,8 @@
 			<div class='clear'></div>
 		</div>
 	</div>
-
+	
+<?php  if (!isset($_GET['exclude'])) { ?>
 	<div class='upcp-welcome-screen-box upcp-welcome-screen-catalogue' data-screen='catalogue'>
 		<h2><?php _e('2. Create a Catalog', 'ultimate-product-catalogue'); ?></h2>
 		<div class='upcp-welcome-screen-box-content'>
@@ -45,7 +48,7 @@
 			<div class='clear'></div>
 		</div>
 	</div>
-<?php  if (!isset($_GET['exclude'])) { ?>
+
 	<div class='upcp-welcome-screen-box upcp-welcome-screen-shop' data-screen='shop'>
 		<h2><?php _e('3. Add a Shop Page', 'ultimate-product-catalogue'); ?></h2>
 		<div class='upcp-welcome-screen-box-content'>
@@ -132,7 +135,7 @@
 	</div>
 <?php } ?>
 	<div class='upcp-welcome-screen-box upcp-welcome-screen-products' data-screen='products'>
-		<h2><?php echo (isset($_GET['exclude']) ? '3.' : '5.') . __(' Add Products', 'ultimate-product-catalogue'); ?></h2>
+		<h2><?php echo (isset($_GET['exclude']) ? '2.' : '5.') . __(' Add Products', 'ultimate-product-catalogue'); ?></h2>
 		<div class='upcp-welcome-screen-box-content'>
 			<p><?php isset($_GET['exclude']) ? '' : printf(__('Want more options (product images, sub-categories,  etc)? You can create products using the <a href="%s">dedicated product builder</a> instead.', 'ultimate-product-catalogue'), esc_url('admin.php?page=UPCP-options&Action=UPCP_Add_Product_Screen')); ?></p>
 			<div class='upcp-welcome-screen-created-products'>

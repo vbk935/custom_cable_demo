@@ -1283,6 +1283,7 @@ jQuery(document).on('change', '.br_selected_area_show', br_selected_area_show);
                 $out['class'] = (empty($out['class']) ? '' : $out['class'] . ' ') . 'berocket_aapf_false';
             }
             if( $atts['berocket_aapf'] == 'true' || $atts['berocket_aapf'] == '1' ) {
+                $out['cache'] = false;
                 $out['berocket_aapf'] = true;
                 $out['class'] = (empty($out['class']) ? '' : $out['class'] . ' ') . 'berocket_aapf_true';
             }
@@ -1681,10 +1682,14 @@ jQuery(document).on('change', '.br_selected_area_show', br_selected_area_show);
         }
         $query_vars['post__not_in'] = array_merge($query_vars['post__not_in'], apply_filters('berocket_add_out_of_stock_variable', array(), $custom_terms, berocket_isset($_POST['limits_arr'])));
         $query_vars['post__in'] = apply_filters( 'loop_shop_post_in', $query_vars['post__in']);
+        if ( br_woocommerce_version_check('3.6') && ! empty($_POST['price']) ) {
+            $query_vars['berocket_price'] = $_POST['price'];
+        }
         $query_vars['berocket_filtered'] = true;
-        global $br_wc_query;
+        global $br_wc_query, $br_aapf_wc_footer_widget;
         $br_wc_query = $query_vars;
         add_action( 'wp_footer', array( $this, 'wp_footer_widget'), 99999 );
+        $br_aapf_wc_footer_widget = true;
         $query_vars = apply_filters('berocket_filters_query_vars_already_filtered', $query_vars, berocket_isset($_POST['terms']), berocket_isset($_POST['limits_arr']));
         return $query_vars;
     }
@@ -1747,7 +1752,6 @@ jQuery(document).on('change', '.br_selected_area_show', br_selected_area_show);
                     $query->set( $args_field, $variable );
                 }
             }
-
             $query->set('berocket_filtered', true);
 
             //THIS CAN BE NEW FIX FOR SORTING, BUT NOT SURE
@@ -1776,6 +1780,8 @@ jQuery(document).on('change', '.br_selected_area_show', br_selected_area_show);
             $br_wc_query = $query;
         }
         if ( $is_shortcode ) {
+            global $br_aapf_wc_footer_widget;
+            $br_aapf_wc_footer_widget = true;
             add_action( 'wp_footer', array( $this, 'wp_footer_widget'), 99999 );
         }
 

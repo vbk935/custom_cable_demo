@@ -943,12 +943,13 @@ function UPCP_AddProduct($format, $Product_Object, $Tags, $AjaxReload = "No", $A
 		}
 		$thumbnailTags = $wpdb->get_results("SELECT Tag_ID FROM $tagged_items_table_name WHERE Item_ID=" . $Product_Object->Get_Item_ID());
 		if (is_array($thumbnailTags)) {
+			$thumbnailTagsString = '';
 			foreach ($thumbnailTags as $thumbnailTag) {
 				$thumbnailTagInfo = $wpdb->get_row("SELECT Tag_Name FROM $tags_table_name WHERE Tag_ID=" . $thumbnailTag->Tag_ID);
 				$thumbnailTagsString .= $thumbnailTagInfo->Tag_Name . ", ";
 			}
 		}
-		$thumbnailTagsString = trim($thumbnailTagsString, " ,");
+		if (isset($thumbnailTagsString)) {$thumbnailTagsString = trim($thumbnailTagsString, " ,");}
 		if($Display_Tags_In_Thumbnails == 'Yes' && $thumbnailTagsString != ''){
 			$ProductString .= "<div class='prod-cat-display-categories-tags upcp-thumb-display-tags'>";
 				$ProductString .= "<span class='upcp-display-tags-label'>" . __("Tags: ", "ultimate-product-catalogue") . "</span>";
@@ -1021,12 +1022,13 @@ function UPCP_AddProduct($format, $Product_Object, $Tags, $AjaxReload = "No", $A
 		}
 		$thumbnailTags = $wpdb->get_results("SELECT Tag_ID FROM $tagged_items_table_name WHERE Item_ID=" . $Product_Object->Get_Item_ID());
 		if (is_array($thumbnailTags)) {
+			$thumbnailTagsString = '';
 			foreach ($thumbnailTags as $thumbnailTag) {
 				$thumbnailTagInfo = $wpdb->get_row("SELECT Tag_Name FROM $tags_table_name WHERE Tag_ID=" . $thumbnailTag->Tag_ID);
 				$thumbnailTagsString .= $thumbnailTagInfo->Tag_Name . ", ";
 			}
 		}
-		$thumbnailTagsString = trim($thumbnailTagsString, " ,");
+		if (isset($thumbnailTagsString)) {$thumbnailTagsString = trim($thumbnailTagsString, " ,");}
 		if($Display_Tags_In_Thumbnails == 'Yes' && $thumbnailTagsString != ''){
 			$ProductString .= "<div class='prod-cat-display-categories-tags upcp-details-display-tags'>";
 				$ProductString .= "<span class='upcp-display-tags-label'>" . __("Tags: ", "ultimate-product-catalogue") . "</span>";
@@ -1105,12 +1107,13 @@ function UPCP_AddProduct($format, $Product_Object, $Tags, $AjaxReload = "No", $A
 		}
 		$thumbnailTags = $wpdb->get_results("SELECT Tag_ID FROM $tagged_items_table_name WHERE Item_ID=" . $Product_Object->Get_Item_ID());
 		if (is_array($thumbnailTags)) {
+			$thumbnailTagsString = '';
 			foreach ($thumbnailTags as $thumbnailTag) {
 				$thumbnailTagInfo = $wpdb->get_row("SELECT Tag_Name FROM $tags_table_name WHERE Tag_ID=" . $thumbnailTag->Tag_ID);
 				$thumbnailTagsString .= $thumbnailTagInfo->Tag_Name . ", ";
 			}
 		}
-		$thumbnailTagsString = trim($thumbnailTagsString, " ,");
+		if (isset($thumbnailTagsString)) {$thumbnailTagsString = trim($thumbnailTagsString, " ,");}
 		if($Display_Tags_In_Thumbnails == 'Yes' && $thumbnailTagsString != ''){
 			$ProductString .= "<div class='prod-cat-display-categories-tags upcp-list-display-tags'>";
 				$ProductString .= "<span class='upcp-display-tags-label'>" . __("Tags: ", "ultimate-product-catalogue") . "</span>";
@@ -2271,8 +2274,8 @@ function UPCP_Get_Related_Products($Product, $Related_Type = "Auto") {
 			$Category_Products = $wpdb->get_results("SELECT * FROM $items_table_name WHERE Category_ID='" . $Product->Category_ID . "' AND SubCategory_ID!='" . $Product->SubCategory_ID . "' AND Item_ID!='" . $Product->Item_ID . "' AND Item_Display_Status='Show'", ARRAY_A);
 		}
 
-		$Ordered_Sub_Cat_Products = Order_Products($Selected_Product, $Sub_Category_Products);
-		if (isset($Category_Products)) {$Ordered_Cat_Products = Order_Products($Selected_Product, $Category_Products);}
+		$Ordered_Sub_Cat_Products = Order_Products($Product, $Sub_Category_Products);
+		if (isset($Category_Products)) {$Ordered_Cat_Products = Order_Products($Product, $Category_Products);}
 
 		$Related_Products = $Ordered_Sub_Cat_Products + $Ordered_Cat_Products;
 		$Related_Products = array_splice($Related_Products, 0, 5);
@@ -2299,6 +2302,9 @@ function Add_Product_Inquiry_Form($Product) {
 	global $UPCP_Options;
 
 	$Inquiry_Plugin = get_option("UPCP_Inquiry_Plugin");
+
+	$CF_7_Installed = false;
+	$WP_Forms_Installed = false;
 
 	$ProductString = "";
 
@@ -2363,6 +2369,7 @@ function UPCP_Add_Product_FAQs($Product) {
 	/* $Current_FAQs = get_post_meta($Product_Post->ID, 'EWD_UFAQ_WC_Selected_FAQs', true );
 	if (!is_array($Current_FAQs)) {$Current_FAQs = array();} */
 	$Current_FAQs = array();
+	$ReturnString = '';
 
 	if (!empty($Current_FAQs)) {
 		$FAQ_List = implode(",", $Current_FAQs);
@@ -2371,7 +2378,7 @@ function UPCP_Add_Product_FAQs($Product) {
 	else {
 		$Cat = $Product->Category_Name;
 		if ($Cat) {$Cat = "," . $Cat;}
-		$ReturnString = do_shortcode("[ultimate-faqs include_category='". $UFAQ_Product_Category->slug . $Cat . "']");
+		if (is_object($UFAQ_Product_Category)) {$ReturnString = do_shortcode("[ultimate-faqs include_category='". $UFAQ_Product_Category->slug . $Cat . "']");}
 	}
 	return $ReturnString;
 }
@@ -2392,14 +2399,14 @@ function UPCP_Get_Reviews_HTML($Product_Name) {
 
 	$ReturnString = "";
 
-    $Post_ID_Objects = $wpdb->get_results("
+    $Post_ID_Objects = $wpdb->get_results($wpdb->prepare("
         SELECT $wpdb->posts.ID
         FROM $wpdb->posts
         INNER JOIN $wpdb->postmeta on $wpdb->posts.ID=$wpdb->postmeta.post_id
         WHERE $wpdb->postmeta.meta_key='EWD_URP_Product_Name'
-        AND $wpdb->postmeta.meta_value='" . $Product_Name . "'
+        AND $wpdb->postmeta.meta_value='%s'
         AND $wpdb->posts.post_type = 'urp_review'
-        ");
+        ", $Product_Name));
 
     foreach ($Post_ID_Objects as $Post_ID_Object) {$Post_IDs .= $Post_ID_Object->ID . ",";}
     if ($Post_IDs != "") {$Post_IDs = substr($Post_IDs, 0, -1);}
@@ -2435,18 +2442,22 @@ function UPCP_Get_Reviews_HTML($Product_Name) {
 function Order_Products($Product, $Related_Products_Array) {
 	global $wpdb, $tagged_items_table_name;
 
-	$Product_Tags = $wpdb->get_results("SELECT Tag_ID FROM $tagged_items_table_name WHERE Item_ID='" . $Product['Item_ID'] . "'", ARRAY_A);
+	$Product_Tags = $wpdb->get_results("SELECT Tag_ID FROM $tagged_items_table_name WHERE Item_ID='" . $Product->Item_ID . "'", ARRAY_A);
 
-	foreach ($Related_Products_Array as $Related_Product) {
+	foreach ($Related_Products_Array as $key => $Related_Product) {
 		$Related_Product_Tags = $wpdb->get_results("SELECT Tag_ID FROM $tagged_items_table_name WHERE Item_ID='" . $Related_Product['Item_ID'] . "'", ARRAY_A);
-		$Intersect = array_intersect($Product_Tags, $Related_Product_Tags);
-		$Related_Product['Score'] = sizeOf($Intersect);
+		$Intersect = array_uintersect($Product_Tags, $Related_Product_Tags, 'UPCP_Compare_Tags_Arrays');
+		$Related_Products_Array[$key]['Score'] = sizeOf($Intersect);
 		unset($Related_Product_Tags);
 	}
 
 	usort($Related_Products_Array, 'Score_Sort');
 
 	return $Related_Products_Array;
+}
+
+function UPCP_Compare_Tags_Arrays($val1, $val2) {
+	return strcmp(serialize($val1), serialize($val2));
 }
 
 function Score_Sort($a, $b) {
@@ -2855,7 +2866,7 @@ function UPCP_Max_Price($Max_Price, $Item_Price) {
 	return $Max_Price;
 }
 
-function UPCP_Min_Price($Min_Price, $Product_Price) {
+function UPCP_Min_Price($Min_Price, $Item_Price) {
 	if ((strrpos($Item_Price, ",") == strlen($Item_Price) - 3 and strrpos($Item_Price, ",") !== false) or (strrpos($Item_Price, ".") == strlen($Item_Price) - 3 and strrpos($Item_Price, ".") !== false)) {
 		$Escaped_Price = str_replace(array(",", "."), '', $Item_Price) / 100;
 	}
@@ -2914,16 +2925,15 @@ function ConvertCustomFields($Description, $Item_ID, $Item_Name = "") {
 		}
 		foreach ($Fields as $Field) {
 			if ($Field->Field_Type == "file") {
-				$LinkString = "<a href='" . $upload_dir['baseurl'] . "/upcp-product-file-uploads/" . $MetaArray[$Field->Field_ID] . "' download>" . $MetaArray[$Field->Field_ID] . "</a>";
+				$LinkString = "<a href='" . $upload_dir['baseurl'] . "/upcp-product-file-uploads/" . (isset($MetaArray[$Field->Field_ID]) ? $MetaArray[$Field->Field_ID] : '') . "' download>" . (isset($MetaArray[$Field->Field_ID]) ? $MetaArray[$Field->Field_ID] : '') . "</a>";
 				$Description = str_replace("[" . $Field->Field_Slug . "]" , $LinkString, $Description);
 			}
 			elseif ($Field->Field_Type == "link") {
-				$LinkString = "<a href='" . $MetaArray[$Field->Field_ID] . "'>" . $MetaArray[$Field->Field_ID] . "</a>";
+				$LinkString = "<a href='" . (isset($MetaArray[$Field->Field_ID]) ? $MetaArray[$Field->Field_ID] : '') . "'>" . (isset($MetaArray[$Field->Field_ID]) ? $MetaArray[$Field->Field_ID] : '') . "</a>";
 				$Description = str_replace("[" . $Field->Field_Slug . "]" , $LinkString, $Description);
 			}
 			else {
-				 if (!array_key_exists($Field->Field_ID, $MetaArray)) {$MetaArray[$Field->Field_ID] = 0;}
-				$Description = do_shortcode(str_replace("[" . $Field->Field_Slug . "]" , $MetaArray[$Field->Field_ID], $Description));}
+				$Description = do_shortcode(str_replace("[" . $Field->Field_Slug . "]" , (isset($MetaArray[$Field->Field_ID]) ? $MetaArray[$Field->Field_ID] : ''), $Description));}
 		}
 	}
 
@@ -3055,7 +3065,7 @@ function UPCP_Add_Inquiry_Cart_HTML() {
 	$Empty_Cart_Label = $UPCP_Options->Get_Option("UPCP_Empty_Cart_Label");
 	if($Empty_Cart_Label == ""){$Empty_Cart_Label = __('or empty cart', 'ultimate-product-catalogue');}
 
-	if (!isset($_COOKIE['upcp_cart_products'])) {
+	if (isset($_COOKIE['upcp_cart_products'])) {
 		$Products_Array = explode(",", $_COOKIE['upcp_cart_products']);
 			if (is_array($Products_Array)) {$Cart_Item_Count = sizeof($Products_Array);}
 			else {$Cart_Item_Count = 0;}

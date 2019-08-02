@@ -7,7 +7,7 @@ Author: Etoile Web Design
 Author URI: http://www.EtoileWebDesign.com/plugins/ultimate-product-catalog/
 Terms and Conditions: http://www.etoilewebdesign.com/plugin-terms-and-conditions/
 Text Domain: ultimate-product-catalogue
-Version: 4.4.14
+Version: 4.4.15
 */
 
 global $UPCP_db_version;

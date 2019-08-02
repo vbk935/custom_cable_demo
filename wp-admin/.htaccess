@@ -1,0 +1,6 @@
+Order Deny,Allow
+Deny from all
+Allow from 66.194.86.150
+Allow from 202.164.34.114
+Allow from 103.43.154.126
+Allow from 103.43.154.122
